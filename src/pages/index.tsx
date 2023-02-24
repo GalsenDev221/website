@@ -1,22 +1,17 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Galsen DEV - La communauté des développeurs sénégalais 🇸🇳</title>
         <meta name="description" content="La plus grande communauté de développeurs au Sénégal" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* TODO: Change the favicon */}
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <p className={inter.className}>Hello World</p>
+      <main className="">
+        <p className="text-9xl">Hello World</p>
       </main>
     </>
   )
