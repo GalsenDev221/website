@@ -1,5 +1,7 @@
 import Head from 'next/head'
 // import { Inter } from '@next/font/google'
+import Hero from './components/HeroSection'
+import Stats from './components/StatsSection'
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
       <main className="">
-        <p className="text-9xl">Hello World</p>
+        <Hero/>
+        <Stats/>
       </main>
     </>
   )
