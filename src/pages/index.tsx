@@ -1,6 +1,10 @@
 import Head from 'next/head'
+
+import HeroSection from './components/HeroSection'
+import StatsSection from './components/StatsSection'
 import LastEventSection from './components/LastEventSection'
 import PartnersSection from './components/PartnersSection'
+
 // import { Inter } from '@next/font/google'
 
 export default function Home() {
@@ -12,7 +16,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
-      <main>
+      <main className="">
+        <HeroSection/>
+        <StatsSection/>
         <LastEventSection />
         <PartnersSection />
       </main>
