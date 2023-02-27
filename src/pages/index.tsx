@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import HeroSection from './components/HeroSection'
 import StatsSection from './components/StatsSection'
+import ActivitySection from './components/ActivitySection'
 import LastEventSection from './components/LastEventSection'
 import PartnersSection from './components/PartnersSection'
 
@@ -19,6 +20,7 @@ export default function Home() {
       <main className="">
         <HeroSection/>
         <StatsSection/>
+        <ActivitySection />
         <LastEventSection />
         <PartnersSection />
       </main>
