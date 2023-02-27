@@ -6,11 +6,12 @@ const PartnersSection = () => (
       <span className="text-blue-700">confiance</span>
     </h2>
     <div className="mt-8 flex flex-col gap-2 sm:flex-row lg:mt-0">
+      {/* TODO: these should be links */}
       <div className="bg-gray-100 w-80 h-32 flex items-center justify-center">
         <img alt="Logo of Propel" className="w-40" src="https://propel.community/images/PropelLogoBlack.svg?6eed2deeadb712f68727cb157b49e956" />
       </div>
       <div className="bg-gray-100 w-80 h-32 flex items-center justify-center">
-        <img alt="Logo of Propel" className="w-40" src="https://www.xarala.co/static/img/logo.b5700a8deb63.png" />
+        <img alt="Logo of Xarala" className="w-40" src="https://www.xarala.co/static/img/logo.b5700a8deb63.png" />
       </div>
     </div>
   </section>
