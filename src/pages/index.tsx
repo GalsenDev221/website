@@ -16,9 +16,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
+      {/* TODO: maybe we should put the styles for the container in the `<main>` tag */}
       <main className="">
-        <HeroSection/>
-        <StatsSection/>
+        <HeroSection />
+        <StatsSection />
         <LastEventSection />
         <PartnersSection />
       </main>
