@@ -1,38 +1,47 @@
 import { useState } from 'react'
 import { Dialog } from "@headlessui/react"
+import Link from 'next/link';
+
+import GalsenDevLogo from './GalsenDevLogo'
+
+import { Space_Grotesk } from "@next/font/google"
+const grotesk = Space_Grotesk({ subsets: ["latin"] })
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
+  const link = [
+    { name: "Accueil", path: "/", },
+    { name: "Events", path: "/events", },
+    { name: "Blog", path: "/blog" },
+    { name: "A Propos", path: "/about"}
+  ];
+
   return (
     // TODO: transform the HTML attributes à la JSX
-    <header aria-label="Site Header" className="shadow-sm mb-16">
+    <header aria-label="Site Header" className={`${grotesk.className} shadow-sm mb-16`}>
       <div
         className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8"
       >
-        {/* TODO: Use <Link /> here */}
-        <a className="text-blue-600 font-bold" href="/">
-          <GalseDevLogo />
-        </a>
+        <Link
+          className="text-blue-600 font-bold"
+          href="#"
+        >
+          <GalsenDevLogo />
+        </Link>
 
         <div className="flex flex-1 items-center justify-end md:justify-between">
           <nav aria-label="Site Nav" className="hidden md:block">
-            {/* Use <Link /> here */}
             <ul className="flex items-center gap-6 text-sm">
-              <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="/">
-                  Accueil
-                </a>
+            {link.map((item, index) => (           
+              <li key={index}>
+                <Link
+                  className="text-gray-500 transition hover:text-gray-500/75"
+                  key={index} href={item.path}
+                  >{item.name}
+                </Link>
               </li>
-              <li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="/">
-                  Events
-                </a>
-              </li><li>
-                <a className="text-gray-500 transition hover:text-gray-500/75" href="/">
-                  Blog
-                </a>
-              </li>
+              ))}
             </ul>
           </nav>
 
@@ -59,7 +68,7 @@ const Navbar = () => {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-4 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5 text-blue-600 font-bold">
-              <GalseDevLogo />
+              <GalsenDevLogo />
             </a>
 
             <button
@@ -75,26 +84,15 @@ const Navbar = () => {
           </div>
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
-              <div className="space-y-2 py-6">
-                <a
-                  href="#"
+              {link.map((item, index) => (
+                <div className="space-y-2 py-6" key={index}>
+                <Link
                   className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Accueil
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Events
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Blog
-                </a>
-              </div>
+                  key={index} href={item.path}
+                  >{item.name}
+                </Link>
+                </div>
+              ))}
               <div className="py-6">
                 <GithubLink />
               </div>
@@ -109,7 +107,7 @@ const Navbar = () => {
 // TODO: make this a component since it's used in Navbar & Footer
 const GithubLink = () => (
   <a
-    href="/"
+    href="https://github.com/GalsenDev221"
     rel="noreferrer"
     target="_blank"
     className="text-gray-700 transition hover:opacity-75"
@@ -129,26 +127,6 @@ const GithubLink = () => (
       />
     </svg>
   </a>
-)
-
-const GalseDevLogo = () => (
-  <svg className="w-9 h-9" viewBox="0 0 52 52" fill="none">
-    <g clip-path="url(#clip0_119_120)">
-      <circle cx="26" cy="26" r="25" fill="url(#paint0_linear_119_120)" stroke="white" stroke-width="2" />
-      <path d="M32.3991 10.1016C33.1716 10.4006 33.5555 11.2693 33.2564 12.0419L22.3394 40.2442C22.0404 41.0168 21.1716 41.4006 20.3991 41.1016C19.6265 40.8025 19.2427 39.9338 19.5417 39.1612L30.4587 10.9589C30.7578 10.1863 31.6265 9.80249 32.3991 10.1016Z" fill="white" />
-      <path d="M6.70915 25.06L17.7092 16.56C19.4806 15.6743 21.2087 17.56 19.2092 19.0601C18.3965 19.6698 16.6424 21.0714 14.8152 22.5314C12.8268 24.1202 10.7517 25.7783 9.70945 26.56C11.7095 28.06 19.7092 34.5601 19.7092 34.5601C21.2087 36.06 19.4762 37.9735 17.7092 36.5601C16.6909 35.7457 15.1754 34.5996 13.5338 33.3582C11.1442 31.5511 8.48747 29.542 6.70915 28.0601C5.81973 27.318 5.70911 26.06 6.70915 25.06Z" fill="white" />
-      <path d="M34.5714 16.56L45.5714 25.06C46.5714 26.06 46.4608 27.318 45.5714 28.0601C43.7931 29.542 41.1365 31.551 38.7469 33.3581C37.1052 34.5995 35.5896 35.7457 34.5714 36.5601C32.8044 37.9735 31.0718 36.06 32.5714 34.5601C32.5714 34.5601 40.5711 28.06 42.5711 26.56C41.5288 25.7783 39.4538 24.1203 37.4653 22.5314C35.6381 21.0714 33.884 19.6698 33.0714 19.0601C31.0718 17.56 32.7999 15.6743 34.5714 16.56Z" fill="white" />
-    </g>
-    <defs>
-      <linearGradient id="paint0_linear_119_120" x1="1.31288e-07" y1="29" x2="67" y2="26" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#4986FF" />
-        <stop offset="1" stop-color="#0C48AE" />
-      </linearGradient>
-      <clipPath id="clip0_119_120">
-        <rect width="52" height="52" fill="white" />
-      </clipPath>
-    </defs>
-  </svg>
 )
 
 export default Navbar
