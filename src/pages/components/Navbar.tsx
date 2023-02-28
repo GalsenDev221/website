@@ -25,7 +25,7 @@ const Navbar = () => {
       >
         <Link
           className="text-blue-600 font-bold"
-          href="#"
+          href="/"
         >
           <GalsenDevLogo />
         </Link>
