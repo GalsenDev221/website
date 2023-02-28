@@ -7,7 +7,7 @@ const LastEventSection = () => (
             {/* TODO: Use `next/image` here */}
             <img
               alt="Last event of Galsen Dev"
-              src="/hacktoberfest-2022.png"
+              src="/img/hacktoberfest-2022.png"
               className="absolute inset-0 h-full w-full object-cover"
             />
           </div>

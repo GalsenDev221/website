@@ -1,6 +1,6 @@
-import Image from "next/image";
-import fixing from "/public/img/fixing_bugs.svg";
-import coding from "/public/img/coding_time.svg";
+import Image from "next/image"
+import fixing from "/public/svg/fixing.svg"
+import coding from "/public/svg/coding.svg"
 
 const ActivitySection = () => {
   return (
