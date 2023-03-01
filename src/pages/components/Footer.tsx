@@ -12,7 +12,7 @@ const Footer = () => (
       <div className="flex items-center gap-4">
         <GalsenDevLogo />
         <h2 className="text-gray-900 text-3xl">
-          Galsen Dev
+          Galsen DEV
         </h2>
       </div>
 
