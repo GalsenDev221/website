@@ -1,90 +1,101 @@
-const StatsSection = () => {
+import { Space_Grotesk } from "@next/font/google";
+const grotesk = Space_Grotesk({ subsets: ["latin"] });
 
+const StatsSection = () => {
   return (
-    <section className="m-10 bg-gradient-to-r from-cyan-600 to-blue-500">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-        <div
-          className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16"
-        >
+    <section>
+      {/* PERF: add these classes in the section tag (and maybe remove the unnecessary div) */}
+      {/* TODO: add more margin of the Y axis */}
+      <div className="mx-auto max-w-screen-sm px-4 py-8 sm:py-12 sm:px-6 lg:max-w-screen-xl lg:py-16 lg:px-8">
+        <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16">
           <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
-            <h2 className="text-3xl font-bold sm:text-4xl text-white">La communauté en chiffre</h2>
-            <p className="mt-4 text-gray-100">
-              Créée en 2018, Galsen DEV accueille chaque jours de nouveaux membres.
+            <h2 className="text-3xl font-bold sm:text-4xl text-blue-800">
+              Une ?!?
+            </h2>
+
+            <p className="mt-4 text-gray-600">
+              Créée en 2018, Galsen DEV accueille chaque jours de nouveaux
+              membres.
             </p>
           </div>
 
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
-            <div
-              className="relative text-center block p-4 sm:p-6 lg:p-8"
-            >
-              <div className="flex justify-center items-center gap-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white sm:h-8 sm:w-8"
-                  viewBox="0 0 79 44"
-                  fill="none"
-                  stroke="currentColor"
-                >
-                  <path d="M22.8335 42V38.6667C22.8335 34.2464 24.5894 30.0072 27.715 26.8816C30.8407 23.7559 35.0799 22 39.5002 22M39.5002 22C43.9204 22 48.1597 23.7559 51.2853 26.8816C54.4109 30.0072 56.1668 34.2464 56.1668 38.6667V42M39.5002 22C42.1523 22 44.6959 20.9464 46.5712 19.0711C48.4466 17.1957 49.5002 14.6522 49.5002 12C49.5002 9.34783 48.4466 6.8043 46.5712 4.92893C44.6959 3.05357 42.1523 2 39.5002 2C36.848 2 34.3045 3.05357 32.4291 4.92893C30.5537 6.8043 29.5002 9.34783 29.5002 12C29.5002 14.6522 30.5537 17.1957 32.4291 19.0711C34.3045 20.9464 36.848 22 39.5002 22ZM2.8335 42V38.6667C2.8335 36.0145 3.88706 33.471 5.76243 31.5956C7.63779 29.7202 10.1813 28.6667 12.8335 28.6667M12.8335 28.6667C14.6016 28.6667 16.2973 27.9643 17.5475 26.714C18.7978 25.4638 19.5002 23.7681 19.5002 22C19.5002 20.2319 18.7978 18.5362 17.5475 17.286C16.2973 16.0357 14.6016 15.3333 12.8335 15.3333C11.0654 15.3333 9.36969 16.0357 8.11945 17.286C6.86921 18.5362 6.16683 20.2319 6.16683 22C6.16683 23.7681 6.86921 25.4638 8.11945 26.714C9.36969 27.9643 11.0654 28.6667 12.8335 28.6667ZM76.1668 42V38.6667C76.1668 36.0145 75.1133 33.471 73.2379 31.5956C71.3625 29.7202 68.819 28.6667 66.1668 28.6667M66.1668 28.6667C67.9349 28.6667 69.6306 27.9643 70.8809 26.714C72.1311 25.4638 72.8335 23.7681 72.8335 22C72.8335 20.2319 72.1311 18.5362 70.8809 17.286C69.6306 16.0357 67.9349 15.3333 66.1668 15.3333C64.3987 15.3333 62.703 16.0357 61.4528 17.286C60.2025 18.5362 59.5002 20.2319 59.5002 22C59.5002 23.7681 60.2025 25.4638 61.4528 26.714C62.703 27.9643 64.3987 28.6667 66.1668 28.6667Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <h3 className="mt-4 text-xl font-bold sm:text-2xl text-white">+ 1.500</h3>
-              <p className="mt-1 font-medium text-white">
-                Membres
-              </p>
-            </div>
-
-
-            <div
-              className="relative text-center block p-4 sm:p-6 lg:p-8"
-            >
-              <div className="flex justify-center items-center gap-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white sm:h-8 sm:w-8"
-                  viewBox="0 0 81 80"
-                  fill="none"
-                  stroke="currentColor"
-                >
-                  <path d="M40.4998 56.6667C36.4443 56.6667 32.9021 55.4033 29.8732 52.8767C26.8465 50.3478 24.9443 47.1667 24.1665 43.3333H7.1665V36.6667H24.1665C24.9443 32.8333 26.8465 29.6522 29.8732 27.1233C32.9021 24.5967 36.4443 23.3333 40.4998 23.3333C44.5554 23.3333 48.0976 24.5967 51.1265 27.1233C54.1532 29.6522 56.0554 32.8333 56.8332 36.6667H73.8332V43.3333H56.8332C56.0554 47.1667 54.1532 50.3478 51.1265 52.8767C48.0976 55.4033 44.5554 56.6667 40.4998 56.6667ZM40.4998 50C43.2776 50 45.6387 49.0278 47.5832 47.0833C49.5276 45.1389 50.4998 42.7778 50.4998 40C50.4998 37.2222 49.5276 34.8611 47.5832 32.9167C45.6387 30.9722 43.2776 30 40.4998 30C37.7221 30 35.361 30.9722 33.4165 32.9167C31.4721 34.8611 30.4998 37.2222 30.4998 40C30.4998 42.7778 31.4721 45.1389 33.4165 47.0833C35.361 49.0278 37.7221 50 40.4998 50Z" fill="white"/>
-                </svg>
-              </div>
-              <h3 className="mt-4 text-xl font-bold sm:text-2xl text-white">+ 1K</h3>
-              <p className="mt-1 font-medium text-white">
-                Commits
-              </p>
-            </div>
-
-            <div
-              className="relative text-center block p-4 sm:p-6 lg:p-8"
-            >
-              <div className="flex justify-center items-center gap-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 text-white sm:h-8 sm:w-8"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M13 10V3L4 14h7v7l9-11h-7z"
-                  />
-                </svg>
-              </div>
-              <h3 className="mt-4 text-xl font-bold sm:text-2xl text-white">+ 50</h3>
-              <p className="mt-1 font-medium text-white">
-                Evénements
-              </p>
-            </div>
+            <StatCard
+              iconComp={<MegaphoneIcon />}
+              number="+50"
+              desc="Evénements"
+            />
+            <StatCard iconComp={<MembersIcon />} number="+1K" desc="Membres" />
+            <StatCard iconComp={<CommitIcon />} number="+2K" desc="Commits" />
           </div>
         </div>
       </div>
     </section>
+  );
+};
 
-  )
+interface CardProps {
+  number: string;
+  iconComp: React.ReactNode;
+  desc: string;
 }
 
-export default StatsSection
+const StatCard = ({ number, iconComp, desc }: CardProps) => (
+  <div
+    className={`${grotesk.className} text-white relative bg-galsen rounded-md p-4 shadow-xl`}
+  >
+    <div className="flex items-center gap-4">
+      {iconComp}
+      <h3 className="text-3xl font-bold leading-none">{number}</h3>
+    </div>
+
+    <p className="mt-3">{desc}</p>
+  </div>
+);
+
+const MegaphoneIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth="2"
+    stroke="currentColor"
+    className="w-6 h-6"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46"
+    />
+  </svg>
+);
+
+const MembersIcon = () => (
+  <svg
+    className="w-6 h-6"
+    viewBox="0 0 32 32"
+    fill="none"
+    strokeWidth="2"
+    stroke="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M9.33331 24V22.6667C9.33331 20.8986 10.0357 19.2029 11.2859 17.9526C12.5362 16.7024 14.2319 16 16 16M16 16C17.7681 16 19.4638 16.7024 20.714 17.9526C21.9643 19.2029 22.6666 20.8986 22.6666 22.6667V24M16 16C17.0608 16 18.0783 15.5786 18.8284 14.8284C19.5786 14.0783 20 13.0609 20 12C20 10.9391 19.5786 9.92172 18.8284 9.17157C18.0783 8.42143 17.0608 8 16 8C14.9391 8 13.9217 8.42143 13.1716 9.17157C12.4214 9.92172 12 10.9391 12 12C12 13.0609 12.4214 14.0783 13.1716 14.8284C13.9217 15.5786 14.9391 16 16 16ZM1.33331 24V22.6667C1.33331 21.6058 1.75474 20.5884 2.50489 19.8382C3.25503 19.0881 4.27245 18.6667 5.33331 18.6667M5.33331 18.6667C6.04056 18.6667 6.71883 18.3857 7.21893 17.8856C7.71903 17.3855 7.99998 16.7072 7.99998 16C7.99998 15.2928 7.71903 14.6145 7.21893 14.1144C6.71883 13.6143 6.04056 13.3333 5.33331 13.3333C4.62607 13.3333 3.94779 13.6143 3.44769 14.1144C2.9476 14.6145 2.66665 15.2928 2.66665 16C2.66665 16.7072 2.9476 17.3855 3.44769 17.8856C3.94779 18.3857 4.62607 18.6667 5.33331 18.6667ZM30.6666 24V22.6667C30.6666 21.6058 30.2452 20.5884 29.4951 19.8382C28.7449 19.0881 27.7275 18.6667 26.6666 18.6667M26.6666 18.6667C27.3739 18.6667 28.0522 18.3857 28.5523 17.8856C29.0524 17.3855 29.3333 16.7072 29.3333 16C29.3333 15.2928 29.0524 14.6145 28.5523 14.1144C28.0522 13.6143 27.3739 13.3333 26.6666 13.3333C25.9594 13.3333 25.2811 13.6143 24.781 14.1144C24.2809 14.6145 24 15.2928 24 16C24 16.7072 24.2809 17.3855 24.781 17.8856C25.2811 18.3857 25.9594 18.6667 26.6666 18.6667Z"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+const CommitIcon = () => (
+  <svg
+    className="w-6 h-6"
+    viewBox="0 0 32 32"
+    fill="currentColor"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M16 22.6666C14.3778 22.6666 12.9609 22.1613 11.7494 21.1506C10.5387 20.1391 9.7778 18.8666 9.46669 17.3333H2.66669V14.6666H9.46669C9.7778 13.1333 10.5387 11.8609 11.7494 10.8493C12.9609 9.83865 14.3778 9.33331 16 9.33331C17.6222 9.33331 19.0391 9.83865 20.2507 10.8493C21.4614 11.8609 22.2222 13.1333 22.5334 14.6666H29.3334V17.3333H22.5334C22.2222 18.8666 21.4614 20.1391 20.2507 21.1506C19.0391 22.1613 17.6222 22.6666 16 22.6666ZM16 20C17.1111 20 18.0556 19.6111 18.8334 18.8333C19.6111 18.0555 20 17.1111 20 16C20 14.8889 19.6111 13.9444 18.8334 13.1666C18.0556 12.3889 17.1111 12 16 12C14.8889 12 13.9445 12.3889 13.1667 13.1666C12.3889 13.9444 12 14.8889 12 16C12 17.1111 12.3889 18.0555 13.1667 18.8333C13.9445 19.6111 14.8889 20 16 20Z" />
+  </svg>
+);
+
+export default StatsSection;
