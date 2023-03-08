@@ -1,13 +1,13 @@
 const GalsenDevLogo = () => (
   <svg className="w-9 h-9" viewBox="0 0 52 52" fill="none">
-    <g clip-path="url(#clip0_119_120)">
+    <g clipPath="url(#clip0_119_120)">
         <circle
           cx="26"
           cy="26"
           r="25"
           fill="url(#paint0_linear_119_120)"
           stroke="white"
-          stroke-width="2"
+          strokeWidth="2"
         />
         <path
           d="M32.3991 10.1016C33.1716 10.4006 33.5555 11.2693 33.2564 12.0419L22.3394 40.2442C22.0404 41.0168 21.1716 41.4006 20.3991 41.1016C19.6265 40.8025 19.2427 39.9338 19.5417 39.1612L30.4587 10.9589C30.7578 10.1863 31.6265 9.80249 32.3991 10.1016Z"
@@ -31,8 +31,8 @@ const GalsenDevLogo = () => (
           y2="26"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#4986FF" />
-          <stop offset="1" stop-color="#0C48AE" />
+          <stop stopColor="#4986FF" />
+          <stop offset="1" stopColor="#0C48AE" />
         </linearGradient>
         <clipPath id="clip0_119_120">
           <rect width="52" height="52" fill="white" />
