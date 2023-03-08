@@ -1,7 +1,19 @@
-## Galsen Dev website
+# Galsen DEV
 
-This is the new galsen dev website made with Next JS
+The Galsen DEV's website made with Next JS & Tailwind CSS.
 
-## TODO
+## Build Setup
 
-- [ ] Complete the README
+```bash
+# if you use NPM
+$ npm install
+$ npm run dev
+
+# if you use YARN
+$ yarn install
+$ yarn dev
+```
+
+## Contributors
+
+### License
