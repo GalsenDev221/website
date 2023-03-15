@@ -42,7 +42,7 @@ interface CardProps {
 
 const StatCard = ({ number, iconComp, desc }: CardProps) => (
   <div
-    className={`${grotesk.className} text-white relative bg-galsen rounded-md p-4 shadow-xl`}
+    className={`${grotesk.className} text-white relative bg-baseColor rounded-md p-4 shadow-xl`}
   >
     <div className="flex items-center gap-4">
       {iconComp}
