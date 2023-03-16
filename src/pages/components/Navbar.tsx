@@ -102,17 +102,17 @@ const Navbar = () => {
               </div>
               <div className="mt-12 flow-root">
                 <div className="-my-6 divide-y divide-gray-500/10">
-                  {link.map((item, index) => (
-                    <div className="space-y-2 py-6" key={index}>
-                      <Link
-                        className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                        key={index}
-                        href={item.path}
-                      >
-                        {item.name}
-                      </Link>
-                    </div>
-                  ))}
+                  <div className="space-y-2 py-6">
+                    {link.map((item, index) => (
+                        <Link
+                          className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                          key={index}
+                          href={item.path}
+                        >
+                          {item.name}
+                        </Link>
+                    ))}
+                  </div>
                   <div className="py-6">
                     <GithubLink />
                   </div>
