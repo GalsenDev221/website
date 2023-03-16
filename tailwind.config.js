@@ -11,6 +11,22 @@ module.exports = {
         lighter: "#293980",
         darker: "#869cff"
       },
+      animation: {
+        blob: "blob 3s infinite",
+      },
+      keyframes: {
+        blob: {
+          "0%": {
+            transform: "scale(1)",
+          },
+          "50%": {
+            transform: "scale(0.8)",
+          },
+          "100%": {
+            transform: "scale(1)",
+          },
+        },
+      },
     },
   },
   plugins: [],

@@ -7,7 +7,9 @@ const HeroSection = () => {
     <section className="pt-28">
       <div className="mx-auto max-w-screen-sm px-4 py-8 sm:py-12 sm:px-6 lg:max-w-screen-xl lg:py-16 lg:px-8">
         <div className="lg:flex lg:items-center lg:justify-between">
-          <div className="flex justify-center lg:order-last">
+          <div className="relative flex justify-center lg:order-last">
+            <div className="absolute -top-16 -right-2 w-64 h-64 bg-teal-500 rounded-full mix-blend-multiply filter blur-2xl opacity-60 animate-blob sm:w-80 sm:h-80"></div>
+            <div className="absolute top-16 -left-2 w-64 h-64 bg-baseColor rounded-full mix-blend-multiply filter blur-2xl opacity-60 animation-delay-2000 animate-blob sm:w-80 sm:h-80"></div>
             <Image
               src={hero}
               width="500"
