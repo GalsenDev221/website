@@ -78,13 +78,12 @@ const Navbar = () => {
             open={isOpen}
             onClose={setIsOpen}
           >
-            {/* TODO: Why did I add this empty div 🤔? */}
-            <div className="fixed inset-0 z-10 bg-red-500" />
-            <Dialog.Panel className="fixed inset-y-0 right-0 z-30 w-full overflow-y-auto bg-white px-4 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div className="fixed inset-0 z-20 bg-black opacity-50" />
+            <Dialog.Panel className="fixed inset-y-0 left-0 z-20 w-full overflow-y-auto bg-white px-4 py-4 max-w-[250px] sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
-                <a href="#" className="-m-1.5 p-1.5 text-blue-600 font-bold">
-                  <GalsenDevLogo />
-                </a>
+                {/* <a href="#" className="-m-1.5 p-1.5 text-blue-600 font-bold"> */}
+                {/*   <GalsenDevLogo /> */}
+                {/* </a> */}
 
                 <button
                   type="button"
