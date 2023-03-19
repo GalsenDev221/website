@@ -136,6 +136,7 @@ const YoutubeLink = () => (
   </a>
 );
 
+// TODO: make this a component since it's used in Navbar & Footer
 const GithubLink = () => (
   <a
     href="https://github.com/GalsenDev221"
