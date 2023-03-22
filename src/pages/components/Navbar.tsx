@@ -20,11 +20,11 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="fixed w-full z-20 sticky-nav">
+      <div className="w-full z-20 sticky top-0">
         <Donation />
         <header
           aria-label="Site Header"
-          className={`${grotesk.className} shadow-sm mb-16 bg-white backdrop-filter backdrop-blur-lg bg-opacity-30`}
+          className={`${grotesk.className} shadow-sm bg-white/30 backdrop-filter backdrop-blur-lg`}
         >
           <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
             <Link className="text-blue-600 font-bold" href="/">
@@ -70,10 +70,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <Transition
-            as={Fragment}
-            show={isOpen}
-          >
+          <Transition as={Fragment} show={isOpen}>
             <Dialog as="div" className="md:hidden" onClose={setIsOpen}>
               <Transition.Child
                 as={Fragment}
@@ -96,46 +93,40 @@ const Navbar = () => {
                 leaveTo="opacity-0 -translate-x-3"
               >
                 <Dialog.Panel className="fixed inset-y-0 left-0 z-20 w-full overflow-y-auto bg-white px-4 py-4 max-w-[250px] sm:ring-1 sm:ring-gray-900/10">
-                <div className="flex items-center justify-between">
-                  {/* TODO: Do we need the logo here? */}
-
-                  {/* <a href="#" className="-m-1.5 p-1.5 text-blue-600 font-bold"> */}
-                  {/*   <GalsenDevLogo /> */}
-                  {/* </a> */}
-
-                  <button
-                    type="button"
-                    className="-m-2.5 rounded-md p-2.5 text-gray-700 hover:text-gray-400"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    <span className="sr-only">Close menu</span>
-                    <svg className="w-8 h-8" viewBox="0 0 24 24">
-                      <path
-                        fill="currentColor"
-                        d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6Z"
-                      />
-                    </svg>
-                  </button>
-                </div>
-                <div className="mt-12 flow-root">
-                  <div className="-my-6 divide-y divide-gray-500/10">
-                    <div className="space-y-2 py-6">
-                      {link.map((item, index) => (
-                        <Link
-                          className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                          key={index}
-                          href={item.path}
-                        >
-                          {item.name}
-                        </Link>
-                      ))}
-                    </div>
-                    <div className="py-6">
-                      <GithubLink />
+                  <div className="flex justify-end">
+                    <button
+                      type="button"
+                      className="-m-2.5 rounded-md p-2.5 text-gray-700 hover:text-gray-400"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      <span className="sr-only">Close menu</span>
+                      <svg className="w-8 h-8" viewBox="0 0 24 24">
+                        <path
+                          fill="currentColor"
+                          d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6Z"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                  <div className="mt-12 flow-root">
+                    <div className="-my-6 divide-y divide-gray-500/10">
+                      <div className="space-y-2 py-6">
+                        {link.map((item, index) => (
+                          <Link
+                            className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            key={index}
+                            href={item.path}
+                          >
+                            {item.name}
+                          </Link>
+                        ))}
+                      </div>
+                      <div className="py-6">
+                        <GithubLink />
+                      </div>
                     </div>
                   </div>
-                </div>
-              </Dialog.Panel>
+                </Dialog.Panel>
               </Transition.Child>
             </Dialog>
           </Transition>
