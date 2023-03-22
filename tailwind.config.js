@@ -8,8 +8,8 @@ module.exports = {
     extend: {
       colors: {
         baseColor: "#5271ff",
-        lighter: "#293980",
-        darker: "#869cff"
+        darker: "#293980",
+        lighter: "#869cff",
       },
       animation: {
         blob: "blob 3s infinite",

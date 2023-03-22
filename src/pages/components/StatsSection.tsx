@@ -4,30 +4,26 @@ const grotesk = Space_Grotesk({ subsets: ["latin"] });
 const StatsSection = () => {
   return (
     <section>
-      {/* PERF: add these classes in the section tag (and maybe remove the unnecessary div) */}
-      {/* TODO: add more margin of the Y axis */}
-      <div className="mx-auto max-w-screen-sm px-4 py-8 sm:py-12 sm:px-6 lg:max-w-screen-xl lg:py-16 lg:px-8">
-        <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16">
-          <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
-            <h2 className="text-3xl font-bold sm:text-4xl text-blue-800">
-              Une ?!?
-            </h2>
+      <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16">
+        <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
+          <h2 className="text-3xl font-bold sm:text-4xl text-blue-800">
+            Une ?!?
+          </h2>
 
-            <p className="mt-4 text-gray-600">
-              Créée en 2018, Galsen DEV accueille chaque jours de nouveaux
-              membres.
-            </p>
-          </div>
+          <p className="mt-4 text-gray-600">
+            Créée en 2018, Galsen DEV accueille chaque jours de nouveaux
+            membres.
+          </p>
+        </div>
 
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
-            <StatCard
-              iconComp={<MegaphoneIcon />}
-              number="+50"
-              desc="Evénements"
-            />
-            <StatCard iconComp={<MembersIcon />} number="+1K" desc="Membres" />
-            <StatCard iconComp={<CommitIcon />} number="+2K" desc="Commits" />
-          </div>
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+          <StatCard
+            iconComp={<MegaphoneIcon />}
+            number="+50"
+            desc="Evénements"
+          />
+          <StatCard iconComp={<MembersIcon />} number="+1K" desc="Membres" />
+          <StatCard iconComp={<CommitIcon />} number="+2K" desc="Commits" />
         </div>
       </div>
     </section>

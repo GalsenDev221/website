@@ -6,8 +6,6 @@ import ActivitySection from "./components/ActivitySection";
 import LastEventSection from "./components/LastEventSection";
 import PartnersSection from "./components/PartnersSection";
 
-// import { Inter } from '@next/font/google'
-
 export default function Home() {
   return (
     <>
@@ -20,8 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
-      {/* TODO: maybe we should put the container styles in the `<main>` tag */}
-      <main className="">
+      <main className="px-4 mt-16 mx-auto max-w-lg space-y-16 lg:max-w-screen-xl sm:px-6 lg:px-8 lg:space-y-32">
         <HeroSection />
         <StatsSection />
         <ActivitySection />

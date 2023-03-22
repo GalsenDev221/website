@@ -4,7 +4,7 @@ import coding from "/public/svg/coding.svg";
 
 const ActivitySection = () => {
   return (
-    <section className="mx-auto max-w-screen-sm px-4 py-8 sm:py-12 sm:px-6 lg:max-w-screen-xl lg:py-16 lg:px-8">
+    <section className="">
       <div className="items-center lg:gap-16 lg:grid lg:grid-cols-2 lg:gap-8">
         <div>
           <Image
@@ -19,12 +19,10 @@ const ActivitySection = () => {
         <div className="mt-8 lg:mt-0 flex items-center justify-center">
           <div>
             <h2 className="text-gray-600 font-bold text-4xl">
-              {/* TODO: use the correct blue here */}
-              Vous avez un <span className="text-blue-400">problème</span>,
+              Vous avez un <span className="text-lighter">problème</span>,
             </h2>
             <h2 className="text-gray-600 font-bold text-4xl">
-              {/* TODO: use the correct blue here */}
-              nous avons la <span className="text-blue-700">solution</span>
+              nous avons la <span className="text-darker">solution</span>
             </h2>
             <div className="max-w-2xl py-4 text-base mt-2 text-gray-600 lg:text-base xl:text-base">
               <p>
@@ -49,8 +47,7 @@ const ActivitySection = () => {
         </div>
         <div className="mt-8 lg:mt-0">
           <h2 className="text-gray-600 font-bold text-4xl">
-            {/* TODO: use the correct blue here */}
-            Des <span className="text-blue-700">Live Coding</span> session
+            Des <span className="text-darker">Live Coding</span> session
             <br /> pour tout le monde
           </h2>
           <div className="max-w-2xl py-4 text-base mt-2 text-gray-600 lg:text-base xl:text-base">
