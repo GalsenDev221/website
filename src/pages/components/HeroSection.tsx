@@ -3,8 +3,7 @@ import hero from "/public/img/hero_galsendev.png";
 
 const HeroSection = () => {
   return (
-    // TODO: use a padding value somewhat equal to the Navbar height
-    <section className="pt-28">
+    <section className="">
       <div className="mx-auto max-w-screen-sm px-4 py-8 sm:py-12 sm:px-6 lg:max-w-screen-xl lg:py-16 lg:px-8">
         <div className="lg:flex lg:items-center lg:justify-between">
           <div className="relative flex justify-center lg:order-last">
@@ -17,7 +16,8 @@ const HeroSection = () => {
               alt="Landing Illustration"
               loading="eager"
               placeholder="blur"
-              className="object-cover"
+              priority={true}
+              className="object-cover w-auto h-auto"
             />
           </div>
           <div className="mt-12 mx-auto max-w-lg lg:m-0 lg:max-w-md">
