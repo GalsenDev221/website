@@ -1,6 +1,5 @@
 const PartnersSection = () => (
-  // <section className="mt-16 mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 lg:flex justify-between">
-  <section className="mx-auto max-w-screen-sm px-4 py-8 sm:py-12 sm:px-6 lg:max-w-screen-xl lg:py-16 lg:px-8">
+  <section className="">
     <div className="flex flex-col items-center lg:flex-row lg:justify-between">
       {/* TODO: ngir yallah use the right colors */}
       <h2 className="text-blue-400 font-bold text-4xl sm:text-center lg:text-left">

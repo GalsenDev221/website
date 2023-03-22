@@ -1,6 +1,6 @@
 const LastEventSection = () => (
   <section>
-    <div className="mx-auto max-w-lg lg:max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div className="">
       <div className="grid grid-cols-1 lg:h-[600px] lg:grid-cols-2">
         {/* TODO: Why did I add this z-10 */}
         <div className="relative z-10 lg:py-16">

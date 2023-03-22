@@ -4,7 +4,7 @@ import coding from "/public/svg/coding.svg";
 
 const ActivitySection = () => {
   return (
-    <section className="mx-auto max-w-screen-sm px-4 py-8 sm:py-12 sm:px-6 lg:max-w-screen-xl lg:py-16 lg:px-8">
+    <section className="">
       <div className="items-center lg:gap-16 lg:grid lg:grid-cols-2 lg:gap-8">
         <div>
           <Image
