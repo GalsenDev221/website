@@ -13,7 +13,9 @@ const Error404 = () => {
 					alt="404 Illustration"
 					loading="eager"
 				/>
+
 				<p className="mt-4 text-gray-500">Page introuvable</p>
+
 				<Link
 					href="/"
 					className="inline-block px-5 py-3 mt-6 text-sm font-medium text-white bg-indigo-600 rounded hover:bg-indigo-700 focus:outline-none focus:ring"
