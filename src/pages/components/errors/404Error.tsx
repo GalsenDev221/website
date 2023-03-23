@@ -20,7 +20,7 @@ const Error404 = () => {
 					href="/"
 					className="inline-block px-5 py-3 mt-6 text-sm font-medium text-white bg-indigo-600 rounded hover:bg-indigo-700 focus:outline-none focus:ring"
 				>
-					Retour vers la page d'accueil
+					Retour vers la page d&apos;accueil
 				</Link>
 			</div>
 		</div>

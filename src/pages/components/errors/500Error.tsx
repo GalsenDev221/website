@@ -13,7 +13,7 @@ const Error500 = () => {
 					loading="eager"
 				/>
 				<p className="mt-4 text-gray-500">
-					Une erreur côté serveur s'est produite !
+					Une erreur côté serveur s&apos;est produite !
 				</p>
 			</div>
 		</div>
