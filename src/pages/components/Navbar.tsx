@@ -1,4 +1,4 @@
-import { useState, Fragment } from 'react';
+import { useState, Fragment, useEffect } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import Link from 'next/link';
 
@@ -7,10 +7,13 @@ import GalsenDevLogo from './GalsenDevLogo';
 import GithubLink from './GithubLink';
 
 import { Space_Grotesk } from '@next/font/google';
+import { useRouter } from 'next/router';
 const grotesk = Space_Grotesk({ subsets: ['latin'] });
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
+	const { pathname } = useRouter();
+	useEffect(() => setIsOpen(false), [pathname]);
 
 	const link = [
 		{ name: 'Accueil', path: '/' },
