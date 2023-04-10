@@ -5,7 +5,7 @@ import coding from '/public/svg/coding.svg';
 const ActivitySection = () => {
 	return (
 		<section className="">
-			<div className="items-center lg:gap-16 lg:grid lg:grid-cols-2 lg:gap-8">
+			<div className="items-center lg:gap-16 lg:grid lg:grid-cols-2">
 				<div>
 					<Image
 						className="w-full"
@@ -34,7 +34,7 @@ const ActivitySection = () => {
 					</div>
 				</div>
 			</div>
-			<div className="mt-12 items-center lg:gap-16 lg:grid lg:grid-cols-2 lg:gap-8">
+			<div className="mt-12 items-center lg:gap-16 lg:grid lg:grid-cols-2">
 				<div className="lg:order-last">
 					<Image
 						className="w-full"
