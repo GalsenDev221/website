@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Blank from './components/Blank';
 
-export default function About() {
+export default function Events() {
 	return (
 		<>
 			<Head>
-				<title>A Propos</title>
+				<title>Events</title>
 				<meta
 					name="description"
 					content="Renforcer la scène technologique sénégalaise, connecter les développeurs, partager la connaissance et offrir un soutien communautaire."
