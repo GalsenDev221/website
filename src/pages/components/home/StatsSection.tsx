@@ -1,6 +1,3 @@
-import { Space_Grotesk } from '@next/font/google';
-const grotesk = Space_Grotesk({ subsets: ['latin'] });
-
 const StatsSection = () => {
 	return (
 		<section>
@@ -37,9 +34,7 @@ interface CardProps {
 }
 
 const StatCard = ({ number, iconComp, desc }: CardProps) => (
-	<div
-		className={`${grotesk.className} text-white relative bg-baseColor rounded-md p-4 shadow-xl`}
-	>
+	<div className="text-white relative bg-baseColor rounded-md p-4 shadow-xl">
 		<div className="flex items-center gap-4">
 			{iconComp}
 			<h3 className="text-3xl font-bold leading-none">{number}</h3>

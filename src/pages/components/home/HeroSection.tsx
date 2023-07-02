@@ -42,22 +42,4 @@ const HeroSection = () => {
 	);
 };
 
-// const ImgBlurEffect = () => (
-// 	<div className="relative max-w-md mx-auto">
-// 		<div className="absolute -top-16 -left-4 w-80 h-80 bg-blue-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-ing"></div>
-// 		<div className="absolute -bottom-16 -right-4 w-80 h-80 bg-galsen rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-ing"></div>
-// 		<div className="relative h-0 pb-[100%] sm:max-w-xl">
-// 			<Image
-// 				src={hero}
-// 				width="350"
-// 				height="350"
-// 				alt="Landing Illustration"
-// 				loading="eager"
-// 				placeholder="blur"
-// 				className="absolute w-full h-full object-cover"
-// 			/>
-// 		</div>
-// 	</div>
-// );
-
 export default HeroSection;

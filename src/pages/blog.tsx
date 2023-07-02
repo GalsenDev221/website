@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 import Blank from './components/Blank';
 
 export default function About() {

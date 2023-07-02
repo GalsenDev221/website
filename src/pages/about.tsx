@@ -1,5 +1,4 @@
 import Head from 'next/head';
-
 import Presentation from './components/about/Presentation';
 
 export default function About() {

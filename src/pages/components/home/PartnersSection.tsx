@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import propel from '/public/img/partners/propel.png';
 import xarala from '/public/img/partners/xarala.png';
 import dexchange from '/public/img/partners/dexchange.png';
@@ -11,12 +12,12 @@ const PartnersSection = () => (
 				<span className="text-darker">confiance</span>
 			</h2>
 			<div className="mt-8 flex flex-col gap-2 sm:flex-row lg:mt-0">
-				<Partner name="Propel" url="https://withpropel.com/" img={propel} />
-				<Partner name="Xarala" url="https://xarala.co/" img={xarala} />
+				<Partner name="Propel" url="https://withpropel.com/" img={propel.src} />
+				<Partner name="Xarala" url="https://xarala.co/" img={xarala.src} />
 				<Partner
 					name="Dexchange"
 					url="https://dexchange-transfert.com/"
-					img={dexchange}
+					img={dexchange.src}
 				/>
 			</div>
 		</div>

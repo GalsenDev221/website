@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import fixing from '/public/svg/fixing.svg';
 import coding from '/public/svg/coding.svg';
 
