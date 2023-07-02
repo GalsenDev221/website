@@ -1,4 +1,4 @@
-const GithubLink = () => (
+const GalsenDevGithub = () => (
 	<a
 		href="https://github.com/GalsenDev221"
 		rel="noreferrer"
@@ -22,4 +22,4 @@ const GithubLink = () => (
 	</a>
 );
 
-export default GithubLink;
+export default GalsenDevGithub;

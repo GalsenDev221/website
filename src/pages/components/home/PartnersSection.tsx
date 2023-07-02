@@ -1,4 +1,5 @@
 import Image from 'next/image';
+
 import propel from '/public/img/partners/propel.png';
 import xarala from '/public/img/partners/xarala.png';
 import dexchange from '/public/img/partners/dexchange.png';

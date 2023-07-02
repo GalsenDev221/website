@@ -1,14 +1,11 @@
 import { useState, Fragment, useEffect } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 import Donation from './announcements/Donation';
-import GalsenDevLogo from './GalsenDevLogo';
-import GithubLink from './GithubLink';
-
-import { Space_Grotesk } from '@next/font/google';
-import { useRouter } from 'next/router';
-const grotesk = Space_Grotesk({ subsets: ['latin'] });
+import GalsenDevLogo from './svg/GalsenDevLogo';
+import GalsenDevGithub from './svg/GalsenDevGithub';
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +25,7 @@ const Navbar = () => {
 				<Donation />
 				<header
 					aria-label="Site Header"
-					className={`${grotesk.className} shadow-sm bg-white/70 backdrop-filter backdrop-blur-lg`}
+					className="shadow-sm bg-white/70 backdrop-filter backdrop-blur-lg"
 				>
 					<div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
 						<Link className="text-blue-600 font-bold" href="/">
@@ -54,7 +51,7 @@ const Navbar = () => {
 
 							<div className="flex items-center gap-4">
 								<div className="hidden md:block">
-									<GithubLink />
+									<GalsenDevGithub />
 								</div>
 
 								<button
@@ -125,7 +122,7 @@ const Navbar = () => {
 												))}
 											</div>
 											<div className="py-6">
-												<GithubLink />
+												<GalsenDevGithub />
 											</div>
 										</div>
 									</div>
