@@ -1,12 +1,12 @@
 import Head from 'next/head';
 
-import Presentation from './components/about/Presentation';
+import Blank from './components/Blank';
 
-export default function About() {
+export default function Events() {
 	return (
 		<>
 			<Head>
-				<title>A propos de Galsen DEV</title>
+				<title>Les événements de la communauté</title>
 				<meta
 					name="description"
 					content="Renforcer la scène tech sénégalaise, connecter les développeurs, partager la connaissance et offrir un soutien communautaire."
@@ -14,7 +14,7 @@ export default function About() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon/favicon.ico" />
 			</Head>
-			<Presentation />
+			<Blank />
 		</>
 	);
 }

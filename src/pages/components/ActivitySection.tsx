@@ -47,13 +47,14 @@ const ActivitySection = () => {
 				</div>
 				<div className="mt-8 lg:mt-0">
 					<h2 className="text-gray-600 font-bold text-4xl">
-						Des <span className="text-darker">Live Coding</span> session
+						Des <span className="text-darker">événements</span>
 						<br /> pour tout le monde
 					</h2>
 					<div className="max-w-2xl py-4 text-base mt-2 text-gray-600 lg:text-base xl:text-base">
 						<p>
-							La communauté fait des séances de Live Coding sur notre serveur
-							Discord.
+							La communauté organise constamment des sessions de partage et de
+							découverte en ligne avec ses membres, connectez-vous avec nous
+							pour suivre nos activités.
 						</p>
 					</div>
 				</div>
