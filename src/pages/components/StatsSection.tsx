@@ -7,7 +7,7 @@ const StatsSection = () => {
 			<div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16">
 				<div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
 					<h2 className="text-3xl font-bold sm:text-4xl text-blue-800">
-						Une ?!?
+						Une grande famille
 					</h2>
 
 					<p className="mt-4 text-gray-600">
@@ -23,7 +23,7 @@ const StatsSection = () => {
 						desc="Evénements"
 					/>
 					<StatCard iconComp={<MembersIcon />} number="+1K" desc="Membres" />
-					<StatCard iconComp={<CommitIcon />} number="+2K" desc="Commits" />
+					<StatCard iconComp={<CommitIcon />} number="+500" desc="Commits" />
 				</div>
 			</div>
 		</section>

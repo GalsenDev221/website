@@ -13,18 +13,16 @@ export default function Home() {
 				<title>Galsen DEV - La communauté des développeurs sénégalais 🇸🇳</title>
 				<meta
 					name="description"
-					content="Renforcer la scène technologique sénégalaise, connecter les développeurs, partager la connaissance et offrir un soutien communautaire."
+					content="Renforcer la scène tech sénégalaise, connecter les développeurs, partager la connaissance et offrir un soutien communautaire."
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon/favicon.ico" />
 			</Head>
-			<main className="px-4 mt-16 mx-auto max-w-lg space-y-16 lg:max-w-screen-xl sm:px-6 lg:px-8 lg:space-y-32">
-				<HeroSection />
-				<StatsSection />
-				<ActivitySection />
-				<LastEventSection />
-				<PartnersSection />
-			</main>
+			<HeroSection />
+			<StatsSection />
+			<ActivitySection />
+			<LastEventSection />
+			<PartnersSection />
 		</>
 	);
 }

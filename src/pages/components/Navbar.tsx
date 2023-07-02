@@ -18,7 +18,7 @@ const Navbar = () => {
 	const link = [
 		{ name: 'Accueil', path: '/' },
 		{ name: 'Events', path: '/events' },
-		{ name: 'Blog', path: '#' },
+		{ name: 'Blog', path: '/blog' },
 		{ name: 'A Propos', path: '/about' },
 	];
 
