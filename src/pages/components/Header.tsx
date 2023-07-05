@@ -19,7 +19,7 @@ function Header(props) {
 					property="og:image"
 					content="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/website/share/ugaacimkpgt6rsnecvds.png"
 				/>
-				<meta property="og:title" content="Gaslen DEV" />
+				<meta property="og:title" content="Galsen DEV" />
 				<meta
 					property="og:description"
 					content="Renforcer la scène tech sénégalaise, connecter les développeurs, partager la connaissance et offrir un soutien communautaire."
@@ -31,7 +31,7 @@ function Header(props) {
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta property="twitter:domain" content="galsen.dev" />
 				<meta property="twitter:url" content="https://galsen.dev" />
-				<meta name="twitter:title" content="Gaslen DEV" />
+				<meta name="twitter:title" content="Galsen DEV" />
 				<meta
 					name="twitter:description"
 					content="Renforcer la scène tech sénégalaise, connecter les développeurs, partager la connaissance et offrir un soutien communautaire."
