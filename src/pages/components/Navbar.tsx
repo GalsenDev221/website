@@ -1,4 +1,4 @@
-import { useState, Fragment, useEffect } from 'react';
+import React, { useState, Fragment, useEffect } from 'react';
 import { Dialog, Transition, Listbox } from '@headlessui/react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -6,27 +6,34 @@ import { useRouter } from 'next/router';
 import Donation from './announcements/Donation';
 import GalsenDevLogo from './svg/GalsenDevLogo';
 import GalsenDevGithub from './svg/GalsenDevGithub';
+import useTranslation from 'next-translate/useTranslation';
 
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid';
 
+const languages = [
+	{ name: 'Français', code: 'FR' },
+	{ name: 'English', code: 'EN' },
+];
+
 const Navbar = () => {
+	const { t, lang } = useTranslation('common');
+	const router = useRouter();
+
 	const [isOpen, setIsOpen] = useState(false);
 	const { pathname } = useRouter();
 	useEffect(() => setIsOpen(false), [pathname]);
 
 	const link = [
-		{ name: 'Accueil', path: '/' },
-		{ name: 'Events', path: '/events' },
-		{ name: 'Blog', path: '/blog' },
-		{ name: 'A Propos', path: '/about' },
+		{ name: t('navbar.home'), path: '/' },
+		{ name: t('navbar.events'), path: '/events' },
+		{ name: t('navbar.blog'), path: '/blog' },
+		{ name: t('navbar.about'), path: '/about' },
 	];
 
-	const languages = [
-		{ name: 'French', lang: 'fr' },
-		{ name: 'English', lang: 'en' },
-	];
+	const [selected, setSelected] = useState(
+		languages.find((language) => language.code === lang.toUpperCase())
+	);
 
-	const [selected, setSelected] = useState(languages[0]);
 	return (
 		<>
 			<div className="w-full z-20 sticky top-0">
@@ -66,9 +73,9 @@ const Navbar = () => {
 									<div className="flex items-center justify-center w-full">
 										<Listbox value={selected} onChange={setSelected}>
 											<div className="relative">
-												<Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-sky-300 sm:text-sm">
+												<Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-cyan-300 sm:text-sm">
 													<span className="block truncate">
-														{selected.name}
+														{selected?.code}
 													</span>
 													<span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
 														<ChevronUpDownIcon
@@ -95,12 +102,19 @@ const Navbar = () => {
 																	}`
 																}
 																value={language}
+																onClick={() => {
+																	// https://chat.openai.com/share/a968cba1-9e77-4dc4-96da-fabed40683a2
+																	router.push(
+																		router.pathname,
+																		router.pathname,
+																		{
+																			locale: language.code.toLocaleLowerCase(),
+																		}
+																	);
+																}}
 															>
 																{({ selected }) => (
-																	<Link
-																		href="/"
-																		locale={`${language.lang.toLocaleLowerCase()}`}
-																	>
+																	<>
 																		<span
 																			className={`block truncate ${
 																				selected ? 'font-medium' : 'font-normal'
@@ -116,7 +130,7 @@ const Navbar = () => {
 																				/>
 																			</span>
 																		) : null}
-																	</Link>
+																	</>
 																)}
 															</Listbox.Option>
 														))}
@@ -194,8 +208,84 @@ const Navbar = () => {
 													</Link>
 												))}
 											</div>
-											<div className="py-6">
-												<GalsenDevGithub />
+
+											<div className="py-6 w-full flex flex-col gap-4 items-start">
+												<div className="block">
+													<GalsenDevGithub />
+												</div>
+
+												<div className="flex items-center justify-center w-full">
+													<Listbox value={selected} onChange={setSelected}>
+														<div className="relative w-full">
+															<Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-cyan-300 sm:text-sm">
+																<span className="block truncate">
+																	{selected?.code}
+																</span>
+																<span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
+																	<ChevronUpDownIcon
+																		className="h-5 w-5 text-gray-400"
+																		aria-hidden="true"
+																	/>
+																</span>
+															</Listbox.Button>
+															<Transition
+																as={Fragment}
+																leave="transition ease-in duration-100"
+																leaveFrom="opacity-100"
+																leaveTo="opacity-0"
+															>
+																<Listbox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+																	{languages.map((language, languageIdx) => (
+																		<Listbox.Option
+																			key={languageIdx}
+																			className={({ active }) =>
+																				`relative cursor-default select-none py-2 pl-10 pr-4 ${
+																					active
+																						? 'bg-sky-100 text-sky-900'
+																						: 'text-gray-900'
+																				}`
+																			}
+																			value={language}
+																			onClick={() => {
+																				// https://chat.openai.com/share/a968cba1-9e77-4dc4-96da-fabed40683a2
+																				router.push(
+																					router.pathname,
+																					router.pathname,
+																					{
+																						locale:
+																							language.code.toLocaleLowerCase(),
+																					}
+																				);
+																			}}
+																		>
+																			{({ selected }) => (
+																				<>
+																					<span
+																						className={`block truncate ${
+																							selected
+																								? 'font-medium'
+																								: 'font-normal'
+																						}`}
+																					>
+																						{language.name}
+																					</span>
+																					{selected ? (
+																						<span className="absolute inset-y-0 left-0 flex items-center pl-3 text-sky-600">
+																							<CheckIcon
+																								className="h-5 w-5"
+																								aria-hidden="true"
+																							/>
+																						</span>
+																					) : null}
+																				</>
+																			)}
+																		</Listbox.Option>
+																	))}
+																</Listbox.Options>
+															</Transition>
+														</div>
+													</Listbox>
+												</div>
 											</div>
 										</div>
 									</div>

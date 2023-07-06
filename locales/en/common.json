@@ -9,6 +9,12 @@
 			"code": "en"
 		}
 	},
+	"navbar": {
+		"home": "Home",
+		"about": "About",
+		"blog": "Blog",
+		"events": "Events"
+	},
 	"home": {
 		"header": "Galsen DEV - Senegalese developer community 🇸🇳"
 	},
