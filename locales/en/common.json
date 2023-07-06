@@ -1,0 +1,35 @@
+{
+	"languages": {
+		"fr": {
+			"title": "Frecnh",
+			"code": "fr"
+		},
+		"en": {
+			"title": "English",
+			"code": "en"
+		}
+	},
+	"home": {
+		"header": "Galsen DEV - Senegalese developer community 🇸🇳"
+	},
+	"about": {
+		"header": "About Galsen DEV"
+	},
+	"blog": {
+		"header": "Our blog"
+	},
+	"events": {
+		"header": "The events of the community"
+	},
+	"donation": {
+		"text": {
+			"first": "You can make a",
+			"second": "DONATION",
+			"third": "to the community 🤝"
+		}
+	},
+	"underConstruction": "This page is under construction",
+	"backToHome": "Back to home",
+	"pageNotFound": "Page not found",
+	"serverError": "A server error has occurred!"
+}

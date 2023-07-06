@@ -1,0 +1,35 @@
+{
+	"languages": {
+		"fr": {
+            "title": "Français",
+            "code": "fr"
+        }, 
+        "en": {
+            "title": "Anglais",
+            "code": "en"
+        }
+	},
+    "home": {
+        "header": "Galsen DEV - La communauté des développeurs sénégalais 🇸🇳"
+    },
+    "about": {
+        "header": "A propos de Galsen DEV"
+    },
+    "blog": {
+        "header": "Notre blog"
+    },
+    "events": {
+        "header": "Les événements de la communauté"
+    },
+	"donation": {
+		"text": {
+			"first": "Vous pouvez faire un",
+			"second": "DON",
+			"third": "à la communauté 🤝"
+		}
+	},
+    "underConstruction": "Page en construction",
+    "backToHome": "Retour vers la page d'accueil",
+    "pageNotFound": "Page introuvable",
+    "serverError":"Une erreur côté serveur s'est produite !"
+}

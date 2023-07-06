@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import hero from '/public/img/galsendev-hero.png';
+import useTranslation from 'next-translate/useTranslation';
 
 const HeroSection = () => {
+	const { t, lang } = useTranslation('home');
 	return (
 		<section className="">
 			<div className="lg:flex lg:items-center lg:justify-between">
@@ -21,21 +23,16 @@ const HeroSection = () => {
 				</div>
 				<div className="mt-12 mx-auto max-w-lg lg:m-0 lg:max-w-md">
 					<h2 className="text-1xl font-bold sm:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-green-500 to-green-300">
-						Renforcer la scène tech sénégalaise,
+						{t('hero.firstHeading')}
 					</h2>
 					<h2 className="text-1xl font-bold sm:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-yellow-300 to-yellow-200">
-						connecter les développeurs,
+						{t('hero.secondHeading')}
 					</h2>
 					<h2 className="text-1xl font-bold sm:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-red-500 to-red-500">
-						partager et offrir un soutien communautaire.
+						{t('hero.thirdHeading')}
 					</h2>
 
-					<p className="mt-4 text-gray-600">
-						Galsen DEV est une communauté qui regroupe les développeurs
-						sénégalais dans le but de mettre en place un écosystème favorable à
-						la création et au partage entre développeurs et de vulgariser la
-						programmation partout au Sénégal.
-					</p>
+					<p className="mt-4 text-gray-600">{t('hero.text')}</p>
 				</div>
 			</div>
 		</section>

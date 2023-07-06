@@ -4,11 +4,13 @@ import StatsSection from './components/home/StatsSection';
 import ActivitySection from './components/home/ActivitySection';
 import LastEventSection from './components/home/LastEventSection';
 import PartnersSection from './components/home/PartnersSection';
+import useTranslation from 'next-translate/useTranslation';
 
 export default function Home() {
+	const { t, lang } = useTranslation('common');
 	return (
 		<>
-			<Header header="Galsen DEV - La communauté des développeurs sénégalais 🇸🇳" />
+			<Header header={t('home.header')} />
 			<HeroSection />
 			<StatsSection />
 			<ActivitySection />
