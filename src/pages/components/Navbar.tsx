@@ -7,6 +7,7 @@ import Donation from './announcements/Donation';
 import GalsenDevLogo from './svg/GalsenDevLogo';
 import GalsenDevGithub from './svg/GalsenDevGithub';
 import useTranslation from 'next-translate/useTranslation';
+import setLanguage from 'next-translate/setLanguage';
 
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid';
 
@@ -102,16 +103,11 @@ const Navbar = () => {
 																	}`
 																}
 																value={language}
-																onClick={() => {
-																	// https://chat.openai.com/share/a968cba1-9e77-4dc4-96da-fabed40683a2
-																	router.push(
-																		router.pathname,
-																		router.pathname,
-																		{
-																			locale: language.code.toLocaleLowerCase(),
-																		}
-																	);
-																}}
+																onClick={async () =>
+																	await setLanguage(
+																		language.code.toLocaleLowerCase()
+																	)
+																}
 															>
 																{({ selected }) => (
 																	<>
@@ -246,17 +242,11 @@ const Navbar = () => {
 																				}`
 																			}
 																			value={language}
-																			onClick={() => {
-																				// https://chat.openai.com/share/a968cba1-9e77-4dc4-96da-fabed40683a2
-																				router.push(
-																					router.pathname,
-																					router.pathname,
-																					{
-																						locale:
-																							language.code.toLocaleLowerCase(),
-																					}
-																				);
-																			}}
+																			onClick={async () =>
+																				await setLanguage(
+																					language.code.toLocaleLowerCase()
+																				)
+																			}
 																		>
 																			{({ selected }) => (
 																				<>
