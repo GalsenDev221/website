@@ -1,0 +1,56 @@
+{
+	"hero": {
+		"firstHeading": "Strengthening the Senegalese tech scene,",
+		"secondHeading": "connect developers,",
+		"thirdHeading": "sharing and providing community support.",
+		"text": "Galsen DEV is a community that brings together Senegalese developers in order to create an ecosystem that is conducive to creation and sharing among developers and to popularize programming throughout Senegal."
+	},
+	"stats": {
+		"title": "A large family",
+		"description": "Created in 2018, Galsen DEV welcomes new members every day.",
+		"events": {
+			"title": "Events",
+			"count": "+50"
+		},
+		"members": {
+			"title": "Members",
+			"count": "+1K"
+		},
+		"commits": {
+			"title": "Commits",
+			"count": "+500"
+		}
+	},
+	"activity": {
+		"first": {
+			"heading": {
+				"first": "You have a",
+				"second": "problem",
+				"third": "we have the",
+				"fourth": "solution"
+			},
+			"text": "Whatever your problem, together we will find a solution. Whether it’s a semicolon oversight or how to center a div with CSS, the community is there for you."
+		},
+		"second": {
+			"heading": {
+				"first": "Of",
+				"second": "events",
+				"third": "for everyone"
+			},
+			"text": "The community constantly organizes online sharing and discovery sessions with its members, connect with us to follow our activities."
+		}
+	},
+	"lastEvent": {
+		"heading": {
+			"first": "Our last event:",
+			"second": "HacktoberFest 2022"
+		},
+		"text": "Galsen DEV in partnership with Xarala presents the second edition of the Hackaton Session & Open-source Day as part of the 2022 Hacktoberfest."
+	},
+	"partners": {
+		"title": {
+			"first": "They made us",
+			"second": "trusting"
+		}
+	}
+}

@@ -2,8 +2,10 @@ import Image from 'next/image';
 
 import fixing from '/public/svg/fixing.svg';
 import coding from '/public/svg/coding.svg';
+import useTranslation from 'next-translate/useTranslation';
 
 const ActivitySection = () => {
+	const { t, lang } = useTranslation('home');
 	return (
 		<section className="">
 			<div className="items-center lg:gap-16 lg:grid lg:grid-cols-2">
@@ -20,17 +22,20 @@ const ActivitySection = () => {
 				<div className="mt-8 lg:mt-0 flex items-center justify-center">
 					<div>
 						<h2 className="text-gray-600 font-bold text-4xl">
-							Vous avez un <span className="text-lighter">problème</span>,
+							{t('activity.first.heading.first')}{' '}
+							<span className="text-lighter">
+								{t('activity.first.heading.second')}
+							</span>
+							,
 						</h2>
 						<h2 className="text-gray-600 font-bold text-4xl">
-							nous avons la <span className="text-darker">solution</span>
+							{t('activity.first.heading.third')}{' '}
+							<span className="text-darker">
+								{t('activity.first.heading.fourth')}
+							</span>
 						</h2>
 						<div className="max-w-2xl py-4 text-base mt-2 text-gray-600 lg:text-base xl:text-base">
-							<p>
-								Quelque soit votre problème, ensemble nous trouverons une
-								solution. Que ce soit un oubli de point-virgule ou bien comment
-								centrer une div avec CSS, la communauté est là pour vous.
-							</p>
+							<p>{t('activity.first.text')}</p>
 						</div>
 					</div>
 				</div>
@@ -48,15 +53,14 @@ const ActivitySection = () => {
 				</div>
 				<div className="mt-8 lg:mt-0">
 					<h2 className="text-gray-600 font-bold text-4xl">
-						Des <span className="text-darker">événements</span>
-						<br /> pour tout le monde
+						{t('activity.second.heading.first')}{' '}
+						<span className="text-darker">
+							{t('activity.second.heading.second')}
+						</span>
+						<br /> {t('activity.second.heading.third')}
 					</h2>
 					<div className="max-w-2xl py-4 text-base mt-2 text-gray-600 lg:text-base xl:text-base">
-						<p>
-							La communauté organise constamment des sessions de partage et de
-							découverte en ligne avec ses membres, connectez-vous avec nous
-							pour suivre nos activités.
-						</p>
+						<p>{t('activity.second.text')}</p>
 					</div>
 				</div>
 			</div>
