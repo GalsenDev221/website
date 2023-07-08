@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import code from '/public/img/galsendev-code.png';
+import useTranslation from 'next-translate/useTranslation';
 
 const Presentation = () => {
+	const { t, lang } = useTranslation('about');
 	return (
 		<section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
 			<div className="p-8 md:p-12 lg:px-16 lg:py-24">
@@ -12,23 +14,11 @@ const Presentation = () => {
 					</h2>
 
 					<p className="text-gray-500 md:mt-4 md:block">
-						Galsen DEV est une communauté qui regroupe les développeurs
-						sénégalais dans le but de mettre en place un écosystème favorable à
-						la création et au partage en développeur et de vulgariser la
-						programmation partout au Sénégal. Nous nous fixons aussi pour
-						objectif d&apos;aider les débutants et les personnes désireux de
-						rejoindre le domaine de la programmation.
+						{t('presentation.firstHeading')}
 					</p>
 
 					<p className="text-gray-500 md:mt-4 md:block">
-						Nous offrons un large éventail d&apos;avantages et de possibilités
-						pour nos membres. Vous aurez accès à des ateliers et des formations
-						animés par des professionnels chevronnés, qui vous permettront de
-						rester à jour avec les dernières tendances technologiques et
-						d&apos;améliorer continuellement vos compétences. Vous aurez
-						également la chance de participer à des projets collaboratifs
-						passionnants, où vous pourrez mettre en pratique vos connaissances
-						et travailler en équipe avec d&apos;autres développeurs talentueux.
+						{t('presentation.secondHeading')}
 					</p>
 
 					<div className="mt-4 md:mt-8">
@@ -37,7 +27,7 @@ const Presentation = () => {
 							target="_blank"
 							className="inline-block rounded bg-baseColor px-12 py-3 text-sm font-medium text-white transition hover:bg-darker focus:outline-none focus:ring focus:ring-lighter"
 						>
-							Rejoignez-nous
+							{t('presentation.join')}
 						</Link>
 					</div>
 				</div>

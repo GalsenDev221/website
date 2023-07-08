@@ -1,0 +1,13 @@
+{
+    "locales": ["en", "fr"],
+    "defaultLocale": "fr",
+    "pages": {
+      "*": ["common"],
+      "/": ["home"],
+      "/events": ["events"],
+      "/blog": ["blog"],
+      "/about": ["about"],
+      "/404": ["404"],
+      "/500": ["500"]
+    }
+  }

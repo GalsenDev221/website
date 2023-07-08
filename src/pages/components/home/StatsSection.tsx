@@ -1,26 +1,34 @@
+import useTranslation from 'next-translate/useTranslation';
+
 const StatsSection = () => {
+	const { t, lang } = useTranslation('home');
 	return (
 		<section>
 			<div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:gap-x-16">
 				<div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
 					<h2 className="text-3xl font-bold sm:text-4xl text-blue-800">
-						Une grande famille
+						{t('stats.title')}
 					</h2>
 
-					<p className="mt-4 text-gray-600">
-						Créée en 2018, Galsen DEV accueille chaque jours de nouveaux
-						membres.
-					</p>
+					<p className="mt-4 text-gray-600">{t('stats.description')}</p>
 				</div>
 
 				<div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
 					<StatCard
 						iconComp={<MegaphoneIcon />}
-						number="+50"
-						desc="Evénements"
+						number={t('stats.events.count')}
+						desc={t('stats.events.title')}
 					/>
-					<StatCard iconComp={<MembersIcon />} number="+1K" desc="Membres" />
-					<StatCard iconComp={<CommitIcon />} number="+500" desc="Commits" />
+					<StatCard
+						iconComp={<MembersIcon />}
+						number={t('stats.members.count')}
+						desc={t('stats.members.title')}
+					/>
+					<StatCard
+						iconComp={<CommitIcon />}
+						number={t('stats.commits.count')}
+						desc={t('stats.commits.title')}
+					/>
 				</div>
 			</div>
 		</section>

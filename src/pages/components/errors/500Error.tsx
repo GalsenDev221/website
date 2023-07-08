@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import e500 from '/public/svg/warning.svg';
+import useTranslation from 'next-translate/useTranslation';
 
 const Error500 = () => {
+	const { t, lang } = useTranslation('common');
 	return (
 		<div className="grid h-screen px-4 bg-white place-content-center">
 			<div className="text-center">
@@ -12,9 +14,7 @@ const Error500 = () => {
 					alt="404 Illustration"
 					loading="eager"
 				/>
-				<p className="mt-4 text-gray-500">
-					Une erreur côté serveur s&apos;est produite !
-				</p>
+				<p className="mt-4 text-gray-500">{t('serverError')}</p>
 			</div>
 		</div>
 	);
