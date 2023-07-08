@@ -1,5 +1,5 @@
-import Header from './components/Header';
-import Blank from './components/Blank';
+import Blank from '@/components/Blank';
+import Header from '@/components/Header';
 
 export default function Events() {
 	return (
