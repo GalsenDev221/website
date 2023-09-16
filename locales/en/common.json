@@ -1,7 +1,7 @@
 {
 	"languages": {
 		"fr": {
-			"title": "Frecnh",
+			"title": "French",
 			"code": "fr"
 		},
 		"en": {
@@ -13,7 +13,8 @@
 		"home": "Home",
 		"about": "About",
 		"blog": "Blog",
-		"events": "Events"
+		"events": "Events",
+		"gallery": "Gallery"
 	},
 	"home": {
 		"header": "Galsen DEV - Senegalese developer community 🇸🇳"
@@ -26,6 +27,9 @@
 	},
 	"events": {
 		"header": "The events of the community"
+	},
+	"gallery": {
+		"header": "Our photo gallery"
 	},
 	"donation": {
 		"text": {
