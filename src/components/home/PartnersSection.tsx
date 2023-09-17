@@ -3,6 +3,9 @@ import Image from 'next/image';
 import propel from '/public/img/partners/propel.png';
 import xarala from '/public/img/partners/xarala.png';
 import dexchange from '/public/img/partners/dexchange.png';
+import daarait from '/public/img/partners/daarait.png';
+import galsenai from '/public/img/partners/galsenai.png';
+import possacode from '/public/img/partners/possacode.png';
 import useTranslation from 'next-translate/useTranslation';
 
 const PartnersSection = () => {
@@ -25,6 +28,29 @@ const PartnersSection = () => {
 						name="Dexchange"
 						url="https://dexchange-transfert.com/"
 						img={dexchange.src}
+					/>
+				</div>
+			</div>
+			<div className="flex flex-col items-center lg:flex-row lg:justify-between mt-2">
+				<h2 className="text-lighter font-bold text-4xl sm:text-center lg:text-left">
+					{t('partners.title.third')} <br />
+					<span className="text-darker">{t('partners.title.fourth')}</span>
+				</h2>{' '}
+				<div className="mt-8 flex flex-col gap-2 sm:flex-row lg:mt-0">
+					<Partner
+						name="DaaraIT"
+						url="https://www.linkedin.com/company/daara-it"
+						img={daarait.src}
+					/>
+					<Partner
+						name="GalsenAI"
+						url="https://galsen.ai/"
+						img={galsenai.src}
+					/>
+					<Partner
+						name="Possacode"
+						url="https://possacode.lepresk.com/"
+						img={possacode.src}
 					/>
 				</div>
 			</div>

@@ -50,7 +50,9 @@
 	"partners": {
 		"title": {
 			"first": "Ils nous ont fait",
-			"second": "confiance"
+			"second": "confiance",
+			"third": ".. et partagent",
+			"fourth": "nos valeurs"
 		}
 	}
 }

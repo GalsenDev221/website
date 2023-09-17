@@ -1,13 +1,14 @@
 {
-    "locales": ["en", "fr"],
-    "defaultLocale": "fr",
-    "pages": {
-      "*": ["common"],
-      "/": ["home"],
-      "/events": ["events"],
-      "/blog": ["blog"],
-      "/about": ["about"],
-      "/404": ["404"],
-      "/500": ["500"]
-    }
-  }
+	"locales": ["en", "fr"],
+	"defaultLocale": "fr",
+	"pages": {
+		"*": ["common"],
+		"/": ["home"],
+		"/events": ["events"],
+		"/gallery": ["gallery"],
+		"/blog": ["blog"],
+		"/about": ["about"],
+		"/404": ["404"],
+		"/500": ["500"]
+	}
+}
