@@ -27,6 +27,7 @@ const Navbar = () => {
 	const link = [
 		{ name: t('navbar.home'), path: '/' },
 		{ name: t('navbar.events'), path: '/events' },
+		{ name: t('navbar.gallery'), path: '/gallery' },
 		{ name: t('navbar.blog'), path: '/blog' },
 		{ name: t('navbar.about'), path: '/about' },
 	];
