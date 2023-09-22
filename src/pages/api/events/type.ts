@@ -4,3 +4,7 @@ export type Event = {
 	description: string;
 	date: string;
 };
+
+export type ResponseError = {
+	message: string;
+};

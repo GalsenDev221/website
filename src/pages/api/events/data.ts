@@ -1,5 +1,6 @@
 import { Event } from './type';
 
+// TODO: fix the typos and use next-translate
 export const events: Event[] = [
 	{
 		name: 'Hacktoberfest 2023',

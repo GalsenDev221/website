@@ -1,6 +1,7 @@
 import useSWR from 'swr';
 import Link from 'next/link';
 import useTranslation from 'next-translate/useTranslation';
+
 import Header from '@/components/Header';
 import { Event } from '@/pages/api/events/type';
 
