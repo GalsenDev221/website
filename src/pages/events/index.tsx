@@ -8,13 +8,14 @@ import { Event } from '@/pages/api/events/type';
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 export default function Events() {
-	const { t } = useTranslation('common');
+	const { t: translationCommon } = useTranslation('common');
+	const { t, lang } = useTranslation('events');
 
 	const { data, error, isLoading } = useSWR<Event[]>('/api/events', fetcher);
 
 	// TODO: better handle these use cases
-	if (error) return <div>Failed to load</div>;
-	if (isLoading) return <div>Loading...</div>;
+	if (error) return <div>{t('eventsPage.fail')}</div>;
+	if (isLoading) return <div>{t('eventsPage.load')}</div>;
 	if (!data) return null;
 
 	const upcomingEvents = data.filter((events) => events?.type === 'upcoming');
@@ -22,22 +23,21 @@ export default function Events() {
 
 	return (
 		<>
-			<Header header={t('events.header')} />
+			<Header header={translationCommon('events.header')} />
 			<section className="">
 				<hgroup>
 					<h1 className="text-3xl font-bold text-center lg:text-left">
-						Events
+						{t('eventsPage.title')}
 					</h1>
 					<p className="mt-2 text-gray-500 text-center lg:text-left">
-						A listing of all the upcoming and previous events from our
-						community.
+						{t('eventsPage.titleDesc')}
 					</p>
 				</hgroup>
 
 				<div className="mt-8 grid gap-16 lg:grid-cols-2">
 					<article className="">
 						<h2 className="text-2xl font-bold text-gray-700 text-center lg:text-3xl lg:text-left">
-							Upcoming events
+							{t('eventsPage.upcoming')}
 						</h2>
 						{/* TODO: order by date */}
 						{upcomingEvents.map((event) => (
@@ -46,7 +46,7 @@ export default function Events() {
 					</article>
 					<article className="">
 						<h2 className="text-2xl font-bold text-gray-700 text-center lg:text-3xl lg:text-left">
-							Previous events
+							{t('eventsPage.previous')}
 						</h2>
 						{/* TODO: order by date */}
 						{previousEvents.map((event) => (
