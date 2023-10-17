@@ -12,13 +12,7 @@ export default function About() {
 				title="Contact form"
 			></iframe>
 
-			<Script
-				id="tally-js"
-				src="https://tally.so/widgets/embed.js"
-				onLoad={() => {
-					Tally.loadEmbeds();
-				}}
-			/>
+			<Script id="tally-js" src="https://tally.so/widgets/embed.js" />
 		</>
 	);
 }
