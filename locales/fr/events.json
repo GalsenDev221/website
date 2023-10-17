@@ -1,3 +1,12 @@
 {
-	"title": "Evènements"
+	"eventsPage": {
+		"title": "Événements",
+		"titleDesc": "La liste de tous les événements passés et à venir de la communauté.",
+		"upcoming": "Évènements à venir",
+		"previous": "Événements précédents",
+		"fail": "Échec du chargement",
+		"load": "Chargement...",
+		"up": "à venir",
+		"pr": "passé"
+	}
 }
