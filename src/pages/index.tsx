@@ -11,11 +11,13 @@ export default function Home() {
 	return (
 		<>
 			<Header header={t('home.header')} />
-			<HeroSection />
-			<StatsSection />
-			<ActivitySection />
-			<LastEventSection />
-			<PartnersSection />
+			<div className="px-4 mt-16 mx-auto max-w-lg space-y-16 lg:max-w-screen-xl sm:px-6 lg:px-8 lg:space-y-32">
+				<HeroSection />
+				<StatsSection />
+				<ActivitySection />
+				<LastEventSection />
+				<PartnersSection />
+			</div>
 		</>
 	);
 }
