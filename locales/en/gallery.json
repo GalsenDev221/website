@@ -2,14 +2,25 @@
 	"eventsGallery": {
 		"firstHeading": "Our photo gallery",
 		"secondHeading": "Find highlights from our latest events with the Galsen DEV community.",
-		"title1": "CIGA Student Dev Workshop",
-		"desc1": "A great day of learning with CIGA students.",
-		"date1": "May 27, 2023",
-		"desc2": "Hacktoberfest 2022 Sharing and Learning Day.",
-		"date2": "October 15, 2022",
-		"desc3": "First edition of Hacktoberfest, to celebrate open source.",
-		"date3": "October 23, 2021",
-		"desc4": "Closing of the 1st phase of the Xarala Tour 2021.",
-		"date4": "July 3, 2021"
+		"event-1": {
+			"title": "CIGA Student Dev Workshop",
+			"desc": "A great day of learning with CIGA students.",
+			"date": "May 27, 2023"
+		},
+		"event-2": {
+			"title": "Hacktoberfest 2022",
+			"desc": "Hacktoberfest 2022 Sharing and Learning Day.",
+			"date": "October 15, 2022"
+		},
+		"event-3": {
+			"title": "Hacktoberfest 2021",
+			"desc": "First edition of Hacktoberfest, to celebrate open source.",
+			"date": "October 23, 2021"
+		},
+		"event-4": {
+			"title": "Xarala Tour Dakar 2021",
+			"desc": "Closing of the 1st phase of the Xarala Tour 2021.",
+			"date": "July 3, 2021"
+		}
 	}
 }

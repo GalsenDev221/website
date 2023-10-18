@@ -8,7 +8,9 @@ export default function Gallery() {
 	return (
 		<>
 			<Header header={t('gallery.header')} />
-			<EventsGallery />
+			<div className="px-4 mt-16 mx-auto max-w-lg md:max-w-3xl lg:max-w-screen-xl sm:px-6 lg:px-8">
+				<EventsGallery />
+			</div>
 		</>
 	);
 }
