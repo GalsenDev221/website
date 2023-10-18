@@ -11,13 +11,13 @@ import useTranslation from 'next-translate/useTranslation';
 const PartnersSection = () => {
 	const { t, lang } = useTranslation('home');
 	return (
-		<section className="">
-			<div className="flex flex-col items-center lg:flex-row lg:justify-between">
+		<section className="space-y-8 lg:space-y-12">
+			<div className="flex flex-col items-center lg:items-start">
 				<h2 className="text-lighter font-bold text-4xl sm:text-center lg:text-left">
 					{t('partners.title.first')} <br />
 					<span className="text-darker">{t('partners.title.second')}</span>
 				</h2>
-				<div className="mt-8 flex flex-col gap-2 sm:flex-row lg:mt-0">
+				<div className="mt-8 flex flex-col gap-3 lg:flex-row lg:gap-6 lg:w-full">
 					<Partner
 						name="Propel"
 						url="https://withpropel.com/"
@@ -31,12 +31,12 @@ const PartnersSection = () => {
 					/>
 				</div>
 			</div>
-			<div className="flex flex-col items-center lg:flex-row lg:justify-between mt-2">
+			<div className="flex flex-col items-center lg:items-end">
 				<h2 className="text-lighter font-bold text-4xl sm:text-center lg:text-left">
 					{t('partners.title.third')} <br />
 					<span className="text-darker">{t('partners.title.fourth')}</span>
 				</h2>{' '}
-				<div className="mt-8 flex flex-col gap-2 sm:flex-row lg:mt-0">
+				<div className="mt-8 flex flex-col gap-2 lg:flex-row lg:gap-6 lg:w-full lg:justify-end">
 					<Partner
 						name="DaaraIT"
 						url="https://www.linkedin.com/company/daara-it"
