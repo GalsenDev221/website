@@ -4,6 +4,28 @@
 		"titleDesc": "The list of all past and upcoming community events.",
 		"upcoming": "Upcoming events",
 		"previous": "Previous events",
+		"events": {
+			"hacktoberfest-2023": {
+				"title": "Hacktoberfest 2023",
+				"desc": "Third edition of the Hacktoberfest"
+			},
+			"ciga-student-dev-workshop": {
+				"title": "CIGA Student Dev Workshop",
+				"desc": "A great day of learning with CIGA students."
+			},
+			"hacktoberfest-2022": {
+				"title": "Hacktoberfest 2022",
+				"desc": "Hacktoberfest 2022 Sharing and Learning Day."
+			},
+			"hacktoberfest-2021": {
+				"title": "Hacktoberfest 2021",
+				"desc": "First edition of Hacktoberfest, to celebrate open source."
+			},
+			"xarala-tour-dakar-2021": {
+				"title": "Xarala Tour Dakar 2021",
+				"desc": "Closing of the 1st phase of the Xarala Tour 2021."
+			}
+		},
 		"fail": "Failed to load",
 		"load": "Loading...",
 		"up": "upcoming",
