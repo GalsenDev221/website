@@ -4,6 +4,28 @@
 		"titleDesc": "La liste de tous les événements passés et à venir de la communauté.",
 		"upcoming": "Évènements à venir",
 		"previous": "Événements précédents",
+		"events": {
+			"hacktoberfest-2023": {
+				"title": "Hacktoberfest 2023",
+				"desc": "Troisième édition du Hacktoberfest, pour célébrer l'open source."
+			},
+			"ciga-student-dev-workshop": {
+				"title": "Atelier Dev Étudiant CIGA",
+				"desc": "Une belle journée d'apprentissage avec les étudiants de CIGA."
+			},
+			"hacktoberfest-2022": {
+				"title": "Hacktoberfest 2022",
+				"desc": "Journée de partage et d'apprentissage Hacktoberfest 2022."
+			},
+			"hacktoberfest-2021": {
+				"title": "Hacktoberfest 2021",
+				"desc": "Première édition du Hacktoberfest, pour célébrer l'open source."
+			},
+			"xarala-tour-dakar-2021": {
+				"title": "Xarala Tour Dakar 2021",
+				"desc": "Clôture de la 1ère phase du Xarala Tour 2021."
+			}
+		},
 		"fail": "Échec du chargement",
 		"load": "Chargement...",
 		"up": "à venir",

@@ -11,14 +11,14 @@ export const events: Event[] = [
 		type: 'upcoming',
 	},
 	{
-		name: 'Atelier Dev Etudiant CIGA',
+		name: 'CIGA Student Dev Workshop',
 		description:
 			"Une belle journ2e d'apprentissage avec les 2tudiants de CIGA.",
 		date: '05/27/2023',
 		type: 'previous',
 	},
 	{
-		name: 'Hacktoberfest 2023',
+		name: 'Hacktoberfest 2022',
 		description:
 			'Third edition of the Hacktoberfest, celebrating the open source world.',
 		date: '10/15/2022',
