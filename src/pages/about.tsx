@@ -7,7 +7,9 @@ export default function About() {
 	return (
 		<>
 			<Header header={t('about.header')} />
-			<Presentation />
+			<div className="px-4 mt-16 mx-auto max-w-lg lg:max-w-screen-xl sm:px-6 lg:px-8">
+				<Presentation />
+			</div>
 		</>
 	);
 }

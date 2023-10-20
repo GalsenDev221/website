@@ -1,3 +1,12 @@
 {
-	"title": "Events"
+	"eventsPage": {
+		"title": "Events",
+		"titleDesc": "The list of all past and upcoming community events.",
+		"upcoming": "Upcoming events",
+		"previous": "Previous events",
+		"fail": "Failed to load",
+		"load": "Loading...",
+		"up": "upcoming",
+		"pr": "previous"
+	}
 }

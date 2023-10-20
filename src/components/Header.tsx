@@ -44,12 +44,6 @@ function Header(props: HeaderProps) {
 					name="twitter:image"
 					content="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/website/share/ugaacimkpgt6rsnecvds.png"
 				/>
-				{/* FIX: 🤔 how to add analytics in a Nextjs project? */}
-				<script
-					src="https://beamanalytics.b-cdn.net/beam.min.js"
-					data-token={process.env.BEAM_DATA_TOKEN}
-					async
-				></script>
 			</Head>
 		</>
 	);

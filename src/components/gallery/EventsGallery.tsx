@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
 import ciga from '/public/img/events/ciga2023.png';
@@ -6,13 +6,15 @@ import hof22 from '/public/img/events/hacktoberfest2022.png';
 import hof21 from '/public/img/events/hacktoberfest2021.png';
 import xtdk21 from '/public/img/events/xaralatourdk2021.png';
 
+import RightArrow from '../svg/RightArrow';
+
 import useTranslation from 'next-translate/useTranslation';
 
 const EventsGallery = () => {
-	const { t, lang } = useTranslation('gallery');
+	const { t } = useTranslation('gallery');
 	return (
 		<section className="">
-			<div className="mx-auto mb-16 max-w-3xl text-center">
+			<div className="mx-auto mb-8 max-w-3xl text-center">
 				<h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
 					{t('eventsGallery.firstHeading')}
 				</h2>
@@ -21,144 +23,94 @@ const EventsGallery = () => {
 					{t('eventsGallery.secondHeading')}
 				</p>
 			</div>
-			<div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-16">
-				<div>
-					<article className="group">
-						<Link href="/">
-							<Image
-								alt="Atelier Ciga"
-								src={ciga}
-								loading="eager"
-								placeholder="blur"
-								priority={true}
-								className="h-full w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[30%]"
-							/>
-						</Link>
 
-						<div className="p-4">
-							<Link href="/">
-								<h3 className="text-lg font-medium text-gray-900">
-									{t('eventsGallery.title1')}
-								</h3>
-							</Link>
-
-							<p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-								{t('eventsGallery.desc1')}
-							</p>
-
-							<span className="rounded-full bg-blue-100 px-2.5 m-2 py-0.5 text-xs text-blue-600">
-								{t('eventsGallery.date1')}
-							</span>
-							<span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-xs text-blue-600">
-								CIGA, Guédiawaye
-							</span>
-						</div>
-					</article>
-				</div>
-				<div>
-					<article className="group">
-						<Link href="/">
-							<Image
-								alt="Hacktoberfest 2022"
-								src={hof22}
-								loading="eager"
-								placeholder="blur"
-								priority={true}
-								className="h-full w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[30%]"
-							/>
-						</Link>
-
-						<div className="p-4">
-							<Link href="/">
-								<h3 className="text-lg font-medium text-gray-900">
-									Hacktoberfest 2022
-								</h3>
-							</Link>
-
-							<p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-								{t('eventsGallery.desc2')}
-							</p>
-
-							<span className="rounded-full bg-blue-100 px-2.5 m-2 py-0.5 text-xs text-blue-600">
-								{t('eventsGallery.date2')}
-							</span>
-							<span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-xs text-blue-600">
-								Campus Xarala, Liberté 6
-							</span>
-						</div>
-					</article>
-				</div>
-			</div>
-
-			<div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-16 mt-6">
-				<div>
-					<article className="group">
-						<Link href="/">
-							<Image
-								alt="Hacktoberfest 2021"
-								src={hof21}
-								loading="eager"
-								placeholder="blur"
-								priority={true}
-								className="h-full w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[30%]"
-							/>
-						</Link>
-
-						<div className="p-4">
-							<Link href="/">
-								<h3 className="text-lg font-medium text-gray-900">
-									Hacktoberfest 2021
-								</h3>
-							</Link>
-
-							<p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-								{t('eventsGallery.desc3')}
-							</p>
-
-							<span className="rounded-full bg-blue-100 px-2.5 m-2 py-0.5 text-xs text-blue-600">
-								{t('eventsGallery.date3')}
-							</span>
-							<span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-xs text-blue-600">
-								Ofisini Coworking, Liberté 6
-							</span>
-						</div>
-					</article>
-				</div>
-				<div>
-					<article className="group">
-						<Link href="/">
-							<Image
-								alt="Xarala Tour Dakar 2021"
-								src={xtdk21}
-								loading="eager"
-								placeholder="blur"
-								priority={true}
-								className="h-full w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[30%]"
-							/>
-						</Link>
-
-						<div className="p-4">
-							<Link href="/">
-								<h3 className="text-lg font-medium text-gray-900">
-									Xarala Tour Dakar 2021
-								</h3>
-							</Link>
-
-							<p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-								{t('eventsGallery.desc4')}
-							</p>
-
-							<span className="rounded-full bg-blue-100 px-2.5 m-2 py-0.5 text-xs text-blue-600">
-								{t('eventsGallery.date4')}
-							</span>
-							<span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-xs text-blue-600">
-								Orange Digital Center, Mermoz Ecole Police
-							</span>
-						</div>
-					</article>
-				</div>
+			<div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
+				<EventGalleryCard
+					eventId="event-1"
+					place="CIGA, Guédiawaye"
+					photosLink="https://photos.app.goo.gl/cVtbXhHubx5FEd5f7"
+					image={ciga}
+				/>
+				<EventGalleryCard
+					eventId="event-2"
+					place="Campus Xarala, Liberté 6"
+					photosLink="https://photos.app.goo.gl/PwzmZYvXwT1zo6ss5"
+					image={hof22}
+				/>
+				<EventGalleryCard
+					eventId="event-3"
+					place="Ofisini Coworking, Liberté 6"
+					photosLink="https://photos.app.goo.gl/i1RewRU3DrDQVM4P8"
+					image={hof21}
+				/>
+				<EventGalleryCard
+					eventId="event-4"
+					place="Orange Digital Center, Mermoz Ecole Police"
+					photosLink="https://photos.app.goo.gl/F8W2gWh6Y6AW7Xto7"
+					image={xtdk21}
+				/>
 			</div>
 		</section>
+	);
+};
+
+interface EventGalleryCardProps {
+	image: StaticImageData;
+	place: string;
+	photosLink: string;
+	eventId: string;
+}
+
+const EventGalleryCard = ({
+	image,
+	place,
+	photosLink,
+	eventId,
+}: EventGalleryCardProps) => {
+	const { t } = useTranslation('gallery');
+
+	return (
+		<article className="relative w-full aspect-[4/3] overflow-hidden rounded-lg shadow group md:aspect-[3/4] lg:aspect-[4/3]">
+			<h3 className="sr-only">t(`eventsGallery.${eventId}.title`)</h3>
+			<Image
+				alt={t(`eventsGallery.${eventId}.title`)}
+				src={image}
+				loading="eager"
+				placeholder="blur"
+				priority={true}
+				className="absolute inset-0 h-full w-full object-cover transition group-hover:grayscale-[80%]"
+			/>
+			<div className="absolute botto-0 inset-0 bg-gradient-to-t from-gray-900/90 to-gray-900/5 flex items-end">
+				<div className="p-4 sm:p-6">
+					<Link
+						className="group relative inline-flex items-center overflow-hidden rounded bg-baseColor px-6 py-3 text-white focus:outline-none focus:none"
+						href={photosLink}
+						target="_blank"
+					>
+						<RightArrow />
+						<span className="text-sm font-medium transition-all group-hover:me-4">
+							Voir les photos
+						</span>
+					</Link>
+
+					<h3 className="mt-4 text-lg font-medium text-gray-200">
+						{t(`eventsGallery.${eventId}.title`)}
+					</h3>
+					<p className="line-clamp-3 text-sm/relaxed text-gray-300">
+						{t(`eventsGallery.${eventId}.desc`)}
+					</p>
+
+					<div className="mt-3 flex items-end gap-3 md:flex-col lg:flex-row">
+						<span className="rounded-full bg-baseColor px-2.5 py-0.5 text-xs text-blue-100">
+							{t(`eventsGallery.${eventId}.date`)}
+						</span>
+						<span className="rounded-full bg-baseColor px-2.5 py-0.5 text-xs text-blue-100">
+							{place}
+						</span>
+					</div>
+				</div>
+			</div>
+		</article>
 	);
 };
 
