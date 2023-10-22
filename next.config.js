@@ -6,11 +6,9 @@ const nextConfig = {
 		remotePatterns: [
 			{
 				protocol: 'https',
-				hostname: 'propel.community',
-			},
-			{
-				protocol: 'https',
-				hostname: 'xarala.co',
+				hostname: 'res.cloudinary.com',
+				port: '',
+				pathname: '/degyjrpjj/image/upload/**',
 			},
 		],
 	},

@@ -42,10 +42,11 @@
 	},
 	"lastEvent": {
 		"heading": {
-			"first": "Notre dernier event:",
-			"second": "HacktoberFest 2022"
+			"first": "Notre prochain event:",
+			"second": "HacktoberFest 2023"
 		},
-		"text": "Galsen DEV en partenariat avec Xarala vous présente la deuxième édition du Hackaton Session & Open-source Day dans le cadre du Hacktoberfest 2022."
+		"text": "Une journée de partage qui s'annonce comme une opportunité d'échange et d'acquisition de connaissances, marquant la troisième édition de notre Hacktoberfest, coïncidant avec le dixième anniversaire de cet événement mondial.",
+		"button": "S'inscrire"
 	},
 	"partners": {
 		"title": {

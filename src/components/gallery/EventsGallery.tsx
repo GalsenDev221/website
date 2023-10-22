@@ -89,7 +89,7 @@ const EventGalleryCard = ({
 					>
 						<RightArrow />
 						<span className="text-sm font-medium transition-all group-hover:me-4">
-							Voir les photos
+							{t(`eventsGallery.see`)}
 						</span>
 					</Link>
 

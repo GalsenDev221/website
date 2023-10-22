@@ -19,6 +19,7 @@ export default function eventHandler(
 
 	const eventDetail = events.find((event) => sluggify(event.name) === slug);
 
+	// TODO: the error message should come from next-translate
 	return eventDetail
 		? res.status(200).json(eventDetail)
 		: res.status(404).json({ message: "Sorry, this event doesn't exists." });

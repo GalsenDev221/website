@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import code from '/public/img/galsendev-code.png';
 import useTranslation from 'next-translate/useTranslation';
 
 const Presentation = () => {
@@ -34,12 +33,11 @@ const Presentation = () => {
 			</div>
 
 			<Image
-				src={code}
-				width="800"
-				height="800"
+				src="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/galsendev/main/xe8f23mwvkft4hsvrjov.png"
+				width="500"
+				height="500"
 				alt="GalsenDEV Illustration"
 				loading="eager"
-				placeholder="blur"
 				priority={true}
 				className="h-56 w-full object-cover sm:h-full"
 			/>

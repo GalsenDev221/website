@@ -1,7 +1,7 @@
 import Header from '@/components/Header';
 import ActivitySection from '@/components/home/ActivitySection';
 import HeroSection from '@/components/home/HeroSection';
-import LastEventSection from '@/components/home/LastEventSection';
+import EventSection from '@/components/home/EventSection';
 import PartnersSection from '@/components/home/PartnersSection';
 import StatsSection from '@/components/home/StatsSection';
 import useTranslation from 'next-translate/useTranslation';
@@ -15,7 +15,7 @@ export default function Home() {
 				<HeroSection />
 				<StatsSection />
 				<ActivitySection />
-				<LastEventSection />
+				<EventSection />
 				<PartnersSection />
 			</div>
 		</>

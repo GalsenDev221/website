@@ -1,11 +1,5 @@
 import Image from 'next/image';
 
-import propel from '/public/img/partners/propel.png';
-import xarala from '/public/img/partners/xarala.png';
-import dexchange from '/public/img/partners/dexchange.png';
-import daarait from '/public/img/partners/daarait.png';
-import galsenai from '/public/img/partners/galsenai.png';
-import possacode from '/public/img/partners/possacode.png';
 import useTranslation from 'next-translate/useTranslation';
 
 const PartnersSection = () => {
@@ -20,14 +14,18 @@ const PartnersSection = () => {
 				<div className="mt-8 flex flex-col gap-3 lg:flex-row lg:gap-6 lg:w-full">
 					<Partner
 						name="Propel"
-						url="https://withpropel.com/"
-						img={propel.src}
+						url="https://withpropel.com"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/de3sj9kcfgb8angwsko3.png"
 					/>
-					<Partner name="Xarala" url="https://xarala.co/" img={xarala.src} />
 					<Partner
-						name="Dexchange"
-						url="https://dexchange-transfert.com/"
-						img={dexchange.src}
+						name="Xarala"
+						url="https://xarala.co"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/rjnb83nn9itvqb11vh0w.png"
+					/>
+					<Partner
+						name="Possacode"
+						url="https://possacode.lepresk.com"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/tmkuxw21fu2yntcdvykl.png"
 					/>
 				</div>
 			</div>
@@ -40,17 +38,17 @@ const PartnersSection = () => {
 					<Partner
 						name="DaaraIT"
 						url="https://www.linkedin.com/company/daara-it"
-						img={daarait.src}
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/vx97owcscvdgyscfsxyo.png"
 					/>
 					<Partner
 						name="GalsenAI"
-						url="https://galsen.ai/"
-						img={galsenai.src}
+						url="https://galsen.ai"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/wtihf0cldeyc68rtpj58.png"
 					/>
 					<Partner
-						name="Possacode"
-						url="https://possacode.lepresk.com/"
-						img={possacode.src}
+						name="Dexchange"
+						url="https://dexchange-transfert.com"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/jkrcxgtirchld6vowlag.png"
 					/>
 				</div>
 			</div>

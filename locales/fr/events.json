@@ -2,8 +2,65 @@
 	"eventsPage": {
 		"title": "Événements",
 		"titleDesc": "La liste de tous les événements passés et à venir de la communauté.",
-		"upcoming": "Évènements à venir",
-		"previous": "Événements précédents",
+		"upcoming": "Évènement à venir",
+		"previous": "Événement précédent",
+		"events": {
+			"hacktoberfest-2023": {
+				"title": "Hacktoberfest 2023",
+				"desc": "Troisième édition du Hacktoberfest, pour célébrer l'open source.",
+				"full": "Hacktoberfest 2023, une journée qui sera dédiée à l'échange de connaissances et à l'apprentissage, dans le cadre de la troisième édition du Hacktoberfest que nous organisons pour célébrer les dix ans de cet événement mondial. Pour cette année, nous sommes fiers de compter sur le soutien de Bitcoin Sénégal et le Dakar Bitcoin Days. Et également ravis de renouveler notre partenariat avec Xarala, qui a contribué au succès de l'édition précédente."
+			},
+			"galsendev-meetup-2": {
+				"title": "GalsenDEV Meetup #2",
+				"desc": "Une séance avec Ndongo (Tonux) SAMB qui porte sur BDD avec Cucumber et Spring Boot.",
+				"full": "Le deuxième GalsenDEV Meetup de la communauté Galsen DEV a été marqué par une présentation de Master Ndongo (Tonux) SAMB sur le BDD avec Cucumber et Spring Boot. C'était une occasion précieuse d'apprendre et de se perfectionner dans le domaine du Testing."
+			},
+			"galsendev-meetup-1": {
+				"title": "GalsenDEV Meetup #1",
+				"desc": "Hacktoberfest 2022 Sharing and Learning Day.",
+				"full": "Lors de notre premier GalsenDEV Meetup, nous avons vu la mise en place d'un service générique et réutilisable avec Angular. Abdourahmane SOW, un consultant FullStack expérimenté et spécialisé en Angular & Spring Boot, a exploré les meilleures pratiques et les techniques avancées pour développer des services Angular flexibles, qui peuvent être utilisés."
+			},
+			"ciga-student-dev-workshop": {
+				"title": "Atelier Dev Étudiant CIGA",
+				"desc": "Une belle journée d'apprentissage avec les étudiants de CIGA.",
+				"full": "La journée d'apprentissage avec les étudiants du CIGA a été une expérience enrichissante pour les participants. La communauté Galsen DEV, par l'intermédiaire de Daouda BA et Médoun Georges Siby BALDE, a partagé son expertise et a inspiré la prochaine génération tech."
+			},
+			"live-koor-2023": {
+				"title": "Live Koor 2023",
+				"desc": "L'édition 2023 du Live Koor durant le mois de Ramadan.",
+				"full": "Le Live Koor 2023, la première, organisée pendant le mois de Ramadan, a apporté une touche unique à notre communauté. Nous avons partagé des moments de découverte et d'apprentissage."
+			},
+			"weekend-code-2": {
+				"title": "Weekend du Code #2",
+				"desc": "Deuxième édition du Weekend du Code.",
+				"full": "La deuxième édition du Weekend Code a rassemblé les développeurs de la communauté pour une autre aventure passionnante de codage collaboratif. Un weekend qui a également été passionnant."
+			},
+			"hacktoberfest-2022": {
+				"title": "Hacktoberfest 2022",
+				"desc": "Journée de partage et d'apprentissage Hacktoberfest 2022.",
+				"full": "En 2022, nous avons célébré le Hacktoberfest avec une journée de partage et d'apprentissage. La communauté a montré sa générosité en contribuant à des projets open source, notamment avec le soutien de Xarala, qui a été notre partenaire en nous fournissant leurs locaux pour la tenue de cet événement au Campus Xarala à Liberté 6."
+			},
+			"weekend-code-1": {
+				"title": "Weekend du Code #1",
+				"desc": "Première édition du Code du Weekend.",
+				"full": "La première édition du Weekend Code a été un succès, réunissant une grande partie de la communauté sur Discord durant tout un weekend, en faisant des présentations dans diverses technologies."
+			},
+			"hacktoberfest-2021": {
+				"title": "Hacktoberfest 2021",
+				"desc": "Première édition du Hacktoberfest, pour célébrer l'open source.",
+				"full": "La première édition du Hacktoberfest a été un événement mémorable qui a marqué le début de notre engagement envers l'open source et la collaboration. Cela s'est tenu dans les locaux de Ofisini Coworking à Liberté 6."
+			},
+			"xarala-tour-dakar-2021": {
+				"title": "Xarala Tour Dakar 2021",
+				"desc": "Clôture de la 1ère phase du Xarala Tour 2021 avec Galsen DEV.",
+				"full": "La clôture de la première phase du Xarala Tour 2021 a été une journée exceptionnelle de partage d'expériences et de découverte, notamment avec un atelier de développement mobile avec Flutter, grâce à notre collaboration avec Xarala."
+			},
+			"webinar-galsendev-1": {
+				"title": "Webinar GalsenDEV #1",
+				"desc": "Premier webinaire portant sur la technologie Docker.",
+				"full": "Notre tout premier webinaire a permis aux participants d'acquérir des connaissances essentielles sur la technologie Docker, renforçant ainsi leurs compétences en développement. Avec la participation de Meïssa MBAYE et Alioune Badara DIAKHATÉ."
+			}
+		},
 		"fail": "Échec du chargement",
 		"load": "Chargement...",
 		"up": "à venir",

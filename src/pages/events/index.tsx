@@ -9,7 +9,7 @@ const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 export default function Events() {
 	const { t: translationCommon } = useTranslation('common');
-	const { t, lang } = useTranslation('events');
+	const { t } = useTranslation('events');
 
 	const { data, error, isLoading } = useSWR<Event[]>('/api/events', fetcher);
 
@@ -24,64 +24,86 @@ export default function Events() {
 	return (
 		<>
 			<Header header={translationCommon('events.header')} />
-			<section className="">
-				<hgroup>
-					<h1 className="text-3xl font-bold text-center lg:text-left">
-						{t('eventsPage.title')}
-					</h1>
-					<p className="mt-2 text-gray-500 text-center lg:text-left">
-						{t('eventsPage.titleDesc')}
-					</p>
-				</hgroup>
+			<div className="px-4 mt-16 mx-auto max-w-lg md:max-w-3xl lg:max-w-screen-xl sm:px-6 lg:px-8">
+				<section className="">
+					<hgroup>
+						<h1 className="text-3xl font-bold text-center lg:text-left">
+							{t('eventsPage.title')}
+						</h1>
+						<p className="mt-2 text-gray-500 text-center lg:text-left">
+							{t('eventsPage.titleDesc')}
+						</p>
+					</hgroup>
 
-				<div className="mt-8 grid gap-16 lg:grid-cols-2">
-					<article className="">
-						<h2 className="text-2xl font-bold text-gray-700 text-center lg:text-3xl lg:text-left">
-							{t('eventsPage.upcoming')}
-						</h2>
-						{/* TODO: order by date */}
-						{upcomingEvents.map((event) => (
-							<EventCard key={event.name} event={event} />
-						))}
-					</article>
-					<article className="">
-						<h2 className="text-2xl font-bold text-gray-700 text-center lg:text-3xl lg:text-left">
-							{t('eventsPage.previous')}
-						</h2>
-						{/* TODO: order by date */}
-						{previousEvents.map((event) => (
-							<EventCard key={event.name} event={event} />
-						))}
-					</article>
-				</div>
-			</section>
+					<div className="mt-8 grid gap-16 lg:grid-cols-2">
+						<article className="">
+							<h2 className="text-2xl font-bold text-gray-700 text-center lg:text-3xl lg:text-left">
+								{t('eventsPage.upcoming')}
+							</h2>
+							{/* TODO: order by date */}
+							{upcomingEvents.map((event) => (
+								<EventCard
+									key={event.name}
+									name={event.name}
+									date={event.date}
+								/>
+							))}
+						</article>
+						<article className="">
+							<h2 className="text-2xl font-bold text-gray-700 text-center lg:text-3xl lg:text-left">
+								{t('eventsPage.previous')}
+							</h2>
+							{/* TODO: order by date */}
+							{previousEvents.map((event) => (
+								<EventCard
+									key={event.name}
+									name={event.name}
+									date={event.date}
+								/>
+							))}
+						</article>
+					</div>
+				</section>
+			</div>
 		</>
 	);
 }
 
 interface EventCardProps {
-	event: {
-		name: string;
-		description: string;
-		date: string;
-	};
+	name: string;
+	date: string;
 }
 
-const EventCard = ({ event }: EventCardProps) => {
-	const { date, name, description } = event;
-
-	// TODO: grab the loocales from next-translate
-	const formattedDate = new Date(date).toLocaleDateString('fr-SN');
-	const formattedMonthYear = new Date(date).toLocaleDateString('fr-SN', {
-		month: 'short',
-		year: 'numeric',
-	});
-	const eventDay = new Date(date).getDate().toString().padStart(2, '0');
+const EventCard = ({ name, date }: EventCardProps) => {
+	const { t, lang } = useTranslation('events');
 
 	const slug = name
 		.replaceAll(/[^a-zA-Z0-9 ]/g, '')
 		.replaceAll(' ', '-')
 		.toLowerCase();
+
+	let locales: string;
+
+	// TODO: maybe `next-translate` has a function for getting the locales
+	switch (lang) {
+		case 'fr':
+			locales = 'fr-SN';
+			break;
+		case 'en':
+			locales = 'en-US';
+			break;
+		default:
+			locales = 'fr-SN';
+			break;
+	}
+
+	const formattedDate = new Date(date).toLocaleDateString(locales);
+	const formattedMonthYear = new Date(date).toLocaleDateString(locales, {
+		month: 'short',
+		year: 'numeric',
+	});
+
+	const eventDay = new Date(date).getDate().toString().padStart(2, '0');
 
 	return (
 		<Link
@@ -98,7 +120,7 @@ const EventCard = ({ event }: EventCardProps) => {
 			<div className="px-4 self-center">
 				<h3 className="text-lg font-medium text-gray-900">{name}</h3>
 				<p className="mt-2 line-clamp-2 text-sm/relaxed text-gray-700">
-					{description}
+					{t(`eventsPage.events.${slug}.desc`)}
 				</p>
 			</div>
 		</Link>

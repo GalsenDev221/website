@@ -5,6 +5,7 @@
 		"*": ["common"],
 		"/": ["home"],
 		"/events": ["events"],
+		"/events/[slug]": ["events"],
 		"/gallery": ["gallery"],
 		"/blog": ["blog"],
 		"/about": ["about"],

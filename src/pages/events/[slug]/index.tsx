@@ -15,7 +15,9 @@ const fetcher = async (url: string) => {
 };
 
 export default function EventDetailPage() {
-	const { t } = useTranslation('common');
+	const { t: translationCommon } = useTranslation('common');
+	const { t } = useTranslation('events');
+
 	const router = useRouter();
 	const slug = router.query.slug as string;
 
@@ -31,18 +33,26 @@ export default function EventDetailPage() {
 
 	return (
 		<>
-			<Header header={t('events.header')} />
-			<section>
-				<hgroup className="space-y-2">
-					<span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-xs text-blue-600">
-						{data.type}
-					</span>
-					<h1 className="text-4xl font-bold">{data.name}</h1>
-					<p className="text-gray-500">{data.description}</p>
-				</hgroup>
+			<Header header={translationCommon('events.header')} />
+			<div className="px-4 mt-16 mx-auto max-w-lg md:max-w-3xl lg:max-w-screen-xl sm:px-6 lg:px-8">
+				<section>
+					<hgroup className="space-y-2">
+						<span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-xs text-blue-600">
+							{t(`eventsPage.${data.type}`)}
+						</span>
+						<h1 className="text-4xl font-bold">
+							{t(`eventsPage.events.${slug}.title`)}
+						</h1>
+						<p className="text-gray-500">
+							{t(`eventsPage.events.${slug}.desc`)}
+						</p>
+					</hgroup>
 
-				<article className="mt-8">WHAT HAPPENED DURING THIS EVENT</article>
-			</section>
+					<article className="mt-8">
+						{t(`eventsPage.events.${slug}.full`)}
+					</article>
+				</section>
+			</div>
 		</>
 	);
 }
