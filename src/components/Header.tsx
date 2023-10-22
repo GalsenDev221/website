@@ -21,7 +21,7 @@ function Header(props: HeaderProps) {
 				<meta property="og:type" content="website" />
 				<meta
 					property="og:image"
-					content="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/website/share/ugaacimkpgt6rsnecvds.png"
+					content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/galsendev/share/a8outneqrzhfr7zn79vo.png"
 				/>
 				<meta property="og:title" content="Galsen DEV" />
 				<meta
@@ -43,6 +43,13 @@ function Header(props: HeaderProps) {
 				<meta
 					name="twitter:image"
 					content="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/website/share/ugaacimkpgt6rsnecvds.png"
+				/>
+
+				{/* Beam Analytics */}
+				<script
+					src="https://beamanalytics.b-cdn.net/beam.min.js"
+					data-token={process.env.BEAM_DATA_TOKEN}
+					async
 				/>
 			</Head>
 		</>
