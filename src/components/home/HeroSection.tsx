@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import hero from '/public/img/galsendev-hero.png';
 import useTranslation from 'next-translate/useTranslation';
 
 const HeroSection = () => {
@@ -11,12 +10,11 @@ const HeroSection = () => {
 					<div className="absolute -top-16 -right-2 w-64 h-64 bg-teal-500 rounded-full mix-blend-multiply filter blur-2xl opacity-60 animate-blob sm:w-80 sm:h-80"></div>
 					<div className="absolute top-16 -left-2 w-64 h-64 bg-baseColor rounded-full mix-blend-multiply filter blur-2xl opacity-60 animation-delay-2000 animate-blob sm:w-80 sm:h-80"></div>
 					<Image
-						src={hero}
+						src="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/galsendev/main/tce1ijjs4dxm8vl8qxls.png"
 						width="800"
 						height="800"
 						alt="Landing Illustration"
 						loading="eager"
-						placeholder="blur"
 						priority={true}
 						className="object-cover w-auto h-auto"
 					/>
