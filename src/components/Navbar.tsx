@@ -18,7 +18,6 @@ const languages = [
 
 const Navbar = () => {
 	const { t, lang } = useTranslation('common');
-	const router = useRouter();
 
 	const [isOpen, setIsOpen] = useState(false);
 	const { pathname } = useRouter();
@@ -26,9 +25,9 @@ const Navbar = () => {
 
 	const link = [
 		{ name: t('navbar.home'), path: '/' },
-		// { name: t('navbar.events'), path: '/events' },
+		{ name: t('navbar.events'), path: '/events' },
 		{ name: t('navbar.gallery'), path: '/gallery' },
-		// { name: t('navbar.blog'), path: '/blog' },
+		{ name: t('navbar.blog'), path: '/blog' },
 		{ name: t('navbar.about'), path: '/about' },
 		{ name: 'Hacktoberfest 2023 🎉', path: '/hacktoberfest23' },
 	];

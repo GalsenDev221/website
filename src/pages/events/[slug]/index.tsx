@@ -48,7 +48,9 @@ export default function EventDetailPage() {
 						</p>
 					</hgroup>
 
-					<article className="mt-8">WHAT HAPPENED DURING THIS EVENT!!!</article>
+					<article className="mt-8">
+						{t(`eventsPage.events.${slug}.full`)}
+					</article>
 				</section>
 			</div>
 		</>

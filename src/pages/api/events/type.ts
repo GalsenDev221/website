@@ -3,6 +3,7 @@ export type Event = {
 	type: 'upcoming' | 'previous';
 	description: string;
 	date: string;
+	full: string;
 };
 
 export type ResponseError = {

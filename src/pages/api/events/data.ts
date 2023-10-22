@@ -1,21 +1,50 @@
 import { Event } from './type';
 
-// TODO: fix the typos and use next-translate
 export const events: Event[] = [
 	{
 		name: 'Hacktoberfest 2023',
 		description:
 			'Third edition of the Hacktoberfest, celebrating the open source world.',
-		// month/day/year
 		date: '10/23/2023',
 		type: 'upcoming',
+		full: 'Full description here.',
+	},
+	{
+		name: 'GalsenDEV Meetup #2',
+		description:
+			'BDD with Cucumber and Spring Boot presented by Ndongo (Tonux) SAMB.',
+		date: '07/15/2023',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'GalsenDEV Meetup #1',
+		description:
+			'Generic and Reusable Service with Angular featuring Abdourahmane SOW.',
+		date: '06/24/2023',
+		type: 'previous',
+		full: 'Full description here.',
 	},
 	{
 		name: 'CIGA Student Dev Workshop',
-		description:
-			"Une belle journ2e d'apprentissage avec les 2tudiants de CIGA.",
+		description: 'A great day of learning with CIGA students.',
 		date: '05/27/2023',
 		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'Live Koor 2023',
+		description: 'The 2023 edition of Live Koor during the month of Ramadan.',
+		date: '04/01/2023',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'Weekend Code #2',
+		description: 'Second edition of the Code Weekend.',
+		date: '02/18/2023',
+		type: 'previous',
+		full: 'Full description here.',
 	},
 	{
 		name: 'Hacktoberfest 2022',
@@ -23,6 +52,14 @@ export const events: Event[] = [
 			'Third edition of the Hacktoberfest, celebrating the open source world.',
 		date: '10/15/2022',
 		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'Weekend Code #1',
+		description: 'First edition of the Code Weekend.',
+		date: '08/20/2022',
+		type: 'previous',
+		full: 'Full description here.',
 	},
 	{
 		name: 'Hacktoberfest 2021',
@@ -30,11 +67,21 @@ export const events: Event[] = [
 			'First edition of the Hacktoberfest, celebrating the open source world.',
 		date: '10/23/2021',
 		type: 'previous',
+		full: 'Full description here.',
 	},
 	{
 		name: 'Xarala Tour Dakar 2021',
-		description: 'Cloture de la 1ere phase du Xarala Tour 2021.',
-		date: '07/3/2023',
+		description:
+			'Closing of the 1st phase of the Xarala Tour 2021 with Galsen DEV.',
+		date: '07/3/2021',
 		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'Webinar GalsenDEV #1',
+		description: 'First webinar on Docker technology.',
+		date: '06/27/2021',
+		type: 'previous',
+		full: 'Full description here.',
 	},
 ];
