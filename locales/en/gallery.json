@@ -2,6 +2,7 @@
 	"eventsGallery": {
 		"firstHeading": "Our photo gallery",
 		"secondHeading": "Find highlights from our latest events with the Galsen DEV community.",
+		"see": "See the pictures",
 		"event-1": {
 			"title": "CIGA Student Dev Workshop",
 			"desc": "A great day of learning with CIGA students.",

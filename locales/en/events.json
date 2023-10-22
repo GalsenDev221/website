@@ -2,28 +2,63 @@
 	"eventsPage": {
 		"title": "Events",
 		"titleDesc": "The list of all past and upcoming community events.",
-		"upcoming": "Upcoming events",
-		"previous": "Previous events",
+		"upcoming": "Upcoming event",
+		"previous": "Previous event",
 		"events": {
 			"hacktoberfest-2023": {
 				"title": "Hacktoberfest 2023",
-				"desc": "Third edition of the Hacktoberfest"
+				"desc": "Third edition of the Hacktoberfest",
+				"full": "Hacktoberfest 2023, a day dedicated to knowledge exchange and learning, as part of the third edition of Hacktoberfest that we are organizing to celebrate the event's ten-year anniversary. This year, we are proud to have the support of Bitcoin Senegal and Dakar Bitcoin Days. We are also thrilled to renew our partnership with Xarala, which contributed to the success of the previous edition."
+			},
+			"galsendev-meetup-2": {
+				"title": "GalsenDEV Meetup #2",
+				"desc": "BDD with Cucumber and Spring Boot presented by Ndongo (Tonux) SAMB.",
+				"full": "The second GalsenDEV Meetup of the Galsen DEV community was marked by a presentation by Master Ndongo (Tonux) SAMB on BDD with Cucumber and Spring Boot. It was a valuable opportunity to learn and improve in the field of Testing."
+			},
+			"galsendev-meetup-1": {
+				"title": "GalsenDEV Meetup #1",
+				"desc": "Generic and Reusable Service with Angular featuring Abdourahmane SOW.",
+				"full": "During our first GalsenDEV Meetup, we saw the implementation of a generic and reusable service with Angular. Abdourahmane SOW, an experienced FullStack consultant specialized in Angular & Spring Boot, explored best practices and advanced techniques for developing flexible Angular services that can be used."
 			},
 			"ciga-student-dev-workshop": {
 				"title": "CIGA Student Dev Workshop",
-				"desc": "A great day of learning with CIGA students."
+				"desc": "A great day of learning with CIGA students.",
+				"full": "The learning day with CIGA students was a rewarding experience for the participants. The Galsen DEV community, through Daouda BA and Médoun Georges Siby BALDE, shared their expertise and inspired the next tech generation."
+			},
+			"live-koor-2023": {
+				"title": "Live Koor 2023",
+				"desc": "The 2023 edition of Live Koor during the month of Ramadan.",
+				"full": "The 2023 edition of Live Koor, the first one, organized during the month of Ramadan, added a unique touch to our community. We shared moments of discovery and learning."
+			},
+			"weekend-code-2": {
+				"title": "Weekend Code #2",
+				"desc": "Second edition of the Code Weekend.",
+				"full": "The second edition of the Weekend Code brought together community developers for another exciting adventure of collaborative coding. It was also an exciting weekend."
 			},
 			"hacktoberfest-2022": {
 				"title": "Hacktoberfest 2022",
-				"desc": "Hacktoberfest 2022 Sharing and Learning Day."
+				"desc": "Hacktoberfest 2022 Sharing and Learning Day.",
+				"full": "In 2022, we celebrated Hacktoberfest with a day of sharing and learning. The community showed its generosity by contributing to open-source projects, with the support of Xarala, who partnered with us and provided their facilities for this event at Campus Xarala in Liberté 6."
+			},
+			"weekend-code-1": {
+				"title": "Weekend Code #1",
+				"desc": "First edition of the Code Weekend.",
+				"full": "The first edition of the Weekend Code was a success, gathering a large part of the community on Discord throughout a weekend, with presentations in various technologies."
 			},
 			"hacktoberfest-2021": {
 				"title": "Hacktoberfest 2021",
-				"desc": "First edition of Hacktoberfest, to celebrate open source."
+				"desc": "First edition of Hacktoberfest, to celebrate open source.",
+				"full": "The first edition of Hacktoberfest was a memorable event that marked the beginning of our commitment to open source and collaboration. It took place at the Ofisini Coworking facilities in Liberté 6."
 			},
 			"xarala-tour-dakar-2021": {
 				"title": "Xarala Tour Dakar 2021",
-				"desc": "Closing of the 1st phase of the Xarala Tour 2021."
+				"desc": "Closing of the 1st phase of the Xarala Tour 2021 with Galsen DEV.",
+				"full": "The closure of the first phase of the Xarala Tour 2021 was an exceptional day of sharing experiences and discovery, including a mobile development workshop with Flutter, thanks to our collaboration with Xarala."
+			},
+			"webinar-galsendev-1": {
+				"title": "Webinar GalsenDEV #1",
+				"desc": "First webinar on Docker technology.",
+				"full": "Our very first webinar allowed participants to acquire essential knowledge about Docker technology, strengthening their development skills. With Meïssa MBAYE and Alioune Badara DIAKHATÉ."
 			}
 		},
 		"fail": "Failed to load",
