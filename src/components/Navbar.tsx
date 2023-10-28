@@ -20,7 +20,7 @@ const Navbar = () => {
 	const { t, lang } = useTranslation('common');
 
 	const [isOpen, setIsOpen] = useState(false);
-	const { pathname } = useRouter();
+	const { pathname, asPath } = useRouter();
 	useEffect(() => setIsOpen(false), [pathname]);
 
 	const link = [
@@ -55,9 +55,13 @@ const Navbar = () => {
 									{link.map((item, index) => (
 										<li key={index}>
 											<Link
-												className="text-gray-900 transition hover:text-gray-600/75"
 												key={index}
 												href={item.path}
+												className={`${
+													asPath === item.path
+														? 'text-baseColor'
+														: 'text-gray-900'
+												} transition hover:text-gray-600/75`}
 											>
 												{item.name}
 											</Link>
