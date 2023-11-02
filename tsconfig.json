@@ -18,12 +18,8 @@
 		"baseUrl": ".",
 		"paths": {
 			"@/*": ["./src/*"],
-			"@/icon-name": [
-        "./types/name.d.ts",
-      ],
-			"@utils/cn": [
-        "./utils/cn.ts",
-      ]
+			"@/icon-name": ["./types/name.d.ts"],
+			"@utils/cn": ["./utils/cn.ts"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
