@@ -46,8 +46,7 @@ const EventSection = () => {
 
 							<div className="mt-4 md:mt-8">
 								<Link
-									href="https://discord.gg/CKZcKqf"
-									target="_blank"
+									href="/hacktoberfest23"
 									className="inline-block rounded bg-baseColor px-12 py-3 text-sm font-medium text-white transition hover:bg-darker focus:outline-none focus:ring focus:ring-lighter"
 								>
 									{t('lastEvent.button')}
