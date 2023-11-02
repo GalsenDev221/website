@@ -20,7 +20,7 @@ const Navbar = () => {
 	const { t, lang } = useTranslation('common');
 
 	const [isOpen, setIsOpen] = useState(false);
-	const { pathname } = useRouter();
+	const { pathname, asPath } = useRouter();
 	useEffect(() => setIsOpen(false), [pathname]);
 
 	const link = [
@@ -48,22 +48,26 @@ const Navbar = () => {
 						<GalsenDevLogo />
 					</Link>
 
-					<div className="flex flex-1 items-center justify-end md:justify-between">
-						<nav aria-label="Site Nav" className="hidden md:block">
-							<ul className="flex items-center gap-6 text-sm">
-								{link.map((item, index) => (
-									<li key={index}>
-										<Link
-											className="text-gray-900 transition hover:text-gray-600/75"
-											key={index}
-											href={item.path}
-										>
-											{item.name}
-										</Link>
-									</li>
-								))}
-							</ul>
-						</nav>
+						<div className="flex flex-1 items-center justify-end md:justify-between">
+							<nav aria-label="Site Nav" className="hidden md:block">
+								<ul className="flex items-center gap-6 text-sm">
+									{link.map((item, index) => (
+										<li key={index}>
+											<Link
+												key={index}
+												href={item.path}
+												className={`${
+													asPath === item.path
+														? 'text-baseColor'
+														: 'text-gray-900'
+												} transition hover:text-gray-600/75`}
+											>
+												{item.name}
+											</Link>
+										</li>
+									))}
+								</ul>
+							</nav>
 
 						<div className="flex items-center gap-4">
 							<div className="hidden md:flex items-center gap-4 justify-center">
