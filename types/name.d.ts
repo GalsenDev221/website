@@ -2,11 +2,15 @@
 
 export type IconName =
 	| 'arrow-right'
+	| 'caret-sort'
+	| 'check'
 	| 'commit-icon'
+	| 'cross-1'
 	| 'discord'
 	| 'facebook'
 	| 'galsen-dev-logo'
 	| 'github'
+	| 'hamburger-menu'
 	| 'instagram'
 	| 'mega-phone'
 	| 'members-icon'

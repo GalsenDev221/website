@@ -1,21 +1,22 @@
 import React, { useState, Fragment, useEffect } from 'react';
-import { Dialog, Transition, Listbox } from '@headlessui/react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import setLanguage from 'next-translate/setLanguage';
+import useTranslation from 'next-translate/useTranslation';
+import { Dialog, Transition, Listbox } from '@headlessui/react';
 
 import Donation from './announcements/Donation';
 import GalsenDevLogo from './svg/GalsenDevLogo';
-import useTranslation from 'next-translate/useTranslation';
-import setLanguage from 'next-translate/setLanguage';
-
-import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid';
 import { SocialLink } from './social-link';
+
+import { Icon } from '@/components/ui/icon';
 
 const languages = [
 	{ name: 'Français', code: 'FR' },
 	{ name: 'English', code: 'EN' },
 ];
 
+// TODO: refactor this component, there's much things going on here
 const Navbar = () => {
 	const { t, lang } = useTranslation('common');
 
@@ -48,26 +49,26 @@ const Navbar = () => {
 						<GalsenDevLogo />
 					</Link>
 
-						<div className="flex flex-1 items-center justify-end md:justify-between">
-							<nav aria-label="Site Nav" className="hidden md:block">
-								<ul className="flex items-center gap-6 text-sm">
-									{link.map((item, index) => (
-										<li key={index}>
-											<Link
-												key={index}
-												href={item.path}
-												className={`${
-													asPath === item.path
-														? 'text-baseColor'
-														: 'text-gray-900'
-												} transition hover:text-gray-600/75`}
-											>
-												{item.name}
-											</Link>
-										</li>
-									))}
-								</ul>
-							</nav>
+					<div className="flex flex-1 items-center justify-end md:justify-between">
+						<nav aria-label="Site Nav" className="hidden md:block">
+							<ul className="flex items-center gap-6 text-sm">
+								{link.map((item, index) => (
+									<li key={index}>
+										<Link
+											key={index}
+											href={item.path}
+											className={`${
+												asPath === item.path
+													? 'text-baseColor'
+													: 'text-gray-900'
+											} transition hover:text-gray-600/75`}
+										>
+											{item.name}
+										</Link>
+									</li>
+								))}
+							</ul>
+						</nav>
 
 						<div className="flex items-center gap-4">
 							<div className="hidden md:flex items-center gap-4 justify-center">
@@ -84,8 +85,9 @@ const Navbar = () => {
 											<Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-cyan-300 sm:text-sm">
 												<span className="block truncate">{selected?.code}</span>
 												<span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-													<ChevronUpDownIcon
-														className="h-5 w-5 text-gray-400"
+													<Icon
+														name="caret-sort"
+														className="h-5 w-5 text-gray-500"
 														aria-hidden="true"
 													/>
 												</span>
@@ -125,7 +127,8 @@ const Navbar = () => {
 																	</span>
 																	{selected ? (
 																		<span className="absolute inset-y-0 left-0 flex items-center pl-3 text-sky-600">
-																			<CheckIcon
+																			<Icon
+																				name="check"
 																				className="h-5 w-5"
 																				aria-hidden="true"
 																			/>
@@ -148,12 +151,7 @@ const Navbar = () => {
 								onClick={() => setIsOpen(true)}
 							>
 								<span className="sr-only">Toggle menu</span>
-								<svg className="w-8 h-8" viewBox="0 0 24 24">
-									<path
-										fill="currentColor"
-										d="M3 18v-2h18v2H3Zm0-5v-2h18v2H3Zm0-5V6h18v2H3Z"
-									/>
-								</svg>
+								<Icon name="hamburger-menu" className="w-7 h-7 text-gray-900" />
 							</button>
 						</div>
 					</div>
@@ -188,12 +186,7 @@ const Navbar = () => {
 										onClick={() => setIsOpen(false)}
 									>
 										<span className="sr-only">Close menu</span>
-										<svg className="w-8 h-8" viewBox="0 0 24 24">
-											<path
-												fill="currentColor"
-												d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6Z"
-											/>
-										</svg>
+										<Icon name="cross-1" className="w-6 h-6 text-gray-900" />
 									</button>
 								</div>
 								<div className="mt-12 flow-root">
@@ -226,7 +219,8 @@ const Navbar = () => {
 																{selected?.code}
 															</span>
 															<span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-																<ChevronUpDownIcon
+																<Icon
+																	name="caret-sort"
 																	className="h-5 w-5 text-gray-400"
 																	aria-hidden="true"
 																/>
@@ -269,7 +263,8 @@ const Navbar = () => {
 																				</span>
 																				{selected ? (
 																					<span className="absolute inset-y-0 left-0 flex items-center pl-3 text-sky-600">
-																						<CheckIcon
+																						<Icon
+																							name="check"
 																							className="h-5 w-5"
 																							aria-hidden="true"
 																						/>
