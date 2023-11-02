@@ -13,7 +13,7 @@ const Footer = () => (
 			</div>
 
 			<div className="sm:mt-8 sm:flex sm:justify-between sm:items-center">
-				<ul className="mb-8 flex justify-center gap-6 sm:mb-0 sm:order-2 lg:justify-end">
+				<ul className="mb-8 flex flex-wrap justify-center gap-6 sm:mb-0 sm:order-2 lg:justify-end">
 					<li>
 						<DiscordLink />
 					</li>
