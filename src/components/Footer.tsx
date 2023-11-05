@@ -121,8 +121,8 @@ const WhatsAppLink = () => (
 					y2="4.85578831e-05%"
 					id="whatsappLinearGradient-1"
 				>
-					<stop stop-color="#1FAF38" offset="0%"></stop>
-					<stop stop-color="#60D669" offset="100%"></stop>
+					<stop stopColor="#1FAF38" offset="0%"></stop>
+					<stop stopColor="#60D669" offset="100%"></stop>
 				</linearGradient>
 				<linearGradient
 					x1="50.0000414%"
@@ -131,8 +131,8 @@ const WhatsAppLink = () => (
 					y2="-0.000129944756%"
 					id="whatsappLinearGradient-2"
 				>
-					<stop stop-color="#F9F9F9" offset="0%"></stop>
-					<stop stop-color="#FFFFFF" offset="100%"></stop>
+					<stop stopColor="#F9F9F9" offset="0%"></stop>
+					<stop stopColor="#FFFFFF" offset="100%"></stop>
 				</linearGradient>
 			</defs>
 			<g>
