@@ -1,5 +1,5 @@
+import { SocialLink } from './social-link';
 import GalsenDevLogo from './svg/GalsenDevLogo';
-import GalsenDevGithub from './svg/GalsenDevGithub';
 
 const Footer = () => (
 	<footer
@@ -13,30 +13,43 @@ const Footer = () => (
 			</div>
 
 			<div className="sm:mt-8 sm:flex sm:justify-between sm:items-center">
-				<ul className="mb-8 flex justify-center gap-6 sm:mb-0 sm:order-2 lg:justify-end">
+				<ul className="mb-8 flex flex-wrap justify-center gap-6 sm:mb-0 sm:order-2 lg:justify-end">
 					<li>
-						<DiscordLink />
+						<SocialLink name="discord" src="https://discord.gg/CKZcKqf" />
 					</li>
 					<li>
-						<TelegramLink />
+						<SocialLink name="telegram" src="https://t.me/galsendev221" />
 					</li>
 					<li>
-						<WhatsAppLink />
+						<SocialLink
+							name="whatsapp"
+							src="https://chat.whatsapp.com/EzigxN1N2bZBdxooqaH2Gr"
+							className="h-7 w-7"
+						/>
 					</li>
 					<li>
-						<TwitterLink />
+						<SocialLink name="twitter" src="https://twitter.com/galsendev221" />
 					</li>
 					<li>
-						<InstagramLink />
+						<SocialLink
+							name="instagram"
+							src="https://instagram.com/galsendev221"
+						/>
 					</li>
 					<li>
-						<FacebookLink />
+						<SocialLink
+							name="facebook"
+							src="https://facebook.com/galsendev221"
+						/>
 					</li>
 					<li>
-						<YoutubeLink />
+						<SocialLink
+							name="youtube"
+							src="https://youtube.com/@GalsenDev221"
+						/>
 					</li>
 					<li>
-						<GalsenDevGithub />
+						<SocialLink name="github" src="https://github.com/GalsenDev22" />
 					</li>
 				</ul>
 

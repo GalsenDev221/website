@@ -7,9 +7,8 @@ import hof22 from '/public/img/events/hacktoberfest2022.jpg';
 import hof21 from '/public/img/events/hacktoberfest2021.jpg';
 import xtdk21 from '/public/img/events/xaralatourdk2021.jpg';
 
-import RightArrow from '../svg/RightArrow';
-
 import useTranslation from 'next-translate/useTranslation';
+import { Icon } from '../ui/icon';
 
 const EventsGallery = () => {
 	const { t } = useTranslation('gallery');
@@ -94,7 +93,10 @@ const EventGalleryCard = ({
 						href={photosLink}
 						target="_blank"
 					>
-						<RightArrow />
+						<Icon
+							name="arrow-right"
+							className="absolute -end-full transition-all group-hover:end-4"
+						/>
 						<span className="text-sm font-medium transition-all group-hover:me-4">
 							{t(`eventsGallery.see`)}
 						</span>
