@@ -11,8 +11,8 @@ const EventSection = () => {
 					<div className="relative z-10 lg:py-16">
 						<div className="relative h-64 sm:h-80 lg:h-full">
 							<Image
-								src="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/galsendev/main/bnr3qrdr4ptvwmwdbkop.png"
-								alt="Upcoming event of Galsen Dev"
+								src="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/galsendev/main/kmq29giidcrky4x0klpv.png"
+								alt="Previous event of Galsen Dev"
 								width={500}
 								height={500}
 								className="absolute inset-0 h-full w-full object-cover"
@@ -46,10 +46,17 @@ const EventSection = () => {
 
 							<div className="mt-4 md:mt-8">
 								<Link
-									href="/hacktoberfest23"
+									href="/events/hacktoberfest-2023"
 									className="inline-block rounded bg-baseColor px-12 py-3 text-sm font-medium text-white transition hover:bg-darker focus:outline-none focus:ring focus:ring-lighter"
 								>
 									{t('lastEvent.button')}
+								</Link>
+								<Link
+									href="https://photos.app.goo.gl/j6f9geUSLrYuwDn38"
+									target="_blank"
+									className="inline-block rounded bg-baseColor ml-4 px-12 py-3 text-sm font-medium text-white transition hover:bg-darker focus:outline-none focus:ring focus:ring-lighter"
+								>
+									{t('lastEvent.photos')}
 								</Link>
 							</div>
 						</div>
