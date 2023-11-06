@@ -49,7 +49,7 @@ const Footer = () => (
 						/>
 					</li>
 					<li>
-						<SocialLink name="github" src="https://github.com/GalsenDev22" />
+						<SocialLink name="github" src="https://github.com/GalsenDev221" />
 					</li>
 				</ul>
 
