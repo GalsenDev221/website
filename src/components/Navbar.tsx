@@ -30,7 +30,6 @@ const Navbar = () => {
 		{ name: t('navbar.gallery'), path: '/gallery' },
 		{ name: t('navbar.blog'), path: '/blog' },
 		{ name: t('navbar.about'), path: '/about' },
-		{ name: 'Hacktoberfest 2023 🎉', path: '/hacktoberfest23' },
 	];
 
 	const [selected, setSelected] = useState(
