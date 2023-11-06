@@ -74,7 +74,7 @@ const Navbar = () => {
 								<div className="block">
 									<SocialLink
 										name="github"
-										src="https://github.com/GalsenDev22"
+										src="https://github.com/GalsenDev221"
 									/>
 								</div>
 
@@ -206,7 +206,7 @@ const Navbar = () => {
 											<div className="block">
 												<SocialLink
 													name="github"
-													src="https://github.com/GalsenDev22"
+													src="https://github.com/GalsenDev221"
 												/>
 											</div>
 
