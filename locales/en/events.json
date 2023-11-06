@@ -7,8 +7,8 @@
 		"events": {
 			"hacktoberfest-2023": {
 				"title": "Hacktoberfest 2023",
-				"desc": "Third edition of the Hacktoberfest",
-				"full": "Hacktoberfest 2023, a day dedicated to knowledge exchange and learning, as part of the third edition of Hacktoberfest that we are organizing to celebrate the event's ten-year anniversary. This year, we are proud to have the support of Bitcoin Senegal and Dakar Bitcoin Days. We are also thrilled to renew our partnership with Xarala, which contributed to the success of the previous edition."
+				"desc": "Third edition of Hacktoberfest, to celebrate open source.",
+				"full": "Hacktoberfest 2023, a day dedicated to sharing and learning, within the framework of the third edition of Hacktoberfest that we organized to celebrate the ten years of this global event. This year, we had the privilege of receiving support from Bitcoin Senegal. Furthermore, our partnership with Xarala was renewed, greatly contributing to the success of the previous edition. This year, the celebration was beautiful, with a particularly enriching program filled with discoveries, and the community responded exceptionally well."
 			},
 			"galsendev-meetup-2": {
 				"title": "GalsenDEV Meetup #2",
@@ -23,7 +23,7 @@
 			"ciga-student-dev-workshop": {
 				"title": "CIGA Student Dev Workshop",
 				"desc": "A great day of learning with CIGA students.",
-				"full": "The learning day with CIGA students was a rewarding experience for the participants. The Galsen DEV community, through Daouda BA and Médoun Georges Siby BALDE, shared their expertise and inspired the next tech generation."
+				"full": "A day of sharing and learning with the students of CIGA (Centre d'informatique et de Gestion Appliquée) through workshops on Java & Flutter was a success, allowing students to explore development and, most importantly, the significance of the community. With the participation of our speakers: Daouda BA & Médoune Siby Georges BALDE, and the organizing team who facilitated this entire event."
 			},
 			"live-koor-2023": {
 				"title": "Live Koor 2023",
@@ -38,7 +38,7 @@
 			"hacktoberfest-2022": {
 				"title": "Hacktoberfest 2022",
 				"desc": "Hacktoberfest 2022 Sharing and Learning Day.",
-				"full": "In 2022, we celebrated Hacktoberfest with a day of sharing and learning. The community showed its generosity by contributing to open-source projects, with the support of Xarala, who partnered with us and provided their facilities for this event at Campus Xarala in Liberté 6."
+				"full": "Galsen DEV presented the 2nd edition of the Hackathon Session & Open-source Day as part of Hacktoberfest 2022. A golden opportunity to delve into open-source, building upon the success of the first edition. The community demonstrated its generosity by contributing to open-source projects, with the support of Xarala, our partner who provided their premises for hosting this event at Campus Xarala in Liberté 6."
 			},
 			"weekend-code-1": {
 				"title": "Weekend Code #1",
@@ -48,12 +48,12 @@
 			"hacktoberfest-2021": {
 				"title": "Hacktoberfest 2021",
 				"desc": "First edition of Hacktoberfest, to celebrate open source.",
-				"full": "The first edition of Hacktoberfest was a memorable event that marked the beginning of our commitment to open source and collaboration. It took place at the Ofisini Coworking facilities in Liberté 6."
+				"full": "The Hacktoberfest was an opportunity to explore open-source. Galsen DEV and the Linux Senegal community, including Mamadou DIAGNE, succeeded in organizing the first edition of its kind in Senegal. Its primary goal was to encourage developers to contribute to open-source projects during the Hacktoberfest month and validate their contributions. This inaugural event was a great success at the Ofisini premises."
 			},
 			"xarala-tour-dakar-2021": {
 				"title": "Xarala Tour Dakar 2021",
 				"desc": "Closing of the 1st phase of the Xarala Tour 2021 with Galsen DEV.",
-				"full": "The closure of the first phase of the Xarala Tour 2021 was an exceptional day of sharing experiences and discovery, including a mobile development workshop with Flutter, thanks to our collaboration with Xarala."
+				"full": "The closure of the first phase of the Xarala Tour 2021 took place in Dakar, following the previous stops in Saint-Louis, Kaolack, and Thiès. The Galsen DEV community conducted a workshop on mobile development with Flutter, made possible through our collaboration with Xarala."
 			},
 			"webinar-galsendev-1": {
 				"title": "Webinar GalsenDEV #1",

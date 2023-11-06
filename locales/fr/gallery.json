@@ -4,21 +4,26 @@
 		"secondHeading": "Retrouvez les clichés marquants de nos derniers événements avec la communauté Galsen DEV.",
 		"see": "Voir les photos",
 		"event-1": {
+			"title": "Hacktoberfest 2023",
+			"desc": "Troisième édition du Hacktoberfest, pour célébrer l'open source.",
+			"date": "28 Octobre 2023"
+		},
+		"event-2": {
 			"title": "Atelier Dev Étudiant CIGA",
 			"desc": "Une belle journée d'apprentissage avec les étudiants de CIGA.",
 			"date": "27 Mai 2023"
 		},
-		"event-2": {
+		"event-3": {
 			"title": "Hacktoberfest 2022",
 			"desc": "Journée de partage et d'apprentissage Hacktoberfest 2022.",
 			"date": "15 Octobre 2022"
 		},
-		"event-3": {
+		"event-4": {
 			"title": "Hacktoberfest 2021",
 			"desc": "Première édition du Hacktoberfest, pour célébrer l'open source.",
 			"date": "23 Octobre 2021"
 		},
-		"event-4": {
+		"event-5": {
 			"title": "Xarala Tour Dakar 2021",
 			"desc": "Clôture de la 1ère phase du Xarala Tour 2021.",
 			"date": "3 Juillet 2021"

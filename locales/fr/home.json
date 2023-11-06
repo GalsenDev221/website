@@ -42,11 +42,12 @@
 	},
 	"lastEvent": {
 		"heading": {
-			"first": "Notre prochain event:",
-			"second": "HacktoberFest 2023"
+			"first": "Notre dernier event:",
+			"second": "Hacktoberfest 2023"
 		},
-		"text": "Une journée de partage qui s'annonce comme une opportunité d'échange et d'acquisition de connaissances, marquant la troisième édition de notre Hacktoberfest, coïncidant avec le dixième anniversaire de cet événement mondial.",
-		"button": "S'inscrire"
+		"text": "Une journée de partage qui s'est avérée être une opportunité d'échange et d'acquisition de connaissances, marquant la troisième édition de notre Hacktoberfest, coïncidant avec le dixième anniversaire de cet événement mondial.",
+		"button": "En savoir plus",
+		"photos": "Voir les photos"
 	},
 	"partners": {
 		"title": {

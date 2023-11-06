@@ -3,12 +3,12 @@
 		"title": "Événements",
 		"titleDesc": "La liste de tous les événements passés et à venir de la communauté.",
 		"upcoming": "Évènement à venir",
-		"previous": "Événement précédent",
+		"previous": "Événement passé",
 		"events": {
 			"hacktoberfest-2023": {
 				"title": "Hacktoberfest 2023",
 				"desc": "Troisième édition du Hacktoberfest, pour célébrer l'open source.",
-				"full": "Hacktoberfest 2023, une journée qui sera dédiée à l'échange de connaissances et à l'apprentissage, dans le cadre de la troisième édition du Hacktoberfest que nous organisons pour célébrer les dix ans de cet événement mondial. Pour cette année, nous sommes fiers de compter sur le soutien de Bitcoin Sénégal et le Dakar Bitcoin Days. Et également ravis de renouveler notre partenariat avec Xarala, qui a contribué au succès de l'édition précédente."
+				"full": "Hacktoberfest 2023, une journée dédiée au partage et à l'apprentissage, dans le cadre de la troisième édition du Hacktoberfest que nous avons organisée pour célébrer les dix ans de cet événement mondial. Cette année, nous avons eu le privilège de bénéficier du soutien de Bitcoin Sénégal. De plus, notre partenariat avec Xarala a été renouvelé, ce qui a grandement contribué au succès de l'édition précédente. Cette année, la fête a été particulièrement belle, avec notamment un programme très enrichissant, rempli de découvertes, et la communauté a répondu présente de manière exceptionnelle."
 			},
 			"galsendev-meetup-2": {
 				"title": "GalsenDEV Meetup #2",
@@ -23,7 +23,7 @@
 			"ciga-student-dev-workshop": {
 				"title": "Atelier Dev Étudiant CIGA",
 				"desc": "Une belle journée d'apprentissage avec les étudiants de CIGA.",
-				"full": "La journée d'apprentissage avec les étudiants du CIGA a été une expérience enrichissante pour les participants. La communauté Galsen DEV, par l'intermédiaire de Daouda BA et Médoun Georges Siby BALDE, a partagé son expertise et a inspiré la prochaine génération tech."
+				"full": "Une journée de partage et d'apprentissage avec les étudiants du CIGA (Centre d'informatique et de Gestion Appliquée) à travers des ateliers sur Java & Flutter a été un succès, permettant aux étudiants de découvrir le développement et, surtout, l'importance de la communauté. Avec la participation de nos intervenants : Daouda BA & Médoune Siby Georges BALDE, ainsi que de l'équipe organisatrice qui a facilité tout cet événement."
 			},
 			"live-koor-2023": {
 				"title": "Live Koor 2023",
@@ -38,7 +38,7 @@
 			"hacktoberfest-2022": {
 				"title": "Hacktoberfest 2022",
 				"desc": "Journée de partage et d'apprentissage Hacktoberfest 2022.",
-				"full": "En 2022, nous avons célébré le Hacktoberfest avec une journée de partage et d'apprentissage. La communauté a montré sa générosité en contribuant à des projets open source, notamment avec le soutien de Xarala, qui a été notre partenaire en nous fournissant leurs locaux pour la tenue de cet événement au Campus Xarala à Liberté 6."
+				"full": "Galsen DEV a présenté la 2ème édition du Hackathon Session & Open-source Day dans le cadre du Hacktoberfest 2022. Une opportunité en or pour plonger dans l'open-source, en prolongement de la première édition. La communauté a fait preuve de générosité en contribuant à des projets open source, notamment grâce au soutien de Xarala, notre partenaire qui a mis à notre disposition ses locaux pour la tenue de cet événement au Campus Xarala à Liberté 6."
 			},
 			"weekend-code-1": {
 				"title": "Weekend du Code #1",
@@ -48,12 +48,12 @@
 			"hacktoberfest-2021": {
 				"title": "Hacktoberfest 2021",
 				"desc": "Première édition du Hacktoberfest, pour célébrer l'open source.",
-				"full": "La première édition du Hacktoberfest a été un événement mémorable qui a marqué le début de notre engagement envers l'open source et la collaboration. Cela s'est tenu dans les locaux de Ofisini Coworking à Liberté 6."
+				"full": "Le Hacktoberfest était une opportunité d'explorer l'open-source. Galsen DEV et la communauté Linux Sénégal, notamment Mamadou DIAGNE, ont réussi à organiser la première édition de ce genre au Sénégal. Son objectif principal était de faire contribuer les développeurs aux projets open-source pendant le mois du Hacktoberfest et de valider leurs contributions. Cette première édition a été un grand succès dans les locaux de Ofisini."
 			},
 			"xarala-tour-dakar-2021": {
 				"title": "Xarala Tour Dakar 2021",
 				"desc": "Clôture de la 1ère phase du Xarala Tour 2021 avec Galsen DEV.",
-				"full": "La clôture de la première phase du Xarala Tour 2021 a été une journée exceptionnelle de partage d'expériences et de découverte, notamment avec un atelier de développement mobile avec Flutter, grâce à notre collaboration avec Xarala."
+				"full": "La clôture de la première phase du Xarala Tour 2021 a eu lieu à Dakar, après les étapes de Saint-Louis, Kaolack et Thiès. La communauté Galsen DEV a organisé un atelier sur le développement mobile avec Flutter, rendu possible grâce à notre collaboration avec Xarala."
 			},
 			"webinar-galsendev-1": {
 				"title": "Webinar GalsenDEV #1",
