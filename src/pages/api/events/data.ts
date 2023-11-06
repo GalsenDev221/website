@@ -6,7 +6,7 @@ export const events: Event[] = [
 		description:
 			'Third edition of the Hacktoberfest, celebrating the open source world.',
 		date: '10/23/2023',
-		type: 'upcoming',
+		type: 'previous',
 		full: 'Full description here.',
 	},
 	{
