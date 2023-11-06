@@ -21,6 +21,10 @@ export default function EventDetailPage() {
 	const router = useRouter();
 	const slug = router.query.slug as string;
 
+	const handleGoBack = () => {
+		router.back();
+	};
+
 	const { data, error, isLoading } = useSWR<Event, ResponseError>(
 		() => (slug ? '/api/events/' + slug : null),
 		fetcher
@@ -36,6 +40,12 @@ export default function EventDetailPage() {
 			<Header header={translationCommon('events.header')} />
 			<div className="px-4 mt-16 mx-auto max-w-lg md:max-w-3xl lg:max-w-screen-xl sm:px-6 lg:px-8">
 				<section>
+					<button // TODO: maybe we can add a icon here
+						onClick={handleGoBack}
+						className="text-white font-bold py-2 px-4 rounded"
+					>
+						⬅️
+					</button>
 					<hgroup className="space-y-2">
 						<span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-xs text-blue-600">
 							{t(`eventsPage.${data.type}`)}
