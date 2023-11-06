@@ -1,10 +1,11 @@
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
-import ciga from '/public/img/events/ciga2023.png';
-import hof22 from '/public/img/events/hacktoberfest2022.png';
-import hof21 from '/public/img/events/hacktoberfest2021.png';
-import xtdk21 from '/public/img/events/xaralatourdk2021.png';
+import hof23 from '/public/img/events/hacktoberfest2023.jpg';
+import ciga from '/public/img/events/ciga2023.jpg';
+import hof22 from '/public/img/events/hacktoberfest2022.jpg';
+import hof21 from '/public/img/events/hacktoberfest2021.jpg';
+import xtdk21 from '/public/img/events/xaralatourdk2021.jpg';
 
 import useTranslation from 'next-translate/useTranslation';
 import { Icon } from '../ui/icon';
@@ -26,24 +27,30 @@ const EventsGallery = () => {
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
 				<EventGalleryCard
 					eventId="event-1"
+					place="Campus Xarala, Sicap Mbao"
+					photosLink="https://photos.app.goo.gl/j6f9geUSLrYuwDn38"
+					image={hof23}
+				/>
+				<EventGalleryCard
+					eventId="event-2"
 					place="CIGA, Guédiawaye"
 					photosLink="https://photos.app.goo.gl/cVtbXhHubx5FEd5f7"
 					image={ciga}
 				/>
 				<EventGalleryCard
-					eventId="event-2"
+					eventId="event-3"
 					place="Campus Xarala, Liberté 6"
 					photosLink="https://photos.app.goo.gl/PwzmZYvXwT1zo6ss5"
 					image={hof22}
 				/>
 				<EventGalleryCard
-					eventId="event-3"
+					eventId="event-4"
 					place="Ofisini Coworking, Liberté 6"
 					photosLink="https://photos.app.goo.gl/i1RewRU3DrDQVM4P8"
 					image={hof21}
 				/>
 				<EventGalleryCard
-					eventId="event-4"
+					eventId="event-5"
 					place="Orange Digital Center, Mermoz Ecole Police"
 					photosLink="https://photos.app.goo.gl/F8W2gWh6Y6AW7Xto7"
 					image={xtdk21}
