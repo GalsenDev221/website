@@ -21,25 +21,13 @@ const LanguageSelector = () => {
 			<div className="relative">
 				<Listbox.Button className="w-10 h-10 inline-flex items-center justify-center rounded-md bg-transparent transition-colors duration-300 hover:bg-gray-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-baseColor focus-visible:ring-offset-2">
 					<span className="sr-only">Change the language</span>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
+					<Icon
+						name="i18n"
+						className="w-5 h-5"
 						strokeWidth="2"
 						strokeLinecap="round"
 						strokeLinejoin="round"
-						className="w-5 h-5"
-					>
-						<path d="m5 8 6 6" />
-						<path d="m4 14 6-6 2-3" />
-						<path d="M2 5h12" />
-						<path d="M7 2h1" />
-						<path d="m22 22-5-10-5 10" />
-						<path d="M14 18h6" />
-					</svg>
+					/>
 				</Listbox.Button>
 				<Transition
 					as={Fragment}

@@ -11,6 +11,7 @@ export type IconName =
 	| 'galsen-dev-logo'
 	| 'github'
 	| 'hamburger-menu'
+	| 'i18n'
 	| 'instagram'
 	| 'mega-phone'
 	| 'members-icon'
