@@ -55,7 +55,7 @@ jobs:
         run: npm run build:icons
 
       - name: 🔎 Type check
-        run: npm run typecheck --if-present
+        run: npm run typecheck
 ## Pour deployer automatiquement
 # deploy:
 #   name: 🚀 Deploy
