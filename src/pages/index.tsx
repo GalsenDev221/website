@@ -11,7 +11,7 @@ export default function Home() {
 	return (
 		<>
 			<Header header={t('home.header')} />
-			<div className="px-4 mt-16 mx-auto max-w-lg space-y-16 lg:max-w-screen-xl sm:px-6 lg:px-8 lg:space-y-32">
+			<div className="px-4 mt-16 mx-auto w-full max-w-7xl space-y-16 md:px-6 lg:px-8 lg:space-y-32">
 				<HeroSection />
 				<StatsSection />
 				<ActivitySection />

@@ -44,17 +44,17 @@ const EventSection = () => {
 								<span className="text-gray-600">Campus Xarala, Sicap Mbao</span>
 							</div>
 
-							<div className="mt-4 md:mt-8">
+							<div className="mt-4 flex gap-2 md:flex-row items-center flex-col md:mt-8">
 								<Link
 									href="/events/hacktoberfest-2023"
-									className="inline-block rounded bg-baseColor px-12 py-3 text-sm font-medium text-white transition hover:bg-darker focus:outline-none focus:ring focus:ring-lighter"
+									className="inline-block w-full rounded text-center bg-baseColor px-12 py-3 text-sm font-medium text-white transition hover:bg-darker focus:outline-none focus:ring focus:ring-lighter"
 								>
 									{t('lastEvent.button')}
 								</Link>
 								<Link
 									href="https://photos.app.goo.gl/j6f9geUSLrYuwDn38"
 									target="_blank"
-									className="inline-block rounded bg-baseColor ml-4 px-12 py-3 text-sm font-medium text-white transition hover:bg-darker focus:outline-none focus:ring focus:ring-lighter"
+									className="inline-block w-full rounded text-center bg-baseColor px-12 py-3 text-sm font-medium text-white transition hover:bg-darker focus:outline-none focus:ring focus:ring-lighter"
 								>
 									{t('lastEvent.photos')}
 								</Link>
