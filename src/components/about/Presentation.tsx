@@ -39,6 +39,7 @@ const Presentation = () => {
 				alt="GalsenDEV Illustration"
 				loading="eager"
 				priority={true}
+				fetchPriority="high"
 				className="h-56 w-full object-cover sm:h-full"
 			/>
 		</section>

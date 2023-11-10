@@ -84,6 +84,7 @@ const EventGalleryCard = ({
 				loading="eager"
 				placeholder="blur"
 				priority={true}
+				fetchPriority="auto"
 				className="absolute inset-0 h-full w-full object-cover transition group-hover:grayscale-[80%]"
 			/>
 			<div className="absolute botto-0 inset-0 bg-gradient-to-t from-gray-900/90 to-gray-900/5 flex items-end">
