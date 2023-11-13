@@ -14,7 +14,12 @@ function Header(props: Readonly<HeaderProps>) {
 					content="Renforcer la scène tech sénégalaise, connecter les développeurs, partager la connaissance et offrir un soutien communautaire."
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<link rel="icon" href="/favicon/favicon.ico" />
+				<link
+					rel="icon"
+					// @ts-expect-error
+					fetchpriority="high"
+					href="/favicon/favicon.ico"
+				/>
 
 				{/* OG Meta Tags */}
 				<meta property="og:url" content="https://galsen.dev" />
