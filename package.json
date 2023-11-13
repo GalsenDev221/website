@@ -9,6 +9,7 @@
 		"build:next": "next build",
 		"start": "next start",
 		"lint": "next lint",
+		"typecheck": "tsc",
 		"format": "prettier --write .",
 		"prepare": "husky install"
 	},
