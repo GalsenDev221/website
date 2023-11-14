@@ -20,16 +20,19 @@ const HeroSection = () => {
 					/>
 				</div>
 				<div className="mt-12 mx-auto max-w-lg lg:m-0 lg:max-w-md">
-					<h2 className="text-xl font-bold sm:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-green-500 to-green-300">
-						{t('hero.firstHeading')}
+					<h2 className="text-xl font-bold sm:text-2xl text-transparent">
+						<span className="bg-clip-text bg-gradient-to-r from-blue-500 via-green-500 to-green-300">
+							{t('hero.firstHeading')}
+						</span>
+						<br />
+						<span className="bg-clip-text bg-gradient-to-r from-blue-500 via-yellow-300 to-yellow-200">
+							{t('hero.secondHeading')}
+						</span>
+						<br />
+						<span className="bg-clip-text bg-gradient-to-r from-blue-500 via-red-500 to-red-500">
+							{t('hero.thirdHeading')}
+						</span>
 					</h2>
-					<h2 className="text-1xl font-bold sm:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-yellow-300 to-yellow-200">
-						{t('hero.secondHeading')}
-					</h2>
-					<h2 className="text-1xl font-bold sm:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-red-500 to-red-500">
-						{t('hero.thirdHeading')}
-					</h2>
-
 					<p className="mt-4 text-gray-600">{t('hero.text')}</p>
 				</div>
 			</div>
