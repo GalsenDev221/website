@@ -10,6 +10,7 @@ import { cn } from '@utils/cn';
 import LanguageSelector from './language-selector';
 import MobileMenu from './mobile-menu';
 
+// TODO: refactor this component, there's much things going on here
 const Navbar = () => {
 	const { t } = useTranslation('common');
 	const { asPath } = useRouter();
