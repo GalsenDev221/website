@@ -5,6 +5,11 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"weekend-code-3": {
+				"title": "Weekend du Code #3",
+				"desc": "Troisième édition du Weekend du Code.",
+				"full": "Le dernier événement de l'année 2023 avec la communauté a été une expérience captivante. Un week-end passionnant axé sur le partage, ponctué de talks de grande qualité. Les participants ont eu l'occasion d'échanger des idées enrichissantes, d'approfondir leurs connaissances et de créer des liens au sein de la communauté."
+			},
 			"hacktoberfest-2023": {
 				"title": "Hacktoberfest 2023",
 				"desc": "Troisième édition du Hacktoberfest, pour célébrer l'open source.",
