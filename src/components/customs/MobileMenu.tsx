@@ -3,9 +3,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Dialog, Transition } from '@headlessui/react';
 
-import LanguageSelector from './language-selector';
-import { SocialLink } from './social-link';
-import { Icon } from './ui/icon';
+import LanguageSelector from './LanguageSelector';
+import { SocialLink } from './SocialLink';
+import { Icon } from '../ui/Icon';
 
 interface MobileMenuProps {
 	links: {

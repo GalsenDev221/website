@@ -1,6 +1,6 @@
 # Galsen DEV
 
-The new Galsen DEV's website 🎉
+Galsen DEV's website 🎉
 
 This project is based on **_[Next JS](https://nextjs.org)_** & **_[Tailwind CSS](https://tailwindcss.com)_** ✅
 

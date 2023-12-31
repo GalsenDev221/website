@@ -4,11 +4,11 @@ import useTranslation from 'next-translate/useTranslation';
 
 import Donation from './announcements/Donation';
 import GalsenDevLogo from './svg/GalsenDevLogo';
-import { SocialLink } from './social-link';
+import { SocialLink } from './customs/SocialLink';
 
 import { cn } from '@utils/cn';
-import LanguageSelector from './language-selector';
-import MobileMenu from './mobile-menu';
+import LanguageSelector from './customs/LanguageSelector';
+import MobileMenu from './customs/MobileMenu';
 
 // TODO: refactor this component, there's much things going on here
 const Navbar = () => {
@@ -19,8 +19,17 @@ const Navbar = () => {
 		{ name: t('navbar.home'), path: '/' },
 		{ name: t('navbar.events'), path: '/events' },
 		{ name: t('navbar.gallery'), path: '/gallery' },
-		{ name: t('navbar.blog'), path: '/blog' },
+		{
+			name: 'Blog →',
+			path: 'https://medium.com/@galsendev221',
+			target: '_blank',
+		},
 		{ name: t('navbar.about'), path: '/about' },
+		{
+			name: 'Call for Speakers 2024 →',
+			path: 'https://tally.so/r/w2P8eM',
+			target: '_blank',
+		},
 	];
 
 	return (
@@ -43,6 +52,7 @@ const Navbar = () => {
 										<Link
 											key={index}
 											href={item.path}
+											target={item.path.startsWith('http') ? '_blank' : '_self'}
 											className={cn(
 												'transition hover:text-gray-600/75',
 												asPath === item.path

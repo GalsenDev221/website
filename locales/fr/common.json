@@ -12,7 +12,6 @@
 	"navbar": {
 		"home": "Accueil",
 		"about": "A propos",
-		"blog": "Blog",
 		"events": "Evénements",
 		"gallery": "Galerie"
 	},
@@ -21,9 +20,6 @@
 	},
 	"about": {
 		"header": "A propos de Galsen DEV"
-	},
-	"blog": {
-		"header": "Notre blog"
 	},
 	"events": {
 		"header": "Les événements de la communauté"

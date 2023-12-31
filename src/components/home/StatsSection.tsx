@@ -1,5 +1,5 @@
 import useTranslation from 'next-translate/useTranslation';
-import { Icon } from '../ui/icon';
+import { Icon } from '../ui/Icon';
 
 const StatsSection = () => {
 	const { t, lang } = useTranslation('home');

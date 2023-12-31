@@ -8,7 +8,7 @@ import hof21 from '/public/img/events/hacktoberfest2021.jpg';
 import xtdk21 from '/public/img/events/xaralatourdk2021.jpg';
 
 import useTranslation from 'next-translate/useTranslation';
-import { Icon } from '../ui/icon';
+import { Icon } from '../ui/Icon';
 
 const EventsGallery = () => {
 	const { t } = useTranslation('gallery');

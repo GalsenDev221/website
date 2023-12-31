@@ -1,5 +1,5 @@
 import { cn } from '@utils/cn';
-import { Icon, IconName } from './ui/icon';
+import { Icon, IconName } from '../ui/Icon';
 
 export function SocialLink({
 	name,
