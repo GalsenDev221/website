@@ -3,7 +3,7 @@ import { Listbox, Transition } from '@headlessui/react';
 import setLanguage from 'next-translate/setLanguage';
 import useTranslation from 'next-translate/useTranslation';
 
-import { Icon } from '../ui/Icon';
+import { Icon } from '@/components/ui/Icon';
 import { cn } from '@utils/cn';
 
 const LanguageSelector = () => {

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import useTranslation from 'next-translate/useTranslation';
-import { Icon } from '../ui/Icon';
+import { Icon } from '@/components/ui/Icon';
 
 const EventSection = () => {
 	const { t, lang } = useTranslation('home');
