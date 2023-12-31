@@ -7,7 +7,6 @@
 		"/events": ["events"],
 		"/events/[slug]": ["events"],
 		"/gallery": ["gallery"],
-		"/blog": ["blog"],
 		"/about": ["about"],
 		"/404": ["404"],
 		"/500": ["500"]
