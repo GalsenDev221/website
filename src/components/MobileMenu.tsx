@@ -5,7 +5,7 @@ import { Dialog, Transition } from '@headlessui/react';
 
 import LanguageSelector from './LanguageSelector';
 import { SocialLink } from './SocialLink';
-import { Icon } from '../ui/Icon';
+import { Icon } from './ui/icon';
 
 interface MobileMenuProps {
 	links: {

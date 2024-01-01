@@ -4,11 +4,11 @@ import useTranslation from 'next-translate/useTranslation';
 
 import Donation from './announcements/Donation';
 import GalsenDevLogo from './svg/GalsenDevLogo';
-import { SocialLink } from './customs/SocialLink';
+import { SocialLink } from './SocialLink';
 
 import { cn } from '@utils/cn';
-import LanguageSelector from './customs/LanguageSelector';
-import MobileMenu from './customs/MobileMenu';
+import LanguageSelector from './LanguageSelector';
+import MobileMenu from './MobileMenu';
 
 // TODO: refactor this component, there's much things going on here
 const Navbar = () => {
