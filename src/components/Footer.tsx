@@ -1,4 +1,4 @@
-import { SocialLink } from './customs/SocialLink';
+import { SocialLink } from './SocialLink';
 import GalsenDevLogo from './svg/GalsenDevLogo';
 
 const Footer = () => (
