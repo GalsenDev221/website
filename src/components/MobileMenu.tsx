@@ -7,7 +7,7 @@ import LanguageSelector from './LanguageSelector';
 import { SocialLink } from './SocialLink';
 import { Icon } from './ui/icon';
 
-import { Space_Grotesk } from '@next/font/google';
+import { Space_Grotesk } from 'next/font/google';
 const grotesk = Space_Grotesk({ subsets: ['latin'] });
 
 interface MobileMenuProps {
