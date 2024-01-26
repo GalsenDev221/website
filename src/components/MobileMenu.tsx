@@ -7,6 +7,9 @@ import LanguageSelector from './LanguageSelector';
 import { SocialLink } from './SocialLink';
 import { Icon } from './ui/icon';
 
+import { Space_Grotesk } from '@next/font/google';
+const grotesk = Space_Grotesk({ subsets: ['latin'] });
+
 interface MobileMenuProps {
 	links: {
 		name: string;
@@ -63,7 +66,9 @@ const MobileMenu = ({ links }: MobileMenuProps) => {
 									<Icon name="cross-1" className="w-6 h-6 text-gray-900" />
 								</button>
 							</div>
-							<div className="-pt-6 justify-between divide-y divide-gray-500/10">
+							<div
+								className={`-pt-6 justify-between divide-y divide-gray-500/10 ${grotesk.className}`}
+							>
 								<nav className="space-y-2 py-6">
 									{links.map((item, index) => (
 										<Link
