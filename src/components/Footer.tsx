@@ -18,7 +18,7 @@ const Footer = () => (
 						<SocialLink name="discord" src="https://discord.gg/CKZcKqf" />
 					</li>
 					<li>
-						<SocialLink name="telegram" src="https://t.me/galsendev221" />
+						<SocialLink name="telegram" src="https://t.me/s/galsendev221" />
 					</li>
 					<li>
 						<SocialLink
