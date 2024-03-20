@@ -20,13 +20,13 @@ const Navbar = () => {
 		{ name: t('navbar.events'), path: '/events' },
 		{ name: t('navbar.gallery'), path: '/gallery' },
 		{
-			name: 'Blog →',
+			name: 'Blog ↗',
 			path: 'https://medium.com/@galsendev221',
 			target: '_blank',
 		},
 		{ name: t('navbar.about'), path: '/about' },
 		{
-			name: 'Call for Speakers 2024 →',
+			name: 'Call for Speakers 2024 ↗',
 			path: 'https://tally.so/r/w2P8eM',
 			target: '_blank',
 		},

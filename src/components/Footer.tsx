@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { SocialLink } from './SocialLink';
 import GalsenDevLogo from './svg/GalsenDevLogo';
 
@@ -10,6 +12,18 @@ const Footer = () => (
 			<div className="mb-8 inline-flex items-center gap-4 sm:mb-0">
 				<GalsenDevLogo />
 				<h2 className="text-gray-900 text-3xl">Galsen DEV</h2>
+				<Link
+					className="inline-flex max-w-fit items-center gap-2 text-md hover:text-gray-600/75 text-gray-900"
+					href="https://status.openstatus.dev"
+					target="_blank"
+					rel="noreferrer"
+				>
+					↗ Status
+					<span className="relative flex h-2 w-2">
+						<span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75 duration-1000" />
+						<span className="relative inline-flex h-2 w-2 rounded-full bg-green-600" />
+					</span>
+				</Link>
 			</div>
 
 			<div className="sm:mt-8 sm:flex sm:justify-between sm:items-center">
