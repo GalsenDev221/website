@@ -14,7 +14,7 @@ const Footer = () => (
 				<h2 className="text-gray-900 text-3xl">Galsen DEV</h2>
 				<Link
 					className="inline-flex max-w-fit items-center gap-2 text-md hover:text-gray-600/75 text-gray-900"
-					href="https://status.openstatus.dev"
+					href="https://galsendev.openstatus.dev"
 					target="_blank"
 					rel="noreferrer"
 				>
