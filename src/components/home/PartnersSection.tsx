@@ -24,7 +24,7 @@ const PartnersSection = () => {
 					/>
 					<Partner
 						name="Possacode"
-						url="https://possacode.lepresk.com"
+						url="https://possacode.netlify.app"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/tmkuxw21fu2yntcdvykl.png"
 					/>
 				</div>
@@ -37,7 +37,7 @@ const PartnersSection = () => {
 				<div className="mt-8 flex flex-col gap-2 lg:flex-row lg:gap-6 lg:w-full lg:justify-end">
 					<Partner
 						name="DaaraIT"
-						url="https://www.linkedin.com/company/daara-it"
+						url="https://daarait.com"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/vx97owcscvdgyscfsxyo.png"
 					/>
 					<Partner

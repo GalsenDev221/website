@@ -25,11 +25,6 @@ const Navbar = () => {
 			target: '_blank',
 		},
 		{ name: t('navbar.about'), path: '/about' },
-		{
-			name: 'Call for Speakers 2024 ↗',
-			path: 'https://tally.so/r/w2P8eM',
-			target: '_blank',
-		},
 	];
 
 	return (
