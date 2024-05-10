@@ -20,7 +20,7 @@
 		"@types/react-dom": "18.0.10",
 		"clsx": "^2.0.0",
 		"module-name": "^0.0.1-security",
-		"next": "13.5.6",
+		"next": "14.1.1",
 		"next-translate": "^1.6.0",
 		"react": "18.2.0",
 		"react-dom": "18.2.0",
