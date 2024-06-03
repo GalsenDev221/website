@@ -5,6 +5,11 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"galsendev-meetup-3": {
+				"title": "GalsenDEV Meetup #2",
+				"desc": "Le troisième numéro du GalsenDEV Meetup où on a parlé de GitLab CI.",
+				"full": "Pour cette nouvelle session, nous avons eu l'honneur d'accueillir Ibrahima TIMERA, un Développeur Freelance passionné et expérimenté dans le domaine du développement Java et Angular. Au cours de cette rencontre, Ibrahima a partagé ses connaissances approfondies sur GitLab CI. Les participants ont eu l'occasion de découvrir les étapes essentielles pour optimiser leur flux de travail de développement grâce à des pratiques et des outils éprouvés."
+			},
 			"weekend-code-3": {
 				"title": "Weekend du Code #3",
 				"desc": "Troisième édition du Weekend du Code.",
