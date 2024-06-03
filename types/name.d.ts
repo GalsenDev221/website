@@ -4,6 +4,7 @@ export type IconName =
 	| 'arrow-right'
 	| 'caret-sort'
 	| 'check'
+	| 'circle-arrow-left'
 	| 'commit-icon'
 	| 'cross-1'
 	| 'discord'
