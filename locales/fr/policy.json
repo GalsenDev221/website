@@ -1,0 +1,31 @@
+{
+	"policyPage": {
+		"tag": "galsen.dev/politique-de-confidentialite",
+		"title": "Politique de Confidentialité",
+		"description": "Nous, Galsen DEV, attachons une grande importance à la protection de la vie privée de nos visiteurs. Cette politique de confidentialité décrit comment nous recueillons, utilisons et protégeons les informations que vous nous fournissez lorsque vous visitez notre site web www.galsen.dev",
+		"step1": "Collecte et Utilisation des Informations",
+		"desc1": "Nous ne collectons pas de données personnelles identifiables lorsque vous visitez notre site web, sauf si vous choisissez de nous les fournir volontairement (par exemple, en nous contactant via le formulaire de contact). Dans ce cas, les informations que vous nous fournissez seront utilisées uniquement dans le but de répondre à votre demande spécifique.",
+		"addS1": "Nous utilisons les services suivants pour améliorer l'expérience de nos utilisateurs et assurer le bon fonctionnement de notre site :",
+		"addS1-1": "1. Cloudinary :",
+		"addS1-2": "- Utilisation : Nous utilisons Cloudinary pour l'hébergement et l'affichage des images sur notre site. Cela nous permet de garantir que les images sont chargées rapidement et efficacement.",
+		"addS1-3": "- Données collectées : Cloudinary peut collecter des métadonnées associées aux images (par exemple, types de fichiers, tailles d'images).",
+		"addS1-4": "2. Beamanalytics :",
+		"addS1-5": "- Utilisation : Beamanalytics est utilisé pour collecter des données sur la navigation des utilisateurs sur notre site. Ces données nous permettent de mieux comprendre le comportement des utilisateurs et d'améliorer l'expérience utilisateur.",
+		"addS1-6": "- Données collectées : Beamanalytics peut collecter des informations telles que les adresses IP, les pages visitées, la durée des sessions, et d'autres données relatives à la navigation.",
+		"addS1-7": "3. OpenStatus :",
+		"addS1-8": "- Utilisation : OpenStatus est utilisé pour surveiller l'état du site web en temps réel et pour collecter des données sur les performances et les erreurs du site.",
+		"addS1-9": "- Données collectées : OpenStatus peut collecter des informations sur les temps de chargement, les erreurs du site, et d'autres données relatives à la performance.",
+		"addS1-10": "Nous utilisons également des cookies pour améliorer l'expérience de navigation de nos visiteurs. Les cookies sont de petits fichiers texte stockés sur votre ordinateur qui nous aident à analyser les tendances d'utilisation du site, à personnaliser le contenu et à fournir des fonctionnalités telles que les préférences de langue. Vous pouvez choisir d'accepter ou de refuser les cookies via les paramètres de votre navigateur web.",
+		"step2": "Partage d'Informations",
+		"desc2": "Nous ne partageons pas, ne louons pas et ne vendons pas vos informations personnelles à des tiers. Les informations que vous nous fournissez sont strictement confidentielles et ne sont utilisées que dans le cadre de nos activités internes et pour les besoins des services mentionnés ci-dessus.",
+		"step3": "Liens vers des Sites Tiers",
+		"desc3": "Notre site web peut contenir des liens vers des sites web tiers. Veuillez noter que nous ne sommes pas responsables des pratiques de confidentialité de ces autres sites. Nous vous encourageons à lire les déclarations de confidentialité de chaque site web que vous visitez.",
+		"step4": "Sécurité des Informations",
+		"desc4": "Nous prenons des mesures raisonnables pour protéger les informations que vous nous fournissez contre tout accès non autorisé, toute divulgation, toute altération ou toute destruction.",
+		"step5": "Modification de notre Politique de Confidentialité",
+		"desc5": "Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Toute modification sera publiée sur cette page.",
+		"step6": "Contactez-nous",
+		"desc6": "Si vous avez des questions ou des préoccupations concernant notre politique de confidentialité, veuillez nous contacter à l'adresse galsendev221@gmail.com",
+		"final": "Dernière mise à jour : 15/06/2024"
+	}
+}

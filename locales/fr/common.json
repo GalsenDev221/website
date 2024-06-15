@@ -13,7 +13,10 @@
 		"home": "Accueil",
 		"about": "A propos",
 		"events": "Evénements",
-		"gallery": "Galerie"
+		"gallery": "Galerie",
+		"policy": "Confidentialité",
+		"privacy": "Vie Privée",
+		"terms": "Conditions"
 	},
 	"home": {
 		"header": "Galsen DEV - La communauté des développeurs sénégalais 🇸🇳"
@@ -26,6 +29,15 @@
 	},
 	"gallery": {
 		"header": "Notre galerie photo"
+	},
+	"policy": {
+		"header": "Politique de Confidentialité"
+	},
+	"privacy": {
+		"header": "Vie Privée"
+	},
+	"terms": {
+		"header": "Conditions d'Utilisation"
 	},
 	"donation": {
 		"text": {
