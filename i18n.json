@@ -8,6 +8,9 @@
 		"/events/[slug]": ["events"],
 		"/gallery": ["gallery"],
 		"/about": ["about"],
+		"/policy": ["policy"],
+		"/privacy": ["privacy"],
+		"/terms": ["terms"],
 		"/404": ["404"],
 		"/500": ["500"]
 	}
