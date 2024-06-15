@@ -84,7 +84,7 @@ const Footer = () => {
 						Copyright, 2023 - {new Date().getFullYear()}
 					</span>
 
-					<span className="text-gray-900">
+					<span className="text-gray-900 m-6 inline-flex items-center">
 						<ul className="flex items-center gap-6 text-sm">
 							{links.map((item, index) => (
 								<li key={index}>
