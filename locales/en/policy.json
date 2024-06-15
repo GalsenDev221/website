@@ -1,0 +1,31 @@
+{
+	"policyPage": {
+		"tag": "galsen.dev/privacy-policy",
+		"title": "Privacy Policy",
+		"description": "At Galsen DEV, we value the privacy of our visitors. This privacy policy describes how we collect, use, and protect information you provide to us when visiting our website www.galsen.dev",
+		"step1": "Collection and Use of Information",
+		"desc1": "We do not collect personally identifiable information when you visit our website unless you voluntarily provide it to us (e.g., by contacting us through the contact form). In such cases, the information you provide will only be used to respond to your specific request.",
+		"addS1": "We use the following services to enhance user experience and ensure the proper functioning of our site:",
+		"addS1-1": "1. Cloudinary:",
+		"addS1-2": "- Use: We use Cloudinary for hosting and displaying images on our site, ensuring fast and efficient image loading.",
+		"addS1-3": "- Data collected: Cloudinary may collect metadata associated with images (e.g., file types, image sizes).",
+		"addS1-4": "2. Beamanalytics:",
+		"addS1-5": "- Use: Beamanalytics is used to collect user navigation data on our site, helping us understand user behavior and improve user experience.",
+		"addS1-6": "- Data collected: Beamanalytics may collect information such as IP addresses, visited pages, session durations, and other browsing-related data.",
+		"addS1-7": "3. OpenStatus:",
+		"addS1-8": "- Use: OpenStatus monitors real-time website status and collects data on site performance and errors.",
+		"addS1-9": "- Data collected: OpenStatus may collect information about page load times, site errors, and other performance data.",
+		"addS1-10": "We also use cookies to enhance visitor browsing experience. Cookies are small text files stored on your computer that help us analyze site usage trends, personalize content, and provide features such as language preferences. You can choose to accept or decline cookies through your web browser settings.",
+		"step2": "Sharing of Information",
+		"desc2": "We do not share, rent, or sell your personal information to third parties. The information you provide to us is strictly confidential and is only used for our internal activities and the purposes of the services mentioned above.",
+		"step3": "Links to Third-Party Sites",
+		"desc3": "Our website may contain links to third-party websites. Please note that we are not responsible for the privacy practices of these other sites. We encourage you to read the privacy statements of each website you visit.",
+		"step4": "Information Security",
+		"desc4": "We take reasonable measures to protect the information you provide to us against unauthorized access, disclosure, alteration, or destruction.",
+		"step5": "Changes to Our Privacy Policy",
+		"desc5": "We reserve the right to modify this privacy policy at any time. Any changes will be posted on this page.",
+		"step6": "Contact Us",
+		"desc6": "If you have any questions or concerns about our privacy policy, please contact us at galsendev221@gmail.com",
+		"final": "Last updated: 15/06/2024"
+	}
+}

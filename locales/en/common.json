@@ -13,7 +13,10 @@
 		"home": "Home",
 		"about": "About",
 		"events": "Events",
-		"gallery": "Gallery"
+		"gallery": "Gallery",
+		"policy": "Policy",
+		"privacy": "Privacy",
+		"terms": "Terms of Use"
 	},
 	"home": {
 		"header": "Galsen DEV - Senegalese developer community 🇸🇳"
@@ -26,6 +29,15 @@
 	},
 	"gallery": {
 		"header": "Our photo gallery"
+	},
+	"policy": {
+		"header": "Privacy Policy"
+	},
+	"privacy": {
+		"header": "Privacy Compliance"
+	},
+	"terms": {
+		"header": "Terms of Use"
 	},
 	"donation": {
 		"text": {
