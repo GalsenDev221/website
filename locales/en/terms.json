@@ -1,0 +1,28 @@
+{
+	"termsPage": {
+		"tag": "galsen.dev/terms-of-use",
+		"title": "Terms of Use",
+		"description": "Welcome to Galsen DEV's terms of use page. These terms govern your use of our website www.galsen.dev and the related services we provide. By accessing and using this website, you agree to these terms in full. If you do not agree to these terms, please do not use this website.",
+		"step1": "Website Use",
+		"desc1": "You agree to use this website only for lawful purposes and in accordance with these terms of use. You agree not to use this website in any way that violates applicable local, national, or international laws.",
+		"step2": "Intellectual Property",
+		"desc2": "The content, features, and design of this website are protected by copyright laws and other intellectual property laws. You agree to respect all intellectual property rights and not reproduce, distribute, modify, or create derivative works based on the content of this website without our prior written permission.",
+		"step3": "Use of Third-Party Services",
+		"desc3": "To provide a better user experience and ensure the proper functioning of our site, we use the following third-party services:",
+		"addS3-1": "1. Cloudinary:",
+		"addS3-2": "Used for hosting and displaying images on our site. This service helps us ensure that images are loaded quickly and efficiently.",
+		"addS3-3": "2. Beamanalytics:",
+		"addS3-4": "Used to collect analytical data on user navigation. This data is used to generate reports and analyses on our dashboard, enabling us to improve the user experience.",
+		"addS3-5": "3. OpenStatus:",
+		"addS3-6": "Used for real-time monitoring of website status and collecting data on performance and errors. This helps us ensure the reliability and availability of our site.",
+		"step4": "Limitation of Liability",
+		"desc4": "This website and its content are provided 'as is' without any warranty of any kind, express or implied. We do not warrant the accuracy, completeness, or reliability of the content of this website. To the fullest extent permitted by applicable law, we disclaim all liability for any damages or harm arising from your use of this website.",
+		"step5": "Changes to the Terms",
+		"desc5": "We reserve the right to modify these terms of use at any time. Any modification will be effective immediately upon posting on this page. By continuing to use this website after the modifications are posted, you agree to these changes.",
+		"step6": "Links to Third-Party Sites",
+		"desc6": "Our website may contain links to third-party websites. Please note that we are not responsible for the privacy practices of these other sites. We encourage you to read the privacy statements of each website you visit.",
+		"step7": "Contact Us",
+		"desc7": "If you have any questions or concerns about these terms of use, please contact us at galsendev221@gmail.com",
+		"final": "Last updated: 15/06/2024"
+	}
+}

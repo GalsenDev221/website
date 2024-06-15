@@ -1,0 +1,28 @@
+{
+	"termsPage": {
+		"tag": "galsen.dev/conditions-d-utilisation",
+		"title": "Conditions d'Utilisation",
+		"description": "Bienvenue sur la page des conditions d'utilisation de Galsen DEV. Ces conditions régissent votre utilisation de notre site web www.galsen.dev et les services connexes que nous fournissons. En accédant à ce site web et en l'utilisant, vous acceptez ces conditions dans leur intégralité. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser ce site web.",
+		"step1": "Utilisation du Site",
+		"desc1": "Vous acceptez d'utiliser ce site web uniquement à des fins légales et conformément à ces conditions d'utilisation. Vous acceptez de ne pas utiliser ce site web de manière à violer les lois locales, nationales ou internationales applicables.",
+		"step2": "Propriété Intellectuelle",
+		"desc2": "Le contenu, les fonctionnalités et la conception de ce site web sont protégés par les lois sur le droit d'auteur et autres lois relatives à la propriété intellectuelle. Vous acceptez de respecter tous les droits de propriété intellectuelle et de ne pas reproduire, distribuer, modifier ou créer des œuvres dérivées basées sur le contenu de ce site web sans notre autorisation écrite préalable.",
+		"step3": "Utilisation des Services Tiers",
+		"desc3": "Pour offrir une meilleure expérience utilisateur et assurer le bon fonctionnement de notre site, nous utilisons les services tiers suivants :",
+		"addS3-1": "1. Cloudinary :",
+		"addS3-2": "Utilisé pour l'hébergement et l'affichage des images sur notre site. Ce service nous aide à garantir que les images sont chargées de manière rapide et efficace.",
+		"addS3-3": "2. Beamanalytics :",
+		"addS3-4": "Utilisé pour collecter des données analytiques sur la navigation des utilisateurs. Ces données sont utilisées pour générer des rapports et des analyses sur notre tableau de bord, nous permettant d'améliorer l'expérience utilisateur.",
+		"addS3-5": "3. OpenStatus :",
+		"addS3-6": "Utilisé pour la surveillance en temps réel de l'état du site web et pour collecter des données sur les performances et les erreurs. Cela nous aide à assurer la fiabilité et la disponibilité de notre site.",
+		"step4": "Limitation de Responsabilité",
+		"desc4": "Ce site web et son contenu sont fournis 'tels quels' sans garantie d'aucune sorte, expresse ou implicite. Nous ne garantissons pas l'exactitude, l'exhaustivité ou la fiabilité du contenu de ce site web. Dans toute la mesure permise par la loi applicable, nous déclinons toute responsabilité pour tout dommage ou préjudice résultant de votre utilisation de ce site web.",
+		"step5": "Modifications des Conditions",
+		"desc5": "Nous nous réservons le droit de modifier ces conditions d'utilisation à tout moment. Toute modification prendra effet immédiatement après sa publication sur cette page. En continuant à utiliser ce site web après la publication des modifications, vous acceptez ces modifications.",
+		"step6": "Liens vers des Sites Tiers",
+		"desc6": "Notre site web peut contenir des liens vers des sites web tiers. Veuillez noter que nous ne sommes pas responsables des pratiques de confidentialité de ces autres sites. Nous vous encourageons à lire les déclarations de confidentialité de chaque site web que vous visitez.",
+		"step7": "Contactez-nous",
+		"desc7": "Si vous avez des questions ou des préoccupations concernant ces conditions d'utilisation, veuillez nous contacter à l'adresse galsendev221@gmail.com",
+		"final": "Dernière mise à jour : 15/06/2024"
+	}
+}

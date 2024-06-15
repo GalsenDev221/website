@@ -1,0 +1,32 @@
+{
+	"privacyPage": {
+		"tag": "galsen.dev/privacy-compliance",
+		"title": "Privacy Compliance",
+		"description": "Welcome to Galsen DEV's privacy page. We are committed to protecting your online privacy while providing you with a pleasant and enriching experience on our website www.galsen.dev",
+		"step1": "Information Collection",
+		"desc1": "When you visit our website, we do not collect personally identifiable information unless you choose to provide it voluntarily, such as by filling out a contact form. We respect your right to privacy and only collect information necessary to respond to your requests or provide the services you have requested.",
+		"step2": "Use of Information",
+		"desc2": "The information you provide to us is used only for the specific purpose for which it was provided. We do not use it for any other purposes without your explicit consent. We do not sell, rent, or share your personal information with third parties, except for third-party services we use to enhance your user experience.",
+		"addS2": "We use the following services:",
+		"addS2-1": "1. Cloudinary:",
+		"addS2-2": "- Use: For hosting and displaying images on our site, ensuring fast and efficient image loading.",
+		"addS2-3": "- Data collected: Metadata associated with images (e.g., file types, image sizes).",
+		"addS2-4": "2. Beamanalytics:",
+		"addS2-5": "- Use: To collect user navigation data to better understand user behavior and improve user experience.",
+		"addS2-6": "- Data collected: Information such as IP addresses, visited pages, session durations, and other browsing-related data.",
+		"addS2-7": "3. OpenStatus:",
+		"addS2-8": "- Use: To monitor real-time website status and collect data on performance and errors.",
+		"addS2-9": "- Data collected: Information about page load times, site errors, and other performance data.",
+		"step3": "Cookies",
+		"desc3": "We use cookies to enhance your browsing experience on our website. Cookies are small text files stored on your computer that help us analyze site usage trends, personalize content, and provide features such as language preferences. You can choose to accept or decline cookies through your web browser settings.",
+		"step4": "Data Security",
+		"desc4": "We take reasonable security measures to protect the information you provide to us against unauthorized access, disclosure, alteration, or destruction.",
+		"step5": "Links to Third-Party Sites",
+		"desc5": "Our website may contain links to third-party websites. Please note that we are not responsible for the privacy practices of these other sites. We encourage you to read the privacy statements of each website you visit.",
+		"step6": "Changes to Privacy Policy",
+		"desc6": "We reserve the right to modify this privacy policy at any time. Any changes will be posted on this page.",
+		"step7": "Contact Us",
+		"desc7": "If you have any questions or concerns about our privacy policy, please contact us at galsendev221@gmail.com",
+		"final": "Last updated: 15/06/2024"
+	}
+}

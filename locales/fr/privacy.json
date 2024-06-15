@@ -1,0 +1,32 @@
+{
+	"privacyPage": {
+		"tag": "galsen.dev/vie-privee",
+		"title": "Respect de la Vie Privée",
+		"description": "Bienvenue sur la page de vie privée de Galsen DEV. Nous sommes déterminés à protéger votre vie privée en ligne tout en vous fournissant une expérience agréable et enrichissante sur notre site web www.galsen.dev",
+		"step1": "Collecte d'Informations",
+		"desc1": "Lorsque vous visitez notre site web, nous ne collectons pas de données personnelles identifiables à moins que vous ne choisissiez de nous les fournir volontairement, par exemple en remplissant un formulaire de contact. Nous respectons votre droit à la confidentialité et ne collectons que les informations nécessaires pour répondre à vos demandes ou vous fournir les services que vous avez demandés.",
+		"step2": "Utilisation des Informations",
+		"desc2": "Les informations que vous nous fournissez sont utilisées uniquement dans le but spécifique pour lequel elles ont été fournies. Nous ne les utilisons pas à d'autres fins sans votre consentement explicite. Nous ne vendons, ne louons ni ne partageons vos informations personnelles avec des tiers, à l'exception des services tiers que nous utilisons pour améliorer votre expérience utilisateur.",
+		"addS2": "Nous utilisons les services suivants :",
+		"addS2-1": "1. Cloudinary :",
+		"addS2-2": "- Utilisation : Pour l'hébergement et l'affichage des images sur notre site. Cela garantit que les images sont chargées rapidement et efficacement.",
+		"addS2-3": "- Données collectées : Métadonnées associées aux images (par exemple, types de fichiers, tailles d'images).",
+		"addS2-4": "2. Beamanalytics :",
+		"addS2-5": "- Utilisation : Pour collecter des données sur la navigation des utilisateurs afin de mieux comprendre leur comportement et améliorer l'expérience utilisateur.",
+		"addS2-6": "- Données collectées : Informations telles que les adresses IP, les pages visitées, la durée des sessions, et d'autres données relatives à la navigation.",
+		"addS2-7": "3. OpenStatus :",
+		"addS2-8": "- Utilisation : Pour surveiller l'état du site web en temps réel et collecter des données sur les performances et les erreurs.",
+		"addS2-9": "- Données collectées : Informations sur les temps de chargement, les erreurs du site, et autres données de performance.",
+		"step3": "Cookies",
+		"desc3": "Nous utilisons des cookies pour améliorer votre expérience de navigation sur notre site web. Les cookies sont de petits fichiers texte stockés sur votre ordinateur qui nous aident à analyser les tendances d'utilisation du site, à personnaliser le contenu et à fournir des fonctionnalités telles que les préférences de langue. Vous pouvez choisir d'accepter ou de refuser les cookies via les paramètres de votre navigateur web.",
+		"step4": "Sécurité des Données",
+		"desc4": "Nous prenons des mesures de sécurité raisonnables pour protéger les informations que vous nous fournissez contre tout accès non autorisé, toute divulgation, toute altération ou toute destruction.",
+		"step5": "Liens vers des Sites Tiers",
+		"desc5": "Notre site web peut contenir des liens vers des sites web tiers. Veuillez noter que nous ne sommes pas responsables des pratiques de confidentialité de ces autres sites. Nous vous encourageons à lire les déclarations de confidentialité de chaque site web que vous visitez.",
+		"step6": "Modifications de la Politique de Vie Privée",
+		"desc6": "Nous nous réservons le droit de modifier cette politique de vie privée à tout moment. Toute modification sera publiée sur cette page.",
+		"step7": "Contactez-nous",
+		"desc7": "Si vous avez des questions ou des préoccupations concernant notre politique de vie privée, veuillez nous contacter à l'adresse galsendev221@gmail.com",
+		"final": "Dernière mise à jour : 15/06/2024"
+	}
+}
