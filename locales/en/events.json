@@ -5,6 +5,11 @@
 		"upcoming": "Upcoming event",
 		"previous": "Previous event",
 		"events": {
+			"galsendev-meetup-4": {
+				"title": "GalsenDEV Meetup #4",
+				"desc": "During this meetup, we discussed how to improve systems with observability.",
+				"full": "During this event, our guest Mamadou Lakhassane CISSÉ, Senior Software Engineer at Yelp with over 9 years of experience, explores in depth the concept of observability and its impact on system responsiveness. Also, how it facilitates real-time monitoring, proactive problem detection, and data-driven decision-making, as well as the tools and best practices adopted by large organizations to optimize their systems' performance and provide a smooth and reliable user experience."
+			},
 			"galsendev-meetup-3": {
 				"title": "GalsenDEV Meetup #2",
 				"desc": "The third edition of the GalsenDEV Meetup where we discussed about GitLab CI",
