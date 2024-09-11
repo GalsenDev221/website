@@ -24,6 +24,12 @@ $ npm run dev
 $ yarn dev
 ```
 
+Fix linting format errors :
+
+```bash
+npm run lint -- --fix
+```
+
 ### Contributors
 
 If you want contribute to this project PLEASE read the [Contributing guide](CONTRIBUTING.md) first !
