@@ -5,8 +5,13 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"galsendev-meetup-4": {
+				"title": "GalsenDEV Meetup #4",
+				"desc": "Lors de ce meetup, nous avons parlé comment améliorer les systèmes avec l'observabilité.",
+				"full": "Durant cet événement notre invité Mamadou Lakhassane CISSÉ, Ingénieur Logiciel Senior chez Yelp avec plus de 9 ans d'expérience, explore en profondeur le concept de l'observabilité et son impact sur la réactivité des systèmes. Aussi comment elle facilite la surveillance en temps réel, la détection proactive des problèmes et la prise de décisions basées sur les données, également les outils et les meilleures pratiques adoptés par les grandes organisations pour optimiser les performances de leurs systèmes et offrir une expérience utilisateur fluide et fiable."
+			},
 			"galsendev-meetup-3": {
-				"title": "GalsenDEV Meetup #2",
+				"title": "GalsenDEV Meetup #3",
 				"desc": "Le troisième numéro du GalsenDEV Meetup où on a parlé de GitLab CI.",
 				"full": "Pour cette nouvelle session, nous avons eu l'honneur d'accueillir Ibrahima TIMERA, un Développeur Freelance passionné et expérimenté dans le domaine du développement Java et Angular. Au cours de cette rencontre, Ibrahima a partagé ses connaissances approfondies sur GitLab CI. Les participants ont eu l'occasion de découvrir les étapes essentielles pour optimiser leur flux de travail de développement grâce à des pratiques et des outils éprouvés."
 			},
@@ -27,7 +32,7 @@
 			},
 			"galsendev-meetup-1": {
 				"title": "GalsenDEV Meetup #1",
-				"desc": "Hacktoberfest 2022 Sharing and Learning Day.",
+				"desc": "Service générique et réutilisable avec Angular, avec notre invité Abdourahmane SOW.",
 				"full": "Lors de notre premier GalsenDEV Meetup, nous avons vu la mise en place d'un service générique et réutilisable avec Angular. Abdourahmane SOW, un consultant FullStack expérimenté et spécialisé en Angular & Spring Boot, a exploré les meilleures pratiques et les techniques avancées pour développer des services Angular flexibles, qui peuvent être utilisés."
 			},
 			"ciga-student-dev-workshop": {
