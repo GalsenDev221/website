@@ -5,6 +5,11 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"hacktoberfest-2024": {
+				"title": "Hacktoberfest 2024",
+				"desc": "L'édition 2024 du Hacktoberfest de la communauté Galsen DEV est lancée !",
+				"full": "Rejoignez-nous pour célébrer l'open source lors du Hacktoberfest 2024 ! La communauté Galsen DEV vous invite à vous réunir le 26 octobre pour partager, découvrir et apprendre. Cet événement comprendra une série de conférences engageantes et de démonstrations interactives, animées par des experts de divers domaines. Ils partageront leurs points de vue sur les dernières tendances technologiques, les avancées de l'IA et leurs contributions à la communauté open source."
+			},
 			"galsendev-meetup-4": {
 				"title": "GalsenDEV Meetup #4",
 				"desc": "Lors de ce meetup, nous avons parlé comment améliorer les systèmes avec l'observabilité.",
