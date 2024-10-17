@@ -18,6 +18,6 @@ export type IconName =
 	| 'mega-phone'
 	| 'members-icon'
 	| 'telegram'
-	| 'twitter'
 	| 'whatsapp'
+	| 'x'
 	| 'youtube';
