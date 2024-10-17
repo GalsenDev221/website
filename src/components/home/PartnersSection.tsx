@@ -13,19 +13,24 @@ const PartnersSection = () => {
 				</h2>
 				<div className="mt-8 flex flex-col gap-3 lg:flex-row lg:gap-6 lg:w-full">
 					<Partner
+						name="DataCamp Donates"
+						url="https://datacamp.com/donates"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/i4o35pazvwzktoi5erox.png"
+					/>
+					<Partner
+						name="Socium Job"
+						url="https://sociumjob.com"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/svee2xo6u4tvdzexujls.png"
+					/>
+					<Partner
 						name="Propel"
 						url="https://withpropel.com"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/de3sj9kcfgb8angwsko3.png"
 					/>
 					<Partner
-						name="Xarala"
-						url="https://xarala.co"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/rjnb83nn9itvqb11vh0w.png"
-					/>
-					<Partner
-						name="Possacode"
-						url="https://possacode.netlify.app"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/tmkuxw21fu2yntcdvykl.png"
+						name="Dexchange"
+						url="https://dexchange-transfert.com"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/jkrcxgtirchld6vowlag.png"
 					/>
 				</div>
 			</div>
@@ -36,19 +41,24 @@ const PartnersSection = () => {
 				</h2>{' '}
 				<div className="mt-8 flex flex-col gap-2 lg:flex-row lg:gap-6 lg:w-full lg:justify-end">
 					<Partner
-						name="DaaraIT"
-						url="https://daarait.com"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/vx97owcscvdgyscfsxyo.png"
+						name="Xarala"
+						url="https://xarala.co"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/rjnb83nn9itvqb11vh0w.png"
 					/>
 					<Partner
-						name="GalsenAI"
+						name="Possacode"
+						url="https://possacode.netlify.app"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/tmkuxw21fu2yntcdvykl.png"
+					/>
+					<Partner
+						name="Galsen AI"
 						url="https://galsen.ai"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/wtihf0cldeyc68rtpj58.png"
 					/>
 					<Partner
-						name="Dexchange"
-						url="https://dexchange-transfert.com"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/jkrcxgtirchld6vowlag.png"
+						name="Daara IT"
+						url="https://daarait.com"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/vx97owcscvdgyscfsxyo.png"
 					/>
 				</div>
 			</div>
