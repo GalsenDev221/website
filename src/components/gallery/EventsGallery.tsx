@@ -1,6 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
+import hof24 from '/public/img/events/hacktoberfest2024.jpg';
 import hof23 from '/public/img/events/hacktoberfest2023.jpg';
 import ciga from '/public/img/events/ciga2023.jpg';
 import hof22 from '/public/img/events/hacktoberfest2022.jpg';
@@ -26,13 +27,19 @@ const EventsGallery = () => {
 
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
 				<EventGalleryCard
-					eventId="event-1"
+					eventId="event-6"
+					place="Impact Hub Dakar, Cité Keur Gorgui"
+					photosLink="https://photos.app.goo.gl/JA6wGgSVTG191qfQ7"
+					image={hof24}
+				/>
+				<EventGalleryCard
+					eventId="event-5"
 					place="Campus Xarala, Sicap Mbao"
 					photosLink="https://photos.app.goo.gl/j6f9geUSLrYuwDn38"
 					image={hof23}
 				/>
 				<EventGalleryCard
-					eventId="event-2"
+					eventId="event-4"
 					place="CIGA, Guédiawaye"
 					photosLink="https://photos.app.goo.gl/cVtbXhHubx5FEd5f7"
 					image={ciga}
@@ -44,13 +51,13 @@ const EventsGallery = () => {
 					image={hof22}
 				/>
 				<EventGalleryCard
-					eventId="event-4"
+					eventId="event-2"
 					place="Ofisini Coworking, Liberté 6"
 					photosLink="https://photos.app.goo.gl/i1RewRU3DrDQVM4P8"
 					image={hof21}
 				/>
 				<EventGalleryCard
-					eventId="event-5"
+					eventId="event-1"
 					place="Orange Digital Center, Mermoz Ecole Police"
 					photosLink="https://photos.app.goo.gl/F8W2gWh6Y6AW7Xto7"
 					image={xtdk21}
