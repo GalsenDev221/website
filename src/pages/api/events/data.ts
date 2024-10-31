@@ -4,9 +4,9 @@ export const events: Event[] = [
 	{
 		name: 'Hacktoberfest 2024',
 		description:
-			'The 2024 edition of the Hacktoberfest by Galsen DEV community is here !',
+			'The 2024 edition of the Hacktoberfest by Galsen DEV community !',
 		date: '10/26/2024',
-		type: 'upcoming',
+		type: 'previous',
 		full: 'Full description here.',
 	},
 	{
