@@ -25,11 +25,6 @@ const Navbar = () => {
 			target: '_blank',
 		},
 		{ name: t('navbar.about'), path: '/about' },
-		{
-			name: 'Hacktoberfest 2024 ↗',
-			path: 'https://hfest24.galsen.dev',
-			target: '_blank',
-		},
 	];
 
 	return (

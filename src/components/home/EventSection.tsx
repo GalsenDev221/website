@@ -12,7 +12,7 @@ const EventSection = () => {
 					<div className="relative z-10 lg:py-16">
 						<div className="relative h-64 sm:h-80 lg:h-full">
 							<Image
-								src="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/galsendev/main/kmq29giidcrky4x0klpv.png"
+								src="https://res.cloudinary.com/degyjrpjj/image/upload/v1730341121/galsendev/hacktoberfest/yvxynmkm3pfvuttogr2d.png"
 								alt="Last event of Galsen Dev"
 								width={500}
 								height={500}
@@ -36,18 +36,20 @@ const EventSection = () => {
 
 							<div className="mt-8 flex items-center gap-2 text-gray-500">
 								<Icon name="location" className="h-6 w-6" />
-								<span className="text-gray-600">Campus Xarala, Sicap Mbao</span>
+								<span className="text-gray-600">
+									Impact Hub Dakar, Cité Keur Gorgui
+								</span>
 							</div>
 
 							<div className="mt-4 flex gap-2 xl:flex-row items-center flex-col md:mt-8">
 								<Link
-									href="/events/hacktoberfest-2023"
+									href="/events/hacktoberfest-2024"
 									className="inline-block w-full rounded text-center bg-baseColor px-12 py-3 text-sm font-medium text-white transition hover:bg-darker focus:outline-none focus:ring focus:ring-lighter"
 								>
 									{t('lastEvent.button')}
 								</Link>
 								<Link
-									href="https://photos.app.goo.gl/j6f9geUSLrYuwDn38"
+									href="https://photos.app.goo.gl/JA6wGgSVTG191qfQ7"
 									target="_blank"
 									className="inline-block w-full rounded text-center bg-baseColor px-12 py-3 text-sm font-medium text-white transition hover:bg-darker focus:outline-none focus:ring focus:ring-lighter"
 								>
