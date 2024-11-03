@@ -14,6 +14,7 @@ export type IconName =
 	| 'hamburger-menu'
 	| 'i18n'
 	| 'instagram'
+	| 'linkedin'
 	| 'location'
 	| 'mega-phone'
 	| 'members-icon'
