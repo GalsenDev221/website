@@ -42,7 +42,7 @@ const Footer = () => {
 							<SocialLink name="discord" src="https://discord.gg/CKZcKqf" />
 						</li>
 						<li>
-							<SocialLink name="telegram" src="https://t.me/s/galsendev221" />
+							<SocialLink name="telegram" src="https://t.me/s/galsendev" />
 						</li>
 						<li>
 							<SocialLink
@@ -54,8 +54,14 @@ const Footer = () => {
 						<li>
 							<SocialLink
 								name="x"
-								src="https://x.com/galsendev221"
+								src="https://x.com/galsendev"
 								className="p-1"
+							/>
+						</li>
+						<li>
+							<SocialLink
+								name="linkedin"
+								src="https://www.linkedin.com/company/galsendev"
 							/>
 						</li>
 						<li>
@@ -67,14 +73,11 @@ const Footer = () => {
 						<li>
 							<SocialLink
 								name="facebook"
-								src="https://facebook.com/galsendev221"
+								src="https://facebook.com/galsendev"
 							/>
 						</li>
 						<li>
-							<SocialLink
-								name="youtube"
-								src="https://youtube.com/@GalsenDev221"
-							/>
+							<SocialLink name="youtube" src="https://youtube.com/@galsendev" />
 						</li>
 						<li>
 							<SocialLink name="github" src="https://github.com/GalsenDev221" />
