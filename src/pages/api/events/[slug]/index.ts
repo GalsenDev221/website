@@ -9,7 +9,7 @@ export default function eventHandler(
 	const { query } = req;
 	const { slug } = query;
 
-	// TODO: export this functino
+	// TODO: export this function
 	const sluggify = (value: string) => {
 		return value
 			.replaceAll(/[^a-zA-Z0-9 ]/g, '')
