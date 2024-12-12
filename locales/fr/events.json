@@ -5,6 +5,11 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"icagi-student-dev-workshop": {
+				"title": "Atelier Dev Étudiant ICAGI",
+				"desc": "Une journée enrichissante d'apprentissage avec les étudiants de l'ICAGI !",
+				"full": "Galsen DEV, en collaboration avec le club informatique de l'ICAGI (Institut Communautaire Africain de Gestion et d’Ingénierie) - Amadou Mahtar MBOW, a organisé une journée riche en apprentissage, comprenant deux ateliers pratiques sur Java et Svelte. Les présentations ont été animées par Papa Elhadj Abdoulaye NDOYE et Médoune Siby Georges BALDE. Cet événement a constitué une belle occasion de partager des connaissances avec les étudiants de l’établissement, qui ont montré un grand enthousiasme et une réelle motivation tout au long de la journée."
+			},
 			"hacktoberfest-2024": {
 				"title": "Hacktoberfest 2024",
 				"desc": "L'édition 2024 du Hacktoberfest de la communauté Galsen DEV !",
