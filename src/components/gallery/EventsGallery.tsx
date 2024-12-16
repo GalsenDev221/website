@@ -1,6 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
+import icagi from '/public/img/events/icagi2024.jpg';
 import hof24 from '/public/img/events/hacktoberfest2024.jpg';
 import hof23 from '/public/img/events/hacktoberfest2023.jpg';
 import ciga from '/public/img/events/ciga2023.jpg';
@@ -26,6 +27,12 @@ const EventsGallery = () => {
 			</div>
 
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
+				<EventGalleryCard
+					eventId="event-7"
+					place="Nord Foire, Dakar"
+					photosLink="https://photos.app.goo.gl/3Ecp1Yk7ZxJNDo12A"
+					image={icagi}
+				/>
 				<EventGalleryCard
 					eventId="event-6"
 					place="Impact Hub Dakar, Cité Keur Gorgui"
