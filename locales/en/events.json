@@ -5,6 +5,11 @@
 		"upcoming": "Upcoming event",
 		"previous": "Previous event",
 		"events": {
+			"icagi-student-dev-workshop": {
+				"title": "ICAGI Student Dev Workshop",
+				"desc": "An enriching day of learning with the students of ICAGI !",
+				"full": "Galsen DEV, in collaboration with the ICAGI (Institut Communautaire Africain de Gestion et d’Ingénierie) - Amadou Mahtar MBOW computer club, organized a day full of learning, including two hands-on workshops on Java and Svelte. The presentations were led by Papa Elhadj Abdoulaye NDOYE and Médoune Siby Georges BALDE. This event provided a great opportunity to share knowledge with the students of the institution, who showed great enthusiasm and genuine motivation throughout the day."
+			},
 			"hacktoberfest-2024": {
 				"title": "Hacktoberfest 2024",
 				"desc": "The 2024 edition of the Hacktoberfest by Galsen DEV community !",

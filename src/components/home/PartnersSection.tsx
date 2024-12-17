@@ -24,12 +24,12 @@ const PartnersSection = () => {
 					/>
 					<Partner
 						name="Propel"
-						url="https://withpropel.com"
+						url="https://propel.community"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/de3sj9kcfgb8angwsko3.png"
 					/>
 					<Partner
 						name="Dexchange"
-						url="https://dexchange-transfert.com"
+						url="https://dexchange.sn"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/jkrcxgtirchld6vowlag.png"
 					/>
 				</div>
@@ -57,7 +57,7 @@ const PartnersSection = () => {
 					/>
 					<Partner
 						name="Daara IT"
-						url="https://daarait.com"
+						url="https://www.linkedin.com/company/daara-it"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/vx97owcscvdgyscfsxyo.png"
 					/>
 				</div>

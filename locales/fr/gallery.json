@@ -3,6 +3,11 @@
 		"firstHeading": "Notre galerie photo",
 		"secondHeading": "Retrouvez les clichés marquants de nos derniers événements avec la communauté Galsen DEV.",
 		"see": "Voir les photos",
+		"event-7": {
+			"title": "Atelier Dev Étudiant ICAGI",
+			"desc": "Une journée enrichissante d'apprentissage avec les étudiants de l'ICAGI !",
+			"date": "14 Décembre 2024"
+		},
 		"event-6": {
 			"title": "Hacktoberfest 2024",
 			"desc": "L'édition 2024 du Hacktoberfest de la communauté Galsen DEV !",
