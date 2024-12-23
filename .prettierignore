@@ -1,3 +1,6 @@
+# SVG Icon Sprite Generator
+/public/icons/sprite.svg
+
 # dependencies
 /node_modules
 /.pnp
