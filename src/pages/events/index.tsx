@@ -118,7 +118,9 @@ const EventCard = ({ name, date }: EventCardProps) => {
 				{formattedMonthYear}
 			</time>
 			<div className="px-4 self-center">
-				<h3 className="text-lg font-medium text-gray-900">{name}</h3>
+				<h3 className="text-lg font-medium text-gray-900">
+					{t(`eventsPage.events.${slug}.title`)}
+				</h3>
 				<p className="mt-2 line-clamp-2 text-sm/relaxed text-gray-700">
 					{t(`eventsPage.events.${slug}.desc`)}
 				</p>
