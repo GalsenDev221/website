@@ -1,5 +1,4 @@
 import Image from 'next/image';
-
 import useTranslation from 'next-translate/useTranslation';
 
 const PartnersSection = () => {
@@ -18,9 +17,9 @@ const PartnersSection = () => {
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/i4o35pazvwzktoi5erox.png"
 					/>
 					<Partner
-						name="Socium Job"
-						url="https://sociumjob.com"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/svee2xo6u4tvdzexujls.png"
+						name="Socium"
+						url="https://socium.link"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1738203568/galsendev/partners/socium_flwyjp.png"
 					/>
 					<Partner
 						name="Propel"
@@ -57,7 +56,7 @@ const PartnersSection = () => {
 					/>
 					<Partner
 						name="Daara IT"
-						url="https://www.linkedin.com/company/daara-it"
+						url="https://linkedin.com/company/daara-it"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/vx97owcscvdgyscfsxyo.png"
 					/>
 				</div>
