@@ -8,7 +8,7 @@ const Donation = () => {
 			<p className="text-center text-sm font-medium">
 				{t('donation.text.first')}{' '}
 				<Link
-					href="https://ko-fi.com/galsendev221"
+					href="https://ko-fi.com/galsendev"
 					target="_blank"
 					className="inline-block underline"
 				>
