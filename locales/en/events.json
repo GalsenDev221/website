@@ -5,6 +5,11 @@
 		"upcoming": "Upcoming event",
 		"previous": "Previous event",
 		"events": {
+			"galsendev-meetup-5": {
+				"title": "GalsenDEV Meetup #5",
+				"desc": "During this event, we will explore the importance of Soft Skills for success in the professional world.",
+				"full": "An inspiring discussion with Cheikh Tidiane NDIAYE, Fullstack Developer at Socium. Technical skills alone are not enough: knowing how to communicate effectively, collaborate with your team, and manage client interactions is essential for thriving in the development world. Tidiane will share practical advice on avoiding conflicts, fostering a positive work atmosphere, and maximizing your impact within a team. A must-attend opportunity to sharpen your interpersonal skills and boost your career!"
+			},
 			"icagi-student-dev-workshop": {
 				"title": "ICAGI Student Dev Workshop",
 				"desc": "An enriching day of learning with the students of ICAGI !",
