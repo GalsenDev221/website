@@ -2,6 +2,14 @@ import { Event } from './type';
 
 export const events: Event[] = [
 	{
+		name: 'GalsenDEV Meetup #5',
+		description:
+			'During this event, we will explore the importance of Soft Skills for success in the professional world.',
+		date: '02/23/2025',
+		type: 'upcoming',
+		full: 'Full description here.',
+	},
+	{
 		name: 'ICAGI Student Dev Workshop',
 		description: 'An enriching day of learning with the students of ICAGI !',
 		date: '12/14/2024',
