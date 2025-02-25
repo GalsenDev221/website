@@ -25,6 +25,11 @@ const Navbar = () => {
 			target: '_blank',
 		},
 		{ name: t('navbar.about'), path: '/about' },
+		{
+			name: 'Call for Speakers 2025 ↗',
+			path: 'https://lienfy.com/czwm48',
+			target: '_blank',
+		},
 	];
 
 	return (
