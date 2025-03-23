@@ -77,7 +77,7 @@ const Footer = () => {
 							/>
 						</li>
 						<li>
-							<SocialLink name="youtube" src="https://youtube.com/@galsendev" />
+							<SocialLink name="youtube" src="https://youtube.com/@GalsenDEV" />
 						</li>
 						<li>
 							<SocialLink name="github" src="https://github.com/GalsenDev221" />
