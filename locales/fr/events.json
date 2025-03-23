@@ -5,10 +5,15 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"live-koor-2025": {
+				"title": "Live Koor 2025",
+				"desc": "Une immersion passionnante dans la création de jeux mobiles lors de cette édition 2025.",
+				"full": "Nous avons plongé dans l’univers fascinant de la création de jeux vidéo mobiles avec Alpha Ousmane DIALLO, spécialiste du moteur Godot. Alpha a fait un tour sur les différentes étapes de la conception de jeux vidéo, en s’appuyant sur des jeux qu’il a développés. Une occasion unique qui nous a permis d’explorer l’univers du game development."
+			},
 			"galsendev-meetup-5": {
 				"title": "GalsenDEV Meetup #5",
-				"desc": "Durant cet événement, nous explorerons l’importance des Soft Skills pour réussir dans le monde professionnel.",
-				"full": "Un échange inspirant avec Cheikh Tidiane NDIAYE, Développeur Fullstack chez Socium. ​La technique seule ne suffit pas : savoir communiquer efficacement, collaborer avec son équipe et gérer les interactions avec les clients est essentiel pour évoluer sereinement dans l’univers du développement. ​Tidiane partagera des conseils pratiques pour éviter les conflits, favoriser une atmosphère de travail positive et maximiser son impact au sein d’une équipe. Une opportunité à ne pas manquer pour affûter vos compétences interpersonnelles et booster votre carrière !"
+				"desc": "Durant cet événement, nous avons exploré l’importance des Soft Skills pour réussir dans le monde professionnel.",
+				"full": "Un échange inspirant avec Cheikh Tidiane NDIAYE, Développeur Fullstack chez Socium. ​Pour savoir communiquer efficacement, collaborer avec son équipe et gérer les interactions avec les clients était essentiel pour évoluer sereinement dans l’univers du développement. ​Tidiane a partagé des conseils pratiques pour éviter les conflits, favoriser une atmosphère de travail positive et maximiser son impact au sein d’une équipe."
 			},
 			"icagi-student-dev-workshop": {
 				"title": "Atelier Dev Étudiant ICAGI",

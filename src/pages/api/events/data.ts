@@ -2,11 +2,19 @@ import { Event } from './type';
 
 export const events: Event[] = [
 	{
+		name: 'Live Koor 2025',
+		description:
+			'An exciting deep dive into mobile game development at this 2025 edition.',
+		date: '03/15/2025',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
 		name: 'GalsenDEV Meetup #5',
 		description:
-			'During this event, we will explore the importance of Soft Skills for success in the professional world.',
+			'During this event, we explored the importance of Soft Skills for success in the professional world.',
 		date: '02/23/2025',
-		type: 'upcoming',
+		type: 'previous',
 		full: 'Full description here.',
 	},
 	{
