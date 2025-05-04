@@ -5,6 +5,11 @@
 		"upcoming": "Upcoming event",
 		"previous": "Previous event",
 		"events": {
+			"galsendev-meetup-6": {
+				"title": "GalsenDEV Meetup #6",
+				"desc": "A focus on Flutter best practices and state management with BLoC.",
+				"full": "An enriching workshop led by Saliou SECK, Mobile Developer at La Laiterie du Berger (Dolima), passionate about Flutter since 2020. Saliou guided us through the world of modern Flutter development, highlighting robust architectures used in production and the importance of effective state management with BLoC. Participants discovered practical tips for designing high-performance, maintainable, and user-centered applications."
+			},
 			"live-koor-2025": {
 				"title": "Live Koor 2025",
 				"desc": "An exciting deep dive into mobile game development at this 2025 edition.",
