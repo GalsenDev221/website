@@ -14,22 +14,22 @@ const PartnersSection = () => {
 					<Partner
 						name="DataCamp Donates"
 						url="https://datacamp.com/donates"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/i4o35pazvwzktoi5erox.png"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1728050595/galsendev/partners/datacamp_donates.png"
 					/>
 					<Partner
 						name="Socium"
 						url="https://socium.link"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1738203568/galsendev/partners/socium_flwyjp.png"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1738203568/galsendev/partners/socium.png"
 					/>
 					<Partner
 						name="Propel"
 						url="https://propel.community"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/de3sj9kcfgb8angwsko3.png"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/propel.png"
 					/>
 					<Partner
-						name="Dexchange"
-						url="https://dexchange.sn"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/jkrcxgtirchld6vowlag.png"
+						name="Bitcoin Sénégal"
+						url="https://x.com/bitcoin_sen"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1749254453/galsendev/partners/bitcoin_senegal.png"
 					/>
 				</div>
 			</div>
@@ -42,22 +42,22 @@ const PartnersSection = () => {
 					<Partner
 						name="Xarala"
 						url="https://xarala.co"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/rjnb83nn9itvqb11vh0w.png"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/xarala.png"
 					/>
 					<Partner
 						name="Possacode"
 						url="https://possacode.netlify.app"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/tmkuxw21fu2yntcdvykl.png"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/possacode.png"
 					/>
 					<Partner
 						name="Galsen AI"
 						url="https://galsen.ai"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/wtihf0cldeyc68rtpj58.png"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/galsen_ai.png"
 					/>
 					<Partner
 						name="Daara IT"
 						url="https://linkedin.com/company/daara-it"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/vx97owcscvdgyscfsxyo.png"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/daara_it.png"
 					/>
 				</div>
 			</div>
