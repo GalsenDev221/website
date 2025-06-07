@@ -2,24 +2,24 @@
 
 name: ✨ New Feature
 description: Let us know what you would like to see added.
-title: "[Feat]: "
-labels: ["enhancement"]
+title: '[Feat]: '
+labels: ['enhancement']
 body:
-    - type: textarea
-      id: description
-      attributes:
-          label: Describe the feature in detail (code, mocks, or screenshots encouraged)
-      validations:
-        required: true
-    - type: dropdown
-      id: category
-      attributes:
-          label: What type of pull request would this be?
-          options:
-              - "New Feature"
-              - "Enhancement"
-              - "Other"
-    - type: textarea
-      id: references
-      attributes:
-          label: Provide relevant links or additional information.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature in detail (code, mocks, or screenshots encouraged)
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: What type of pull request would this be?
+      options:
+        - 'New Feature'
+        - 'Enhancement'
+        - 'Other'
+  - type: textarea
+    id: references
+    attributes:
+      label: Provide relevant links or additional information.

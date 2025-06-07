@@ -2,6 +2,14 @@ import { Event } from './type';
 
 export const events: Event[] = [
 	{
+		name: 'Weekend Code #4',
+		description:
+			'Two days of technical talks and discussions around Flutter and Semantic Versioning.',
+		date: '05/24/2025',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
 		name: 'GalsenDEV Meetup #6',
 		description:
 			'A focus on Flutter best practices and state management with BLoC.',

@@ -5,6 +5,11 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"weekend-code-4": {
+				"title": "Weekend du Code #4",
+				"desc": "Deux jours de présentations techniques et d’échanges autour de Flutter et le Semantic Versioning.",
+				"full": "Le Weekend du Code revient pour une 4ᵉ édition intense. Durant deux jours, les passionnés de développement se sont réunis autour de présentations enrichissantes et de moments d’échange. Kokou Bienvenu AGBAVON, venu du Togo, a présenté Mason et les Bricks dans Flutter, une solution permettant de gagner jusqu’à 70 % de temps lors de l’initialisation de projets. Le dimanche, Souleymane, développeur Fullstack et ambassadeur Galsen DEV à l’UAMM, a démystifié le Semantic Versioning à travers des exemples concrets en Java et Node.js. Une édition marquée par le partage, la montée en compétence et l'inspiration."
+			},
 			"galsendev-meetup-6": {
 				"title": "GalsenDEV Meetup #6",
 				"desc": "Un focus sur les bonnes pratiques Flutter et la gestion d’état avec BLoC.",
