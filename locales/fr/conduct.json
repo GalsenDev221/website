@@ -1,0 +1,28 @@
+{
+	"conductPage": {
+		"tag": "galsen.dev/code-de-conduite",
+		"title": "Code de Conduite",
+		"description": "Chez Galsen DEV, nous nous engageons à bâtir une communauté inclusive, bienveillante et respectueuse, ouverte à toutes et à tous, quel que soit le niveau d'expérience, l’origine, la religion ou la situation personnelle.",
+		"description2": "Nous ne tolérons aucune forme de harcèlement ou de comportement abusif envers les membres de la communauté, que ce soit lors de nos événements, en ligne (Discord, Telegram, réseaux sociaux) ou dans toute interaction liée à Galsen DEV.",
+		"step1": "🙌 Ce que nous attendons",
+		"desc1": "Tous les participants aux activités de Galsen DEV — qu’ils soient membres, ambassadeurs, intervenants, bénévoles ou organisateurs — sont tenus de respecter les règles suivantes :",
+		"addS1-1": "- Soyez respectueux dans vos propos et vos comportements.",
+		"addS1-2": "- Soyez bienveillants : aidez, encouragez et soutenez les autres.",
+		"addS1-3": "- Aucun propos sexiste, raciste, discriminatoire ou offensant ne sera toléré.",
+		"addS1-4": "- N’utilisez pas de langage ou d’images à caractère sexuel ou inapproprié.",
+		"addS1-5": "- Ne publiez pas de photos de personnes sans leur consentement.",
+		"addS1-6": "- Respectez les personnes pour qui le français n’est pas la langue principale.",
+		"end1": "Nous sommes une communauté panafricaine : merci de garder à l’esprit que chacun vient avec une sensibilité culturelle différente.",
+		"step2": "🚫 Ce qui est considéré comme du harcèlement",
+		"desc2": "Le harcèlement inclut (sans s’y limiter) :",
+		"addS2-1": "- Propos offensants ou discriminatoires (en ligne ou en personne).",
+		"addS2-2": "- Intimidation, menaces ou harcèlement répété.",
+		"addS2-3": "- Photographies ou enregistrements non désirés.",
+		"addS2-4": "- Perturbation intentionnelle d’ateliers, discussions ou canaux de discussion.",
+		"end2": "Toute personne invitée à cesser un comportement jugé inapproprié doit se conformer immédiatement.",
+		"step3": "⚠️ En cas de problème",
+		"desc3": "Si vous êtes témoin ou victime d’un comportement déplacé ou avez une préoccupation, contactez immédiatement un membre de l’équipe Galsen DEV (modérateurs Discord, admins, staff événementiel). Nous sommes là pour vous écouter, vous soutenir et agir de manière appropriée.",
+		"desc4": "Des mesures pourront être prises selon la gravité, incluant un avertissement, l’exclusion temporaire ou définitive d’un événement, du serveur Discord, ou de la communauté dans son ensemble.",
+		"final": "Dernière mise à jour : 28/06/2025"
+	}
+}

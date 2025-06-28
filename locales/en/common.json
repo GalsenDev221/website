@@ -14,6 +14,7 @@
 		"about": "About",
 		"events": "Events",
 		"gallery": "Gallery",
+		"conduct": "Code of Conduct",
 		"policy": "Policy",
 		"privacy": "Privacy",
 		"terms": "Terms of Use"
@@ -38,6 +39,9 @@
 	},
 	"terms": {
 		"header": "Terms of Use"
+	},
+	"conduct": {
+		"header": "Community Code of Conduct"
 	},
 	"donation": {
 		"text": {

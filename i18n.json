@@ -11,6 +11,7 @@
 		"/policy": ["policy"],
 		"/privacy": ["privacy"],
 		"/terms": ["terms"],
+		"/conduct": ["conduct"],
 		"/404": ["404"],
 		"/500": ["500"]
 	}
