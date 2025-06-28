@@ -26,7 +26,7 @@ function Header(props: Readonly<HeaderProps>) {
 				<meta property="og:type" content="website" />
 				<meta
 					property="og:image"
-					content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/galsendev/share/a8outneqrzhfr7zn79vo.png"
+					content="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857126/galsendev/share/og_image.png"
 				/>
 				<meta property="og:title" content="Galsen DEV" />
 				<meta
