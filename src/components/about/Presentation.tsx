@@ -7,17 +7,13 @@ const Presentation = () => {
 	return (
 		<section className="overflow-hidden bg-gray-50 lg:grid lg:grid-cols-2">
 			<div className="p-8 md:p-12 lg:px-16 lg:py-24">
-				<div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+				<div className="mx-auto max-w-xl text-left ltr:sm:text-left rtl:sm:text-right">
 					<h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
-						Galsen DEV
+						{t('presentation.aboutTitle')}
 					</h2>
 
 					<p className="text-gray-500 md:mt-4 md:block">
-						{t('presentation.firstHeading')}
-					</p>
-
-					<p className="text-gray-500 md:mt-4 md:block">
-						{t('presentation.secondHeading')}
+						{t('presentation.aboutHeading')}
 					</p>
 
 					<div className="mt-4 md:mt-8">
@@ -33,8 +29,8 @@ const Presentation = () => {
 			</div>
 
 			<Image
-				src="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/galsendev/main/xe8f23mwvkft4hsvrjov.png"
-				width="500"
+				src="https://res.cloudinary.com/degyjrpjj/image/upload/v1751055212/galsendev/main/galsen_dev_cover.png"
+				width="1000"
 				height="500"
 				alt="GalsenDEV Illustration"
 				loading="eager"
