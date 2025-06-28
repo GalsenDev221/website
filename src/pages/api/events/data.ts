@@ -2,6 +2,22 @@ import { Event } from './type';
 
 export const events: Event[] = [
 	{
+		name: 'GalsenDEV Meetup #7',
+		description:
+			'A talk to discover Filament, a Laravel tool for building modern admin interfaces.',
+		date: '06/28/2025',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'Galsen DEV x UAM',
+		description:
+			'An afternoon of discussions on development, Go, and the opportunities offered by Bitcoin.',
+		date: '06/21/2025',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
 		name: 'Weekend Code #4',
 		description:
 			'Two days of technical talks and discussions around Flutter and Semantic Versioning.',

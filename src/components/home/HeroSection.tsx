@@ -11,7 +11,7 @@ const HeroSection = () => {
 					<div className="absolute top-16 -left-2 w-64 h-64 bg-baseColor rounded-full mix-blend-multiply filter blur-2xl opacity-60 animation-delay-2000 animate-blob sm:w-80 sm:h-80"></div>
 					<div className="w-full h-full max-w-xl">
 						<Image
-							src="https://res.cloudinary.com/degyjrpjj/image/upload/v1688584020/galsendev/main/tce1ijjs4dxm8vl8qxls.png"
+							src="https://res.cloudinary.com/degyjrpjj/image/upload/v1697857000/galsendev/main/landing_cover.png"
 							width="800"
 							height="800"
 							alt="Landing Illustration"

@@ -14,6 +14,7 @@
 		"about": "A propos",
 		"events": "Evénements",
 		"gallery": "Galerie",
+		"conduct": "Code de Conduite",
 		"policy": "Confidentialité",
 		"privacy": "Vie Privée",
 		"terms": "Conditions"
@@ -38,6 +39,9 @@
 	},
 	"terms": {
 		"header": "Conditions d'Utilisation"
+	},
+	"conduct": {
+		"header": "Code de Conduite de la communauté"
 	},
 	"donation": {
 		"text": {

@@ -1,0 +1,28 @@
+{
+	"conductPage": {
+		"tag": "galsen.dev/code-of-conduct",
+		"title": "Code of Conduct",
+		"description": "At Galsen DEV, we are committed to building an inclusive, supportive, and respectful community that is open to everyone, regardless of experience level, background, religion, or personal circumstances.",
+		"description2": "We do not tolerate any form of harassment or abusive behavior towards members of the community, whether during our events, online (Discord, Telegram, social media), or in any interaction related to Galsen DEV.",
+		"step1": "🙌 What We Expect",
+		"desc1": "All participants in Galsen DEV activities — including members, ambassadors, speakers, volunteers, and organizers — are expected to follow these rules:",
+		"addS1-1": "- Be respectful in your words and behavior.",
+		"addS1-2": "- Be kind: help, encourage, and support others.",
+		"addS1-3": "- Sexist, racist, discriminatory, or offensive language will not be tolerated.",
+		"addS1-4": "- Do not use sexual or inappropriate language or imagery.",
+		"addS1-5": "- Do not post photos of people without their consent.",
+		"addS1-6": "- Be considerate of those for whom French is not their first language.",
+		"end1": "We are a pan-African community: please keep in mind that everyone brings different cultural sensitivities.",
+		"step2": "🚫 What Is Considered Harassment",
+		"desc2": "Harassment includes (but is not limited to):",
+		"addS2-1": "- Offensive or discriminatory remarks (online or in person).",
+		"addS2-2": "- Intimidation, threats, or repeated harassment.",
+		"addS2-3": "- Unwanted photography or recordings.",
+		"addS2-4": "- Intentional disruption of workshops, discussions, or chat channels.",
+		"end2": "Anyone asked to stop inappropriate behavior must comply immediately.",
+		"step3": "⚠️ If a Problem Arises",
+		"desc3": "If you witness or experience inappropriate behavior or have any concerns, contact a member of the Galsen DEV team right away (Discord moderators, admins, event staff). We are here to listen, support you, and take appropriate action.",
+		"desc4": "Actions may include a warning, temporary or permanent removal from an event, the Discord server, or the community as a whole, depending on the severity of the situation.",
+		"final": "Last updated: 28/06/2025"
+	}
+}

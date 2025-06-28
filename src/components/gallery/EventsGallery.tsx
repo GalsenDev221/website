@@ -1,13 +1,14 @@
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
-import icagi from '/public/img/events/icagi2024.jpg';
-import hof24 from '/public/img/events/hacktoberfest2024.jpg';
-import hof23 from '/public/img/events/hacktoberfest2023.jpg';
-import ciga from '/public/img/events/ciga2023.jpg';
-import hof22 from '/public/img/events/hacktoberfest2022.jpg';
-import hof21 from '/public/img/events/hacktoberfest2021.jpg';
-import xtdk21 from '/public/img/events/xaralatourdk2021.jpg';
+import uam25 from '/public/gallery/uam2025.jpg';
+import icagi from '/public/gallery/icagi2024.jpg';
+import hof24 from '/public/gallery/hacktoberfest2024.jpg';
+import hof23 from '/public/gallery/hacktoberfest2023.jpg';
+import ciga from '/public/gallery/ciga2023.jpg';
+import hof22 from '/public/gallery/hacktoberfest2022.jpg';
+import hof21 from '/public/gallery/hacktoberfest2021.jpg';
+import xtdk21 from '/public/gallery/xaralatourdk2021.jpg';
 
 import useTranslation from 'next-translate/useTranslation';
 import { Icon } from '../ui/icon';
@@ -28,8 +29,14 @@ const EventsGallery = () => {
 
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
 				<EventGalleryCard
+					eventId="event-8"
+					place="Annexe 2 UAM, Diamniadio"
+					photosLink="https://photos.app.goo.gl/RHBfRUNWFNDPrjgM6"
+					image={uam25}
+				/>
+				<EventGalleryCard
 					eventId="event-7"
-					place="Nord Foire, Dakar"
+					place="ICAGI, Nord Foire"
 					photosLink="https://photos.app.goo.gl/3Ecp1Yk7ZxJNDo12A"
 					image={icagi}
 				/>
@@ -65,7 +72,7 @@ const EventsGallery = () => {
 				/>
 				<EventGalleryCard
 					eventId="event-1"
-					place="Orange Digital Center, Mermoz Ecole Police"
+					place="Orange Digital Center, Mermoz"
 					photosLink="https://photos.app.goo.gl/F8W2gWh6Y6AW7Xto7"
 					image={xtdk21}
 				/>

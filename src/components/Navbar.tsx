@@ -25,6 +25,7 @@ const Navbar = () => {
 			target: '_blank',
 		},
 		{ name: t('navbar.about'), path: '/about' },
+		{ name: t('navbar.conduct'), path: '/conduct' },
 	];
 
 	return (

@@ -12,6 +12,11 @@ const PartnersSection = () => {
 				</h2>
 				<div className="mt-8 flex flex-col gap-3 lg:flex-row lg:gap-6 lg:w-full">
 					<Partner
+						name="JetBrains"
+						url="https://jetbrains.com"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1750994017/galsendev/partners/jetbrains.png"
+					/>
+					<Partner
 						name="DataCamp Donates"
 						url="https://datacamp.com/donates"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1728050595/galsendev/partners/datacamp_donates.png"
@@ -26,11 +31,6 @@ const PartnersSection = () => {
 						url="https://propel.community"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/propel.png"
 					/>
-					<Partner
-						name="Bitcoin Sénégal"
-						url="https://x.com/bitcoin_sen"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1749254453/galsendev/partners/bitcoin_senegal.png"
-					/>
 				</div>
 			</div>
 			<div className="flex flex-col items-center lg:items-end">
@@ -40,19 +40,24 @@ const PartnersSection = () => {
 				</h2>{' '}
 				<div className="mt-8 flex flex-col gap-2 lg:flex-row lg:gap-6 lg:w-full lg:justify-end">
 					<Partner
+						name="Bitcoin Sénégal"
+						url="https://x.com/bitcoin_sen"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1749254453/galsendev/partners/bitcoin_senegal.png"
+					/>
+					<Partner
 						name="Xarala"
 						url="https://xarala.co"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/xarala.png"
 					/>
 					<Partner
-						name="Possacode"
-						url="https://possacode.netlify.app"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/possacode.png"
-					/>
-					<Partner
 						name="Galsen AI"
 						url="https://galsen.ai"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/galsen_ai.png"
+					/>
+					<Partner
+						name="Possacode"
+						url="https://possacode.netlify.app"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/possacode.png"
 					/>
 					<Partner
 						name="Daara IT"
