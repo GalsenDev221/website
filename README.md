@@ -27,7 +27,7 @@ $ yarn dev
 Fix linting format errors :
 
 ```bash
-npm run lint -- --fix
+npm run lint
 ```
 
 ### Contributors
