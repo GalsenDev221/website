@@ -3,7 +3,7 @@ import useTranslation from 'next-translate/useTranslation';
 
 import LegalTerms from '@/components/legal/LegalTerms';
 
-export default function Gallery() {
+export default function Terms() {
 	const { t, lang } = useTranslation('common');
 	return (
 		<>

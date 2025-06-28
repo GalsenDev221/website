@@ -3,7 +3,7 @@ import useTranslation from 'next-translate/useTranslation';
 
 import LegalPolicy from '@/components/legal/LegalPolicy';
 
-export default function Gallery() {
+export default function Policy() {
 	const { t, lang } = useTranslation('common');
 	return (
 		<>
