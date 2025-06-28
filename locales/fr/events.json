@@ -5,6 +5,16 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"galsendev-meetup-7": {
+				"title": "GalsenDEV Meetup #7",
+				"desc": "Un talk pour découvrir Filament, un outil Laravel pour créer des interfaces d’administration modernes.",
+				"full": "Ce meetup dédié à Filament, un outil puissant et incontournable pour créer rapidement des interfaces d’administration avec Laravel. L'événement a été animé par Mahamadou Kheraba DIABY (alias Kepson DIAZ), Ingénieur Logiciel chez ALAL Technologies, qui a partagé un retour d’expérience riche et concret sur l’intégration de Filament dans des projets en production. Ce talk accessible et orienté pratique a permis aux participants de découvrir comment tirer pleinement parti de Filament pour améliorer leur productivité, structurer leurs projets et moderniser efficacement leurs back-offices Laravel. Une session inspirante qui a mis en lumière la simplicité et la puissance de cet écosystème."
+			},
+			"galsen-dev-x-uam": {
+				"title": "Galsen DEV x UAM",
+				"desc": "Un après-midi d’échanges autour du développement, de Go et des opportunités offertes par le Bitcoin.",
+				"full": "Le 21 juin 2025, en collaboration avec Bitcoin Sénégal, Galsen DEV a animé un événement à l’Université Amadou Mahtar MBOW dans le cadre de son Programme Ambassadeur. Cette rencontre, pensée pour éveiller la curiosité et nourrir les ambitions des étudiants, a été rythmée par des interventions à la fois techniques et inspirantes. Les participants ont pu assister à un atelier pratique animé par Papa Elhadj Abdoulaye NDOYE, découvrir le langage Go grâce à une introduction claire et engageante de Mouhamadou Moustapha DIAGNE, et explorer les opportunités offertes par le Bitcoin pour les développeurs à travers une session en ligne de Mouhamadou Kouta (Nourou). Un bel après-midi d’apprentissage, d’échanges et de connexions entre passionnés de tech."
+			},
 			"weekend-code-4": {
 				"title": "Weekend du Code #4",
 				"desc": "Deux jours de présentations techniques et d’échanges autour de Flutter et le Semantic Versioning.",

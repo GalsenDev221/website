@@ -12,7 +12,7 @@ const EventSection = () => {
 					<div className="relative z-10 lg:py-16">
 						<div className="relative h-64 sm:h-80 lg:h-full">
 							<Image
-								src="https://res.cloudinary.com/degyjrpjj/image/upload/v1730341121/galsendev/hacktoberfest/yvxynmkm3pfvuttogr2d.png"
+								src="https://res.cloudinary.com/degyjrpjj/image/upload/v1751051955/galsendev/main/hacktoberfest24cover.png"
 								alt="Last event of Galsen Dev"
 								width={500}
 								height={500}

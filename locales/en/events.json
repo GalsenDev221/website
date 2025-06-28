@@ -5,6 +5,16 @@
 		"upcoming": "Upcoming event",
 		"previous": "Previous event",
 		"events": {
+			"galsendev-meetup-7": {
+				"title": "GalsenDEV Meetup #7",
+				"desc": "A talk to discover Filament, a Laravel tool for building modern admin interfaces.",
+				"full": "This meetup was dedicated to Filament, a powerful and essential tool for quickly creating admin interfaces with Laravel. The event was led by Mahamadou Kheraba DIABY (aka Kepson DIAZ), Software Engineer at ALAL Technologies, who shared valuable and practical feedback on integrating Filament into production projects. This accessible, hands-on session allowed participants to explore how to fully leverage Filament to boost productivity, structure their projects, and efficiently modernize their Laravel back offices. An inspiring talk that highlighted the simplicity and power of this ecosystem."
+			},
+			"galsen-dev-x-uam": {
+				"title": "Galsen DEV x UAM",
+				"desc": "An afternoon of discussions on development, Go, and the opportunities offered by Bitcoin.",
+				"full": "On June 21, 2025, in collaboration with Bitcoin Senegal, Galsen DEV hosted an event at Amadou Mahtar MBOW University as part of its Ambassador Program. This gathering, designed to spark curiosity and fuel the ambitions of students, featured both technical and inspiring talks. Attendees took part in a hands-on workshop led by Papa Elhadj Abdoulaye NDOYE, discovered the Go programming language through a clear and engaging introduction by Mouhamadou Moustapha DIAGNE, and explored the opportunities Bitcoin offers developers during an online session with Mouhamadou Kouta (Nourou). It was a great afternoon of learning, sharing, and connecting among tech enthusiasts."
+			},
 			"weekend-code-4": {
 				"title": "Weekend Code #4",
 				"desc": "Two days of technical talks and discussions around Flutter and Semantic Versioning.",
