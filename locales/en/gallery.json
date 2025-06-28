@@ -3,6 +3,11 @@
 		"firstHeading": "Our photo gallery",
 		"secondHeading": "Find highlights from our latest events with the Galsen DEV community.",
 		"see": "See the pictures",
+		"event-8": {
+			"title": "Galsen DEV x UAM",
+			"desc": "An afternoon with the students of Amadou Mahtar MBOW University.",
+			"date": "June 21, 2025"
+		},
 		"event-7": {
 			"title": "ICAGI Student Dev Workshop",
 			"desc": "An enriching day of learning with the students of ICAGI !",
