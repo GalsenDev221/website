@@ -2,6 +2,46 @@ import { Event } from './type';
 
 export const events: Event[] = [
 	{
+		name: 'Hacktoberfest 2025',
+		description:
+			'The 5th edition of Hacktoberfest organized by the Galsen DEV community',
+		date: '10/25/2025',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'Hack Session #2 Hacktoberfest 2025',
+		description:
+			'The practical foundations of open source contribution and getting ready to take part in Hacktoberfest.',
+		date: '10/19/2025',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'Hack Session #1 Hacktoberfest 2025',
+		description:
+			'Understanding the importance of Hacktoberfest and learning how to contribute to open source projects.',
+		date: '10/18/2025',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'GalsenDEV Meetup #9',
+		description:
+			'A talk to explore Jant Taf, an automatic API generator designed to speed up web application development.',
+		date: '09/27/2025',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'GalsenDEV Meetup #8',
+		description:
+			'Discovering FlutterGigs, the platform connecting Flutter developers to new opportunities.',
+		date: '07/27/2025',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
 		name: 'GalsenDEV Meetup #7',
 		description:
 			'A talk to discover Filament, a Laravel tool for building modern admin interfaces.',

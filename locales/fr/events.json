@@ -5,6 +5,31 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"hacktoberfest-2025": {
+				"title": "Hacktoberfest 2025",
+				"desc": "La 5ᵉ édition du Hacktoberfest organisée par la communauté Galsen DEV.",
+				"full": "Le 25 octobre 2025, la communauté Galsen DEV a célébré le Hacktoberfest avec une journée dédiée au partage, à l’apprentissage et à l’open source. Les participants ont pu assister à des talks inspirants, des démonstrations interactives et échanger avec des experts tels que Souleymane Diallo, Mahamadou Kheraba Diaby, Ahmadou Waly Ndiaye, Mamadou Diagne, Elias Waly Ba et Médoune Siby Georges Balde. La journée a été rythmée par des présentations techniques, des panels et des discussions autour de l’innovation et des contributions open source, suivies d’un moment de réseautage et de photo de famille. L’événement s’est tenu à la FST UCAD, derrière le hall de la FST (Nouveau Bâtiment), dans une ambiance conviviale et enrichissante pour tous les participants."
+			},
+			"hack-session-2-hacktoberfest-2025": {
+				"title": "Hack Session #2 Hacktoberfest 2025",
+				"desc": "Les bases pratiques de la contribution open source et se préparer à participer au Hacktoberfest.",
+				"full": "Cette session interactive, animée par Mouhamadou Moustapha DIAGNE, Tech Manager de Galsen DEV, était dédiée à la pratique de la contribution open source. Les participants y ont appris à forker un projet, à proposer une pull request, et à respecter les bonnes pratiques de collaboration sur GitHub. Un moment d’apprentissage collectif qui a permis de mieux se préparer à contribuer efficacement lors du Hacktoberfest et au-delà."
+			},
+			"hack-session-1-hacktoberfest-2025": {
+				"title": "Hack Session #1 Hacktoberfest 2025",
+				"desc": "Comprendre l'importance du Hacktoberfest et apprendre comment contribuer à des projets open source.",
+				"full": "Cette session d’introduction a permis de plonger dans l’univers du Hacktoberfest, le mois mondial de la contribution open source. Animée par Daouda BA, Lead de la communauté Galsen DEV, elle a permis aux participants de comprendre la philosophie du Hacktoberfest, ses enjeux pour les développeurs, et les étapes concrètes pour y participer. Ce fut un rendez-vous idéal pour découvrir comment les premières contributions peuvent avoir un impact réel dans l’écosystème open source."
+			},
+			"galsendev-meetup-9": {
+				"title": "GalsenDEV Meetup #9",
+				"desc": "Un talk pour explorer Jant Taf, un générateur automatique d’API conçu pour accélérer le développement d’applications web.",
+				"full": "Le GalsenDEV Meetup #9 a eu pour invité Mouhamed AMAR, Directeur des Opérations chez Jant Tech, enseignant (UCAD, UAHB) et formateur en développement web. Il y a présenté Jant Taf, un outil de génération automatique d’API à partir de bases de données MySQL, PostgreSQL ou SQL Server, conçu pour accélérer le développement et simplifier le workflow des développeurs. Cette session, à la fois technique et inspirante, a mis en lumière les possibilités offertes par les solutions locales pour automatiser et optimiser les projets web."
+			},
+			"galsendev-meetup-8": {
+				"title": "GalsenDEV Meetup #8",
+				"desc": "À la découverte de FlutterGigs, la plateforme qui connecte les développeurs Flutter aux opportunités.",
+				"full": "Le GalsenDEV Meetup du 27 juillet a accueilli Ethiel ADIASSA, Google Developer Expert Flutter & Dart, créateur de FlutterGigs et intervenant reconnu dans la communauté tech internationale. Lors de cet échange, il a présenté FlutterGigs, une plateforme innovante qui connecte les développeurs Flutter aux opportunités professionnelles. Les participants ont également bénéficié de conseils pratiques sur les meilleures approches pour valoriser leurs compétences et saisir des opportunités dans l’écosystème Flutter. Ce fut un moment riche en partage d’expériences, en inspiration et en apprentissage pour la communauté Galsen DEV."
+			},
 			"galsendev-meetup-7": {
 				"title": "GalsenDEV Meetup #7",
 				"desc": "Un talk pour découvrir Filament, un outil Laravel pour créer des interfaces d’administration modernes.",
@@ -116,6 +141,8 @@
 				"full": "Notre tout premier webinaire a permis aux participants d'acquérir des connaissances essentielles sur la technologie Docker, renforçant ainsi leurs compétences en développement. Avec la participation de Meïssa MBAYE et Alioune Badara DIAKHATÉ."
 			}
 		},
+		"next": "Suivant",
+		"prev": "Précédent",
 		"fail": "Échec du chargement",
 		"load": "Chargement...",
 		"up": "à venir",
