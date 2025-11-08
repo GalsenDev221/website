@@ -1,13 +1,14 @@
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
+import hf25 from '/public/gallery/hacktoberfest2025.jpg';
 import uam25 from '/public/gallery/uam2025.jpg';
 import icagi from '/public/gallery/icagi2024.jpg';
 import hof24 from '/public/gallery/hacktoberfest2024.jpg';
-import hof23 from '/public/gallery/hacktoberfest2023.jpg';
+import hf23 from '/public/gallery/hacktoberfest2023.jpg';
 import ciga from '/public/gallery/ciga2023.jpg';
-import hof22 from '/public/gallery/hacktoberfest2022.jpg';
-import hof21 from '/public/gallery/hacktoberfest2021.jpg';
+import hf22 from '/public/gallery/hacktoberfest2022.jpg';
+import hf21 from '/public/gallery/hacktoberfest2021.jpg';
 import xtdk21 from '/public/gallery/xaralatourdk2021.jpg';
 
 import useTranslation from 'next-translate/useTranslation';
@@ -28,6 +29,12 @@ const EventsGallery = () => {
 			</div>
 
 			<div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8">
+				<EventGalleryCard
+					eventId="event-9"
+					place="FST UCAD (Nouveau Bâtiment), Dakar"
+					photosLink="https://photos.app.goo.gl/tKMRGvy5ovwCXdYt5"
+					image={hf25}
+				/>
 				<EventGalleryCard
 					eventId="event-8"
 					place="Annexe 2 UAM, Diamniadio"
@@ -50,7 +57,7 @@ const EventsGallery = () => {
 					eventId="event-5"
 					place="Campus Xarala, Sicap Mbao"
 					photosLink="https://photos.app.goo.gl/j6f9geUSLrYuwDn38"
-					image={hof23}
+					image={hf23}
 				/>
 				<EventGalleryCard
 					eventId="event-4"
@@ -62,13 +69,13 @@ const EventsGallery = () => {
 					eventId="event-3"
 					place="Campus Xarala, Liberté 6"
 					photosLink="https://photos.app.goo.gl/PwzmZYvXwT1zo6ss5"
-					image={hof22}
+					image={hf22}
 				/>
 				<EventGalleryCard
 					eventId="event-2"
 					place="Ofisini Coworking, Liberté 6"
 					photosLink="https://photos.app.goo.gl/i1RewRU3DrDQVM4P8"
-					image={hof21}
+					image={hf21}
 				/>
 				<EventGalleryCard
 					eventId="event-1"
