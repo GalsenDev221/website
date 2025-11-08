@@ -3,6 +3,11 @@
 		"firstHeading": "Notre galerie photo",
 		"secondHeading": "Retrouvez les clichés marquants de nos derniers événements avec la communauté Galsen DEV.",
 		"see": "Voir les photos",
+		"event-9": {
+			"title": "Hacktoberfest 2025",
+			"desc": "La 5ᵉ édition du Hacktoberfest organisée par la communauté Galsen DEV.",
+			"date": "25 Octobre 2025"
+		},
 		"event-8": {
 			"title": "Galsen DEV x UAM",
 			"desc": "Un après-midi avec les étudiants de l’Université Amadou Mahtar MBOW.",

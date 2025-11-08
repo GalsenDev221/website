@@ -5,6 +5,31 @@
 		"upcoming": "Upcoming event",
 		"previous": "Previous event",
 		"events": {
+			"hacktoberfest-2025": {
+				"title": "Hacktoberfest 2025",
+				"desc": "The 5th edition of Hacktoberfest organized by the Galsen DEV community.",
+				"full": "On October 25, 2025, the Galsen DEV community celebrated Hacktoberfest with a day dedicated to sharing, learning, and open source. Participants attended inspiring talks, interactive demonstrations, and had the opportunity to connect with experts such as Souleymane Diallo, Mahamadou Kheraba Diaby, Ahmadou Waly Ndiaye, Mamadou Diagne, Elias Waly Ba, and Médoune Siby Georges Balde. The day featured technical presentations, panels, and discussions on innovation and open source contributions, followed by networking sessions and a group photo. The event took place at FST UCAD, behind the FST hall (Nouveau Bâtiment), in a friendly and enriching atmosphere for all attendees."
+			},
+			"hack-session-2-hacktoberfest-2025": {
+				"title": "Hack Session #2 Hacktoberfest 2025",
+				"desc": "The practical foundations of open source contribution and getting ready to take part in Hacktoberfest.",
+				"full": "This interactive session, led by Mouhamadou Moustapha DIAGNE, Tech Manager at Galsen DEV, focused on the practical side of open source contribution. Participants learned how to fork a project, submit a pull request, and follow best practices for collaboration on GitHub. It was a collective learning experience that helped participants get ready to contribute effectively during Hacktoberfest and beyond."
+			},
+			"hack-session-1-hacktoberfest-2025": {
+				"title": "Hack Session #1 Hacktoberfest 2025",
+				"desc": "Understanding the importance of Hacktoberfest and learning how to contribute to open source projects.",
+				"full": "This introductory session offered a deep dive into the world of Hacktoberfest, the global month dedicated to open source contributions. Led by Daouda BA, Lead of the Galsen DEV community, it helped participants understand the philosophy of Hacktoberfest, its value for developers, and the practical steps to get involved. It was an ideal event to discover how even first-time contributions can have a real impact in the open source ecosystem."
+			},
+			"galsendev-meetup-9": {
+				"title": "GalsenDEV Meetup #9",
+				"desc": "A talk to explore Jant Taf, an automatic API generator designed to speed up web application development.",
+				"full": "The GalsenDEV Meetup #9 hosted Mouhamed AMAR, Chief Operations Officer at Jant Tech, lecturer (UCAD, UAHB), and web development trainer. He presented Jant Taf, a tool that automatically generates APIs from MySQL, PostgreSQL, or SQL Server databases, designed to accelerate development and simplify developers’ workflows. The session was both technical and inspiring, highlighting how local solutions can help automate and optimize web projects."
+			},
+			"galsendev-meetup-8": {
+				"title": "GalsenDEV Meetup #8",
+				"desc": "Discovering FlutterGigs, the platform connecting Flutter developers to new opportunities.",
+				"full": "The GalsenDEV Meetup held on July 27 featured Ethiel ADIASSA, Google Developer Expert for Flutter & Dart, creator of FlutterGigs, and a well-known speaker in the international tech community. During the session, he presented FlutterGigs, an innovative platform designed to connect Flutter developers with professional opportunities. Participants also received practical advice on how to showcase their skills and seize opportunities within the Flutter ecosystem. It was a rich and inspiring moment of knowledge sharing, experience, and learning for the Galsen DEV community."
+			},
 			"galsendev-meetup-7": {
 				"title": "GalsenDEV Meetup #7",
 				"desc": "A talk to discover Filament, a Laravel tool for building modern admin interfaces.",
@@ -116,6 +141,8 @@
 				"full": "Our very first webinar allowed participants to acquire essential knowledge about Docker technology, strengthening their development skills. With Meïssa MBAYE and Alioune Badara DIAKHATÉ."
 			}
 		},
+		"next": "Next",
+		"prev": "Previous",
 		"fail": "Failed to load",
 		"load": "Loading...",
 		"up": "upcoming",
