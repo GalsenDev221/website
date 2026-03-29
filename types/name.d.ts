@@ -2,9 +2,9 @@
 
 export type IconName =
 	| 'arrow-right'
+	| 'back-undo'
 	| 'caret-sort'
 	| 'check'
-	| 'circle-arrow-left'
 	| 'commit-icon'
 	| 'cross-1'
 	| 'discord'

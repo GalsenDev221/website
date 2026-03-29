@@ -5,6 +5,11 @@
 		"upcoming": "Upcoming event",
 		"previous": "Previous event",
 		"events": {
+			"live-koor-2026": {
+				"title": "Live Koor 2026",
+				"desc": "A dive into the world of Agentic Coding with Daouda BA, where your terminal becomes your co-developer.",
+				"full": "Daouda BA, FullStack Developer, Open Source Enthusiast, and Lead of Galsen DEV, took us on a deep dive into the world of Agentic Coding, a new way of developing where tools and intelligent agents become true co-developers in your terminal. The session covered an introduction and context around Agentic Coding, an exploration of tools and emerging development practices, and a live demo featuring the creation of a concrete mini-project in real time. Whether you are a curious developer or passionate about new ways of coding, this session offered a glimpse into how your terminal can become a genuine development partner."
+			},
 			"hacktoberfest-2025": {
 				"title": "Hacktoberfest 2025",
 				"desc": "The 5th edition of Hacktoberfest organized by the Galsen DEV community.",
