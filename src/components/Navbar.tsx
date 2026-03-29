@@ -26,6 +26,11 @@ const Navbar = () => {
 		},
 		{ name: t('navbar.about'), path: '/about' },
 		{ name: t('navbar.conduct'), path: '/conduct' },
+		{
+			name: 'Links ↗',
+			path: 'https://links.galsen.dev',
+			target: '_blank',
+		},
 	];
 
 	return (
