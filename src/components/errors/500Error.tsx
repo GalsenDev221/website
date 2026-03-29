@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import e500 from '/public/svg/warning.svg';
+import e500 from '../../../public/svg/warning.svg';
 import useTranslation from 'next-translate/useTranslation';
 
 const Error500 = () => {

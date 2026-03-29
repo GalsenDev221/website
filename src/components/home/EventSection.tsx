@@ -14,9 +14,9 @@ const EventSection = () => {
 							<Image
 								src="https://res.cloudinary.com/degyjrpjj/image/upload/v1762612807/galsendev/main/hacktoberfest25cover.png"
 								alt="Last event of Galsen Dev"
-								width={500}
-								height={500}
-								className="absolute inset-0 h-full w-full object-cover"
+								fill
+								sizes="(max-width: 1024px) 100vw, 50vw"
+								className="object-cover"
 							/>
 						</div>
 					</div>

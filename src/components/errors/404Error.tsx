@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import e404 from '/public/svg/404.svg';
+import e404 from '../../../public/svg/404.svg';
 import useTranslation from 'next-translate/useTranslation';
 
 const Error404 = () => {

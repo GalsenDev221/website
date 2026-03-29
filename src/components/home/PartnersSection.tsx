@@ -89,6 +89,7 @@ const Partner = ({ url: link, img, name }: PartnerProps) => (
 			alt={`Logo of ${name}`}
 			src={img}
 			className="w-40"
+			style={{ height: 'auto' }}
 		/>
 	</a>
 );
