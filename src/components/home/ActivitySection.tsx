@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
-import fixing from '/public/svg/fixing.svg';
-import coding from '/public/svg/coding.svg';
+import fixing from '../../../public/svg/fixing.svg';
+import coding from '../../../public/svg/coding.svg';
 import useTranslation from 'next-translate/useTranslation';
 
 const ActivitySection = () => {
@@ -12,6 +12,7 @@ const ActivitySection = () => {
 				<div>
 					<Image
 						className="w-full"
+						style={{ height: 'auto' }}
 						src={fixing}
 						width="400"
 						height="400"
@@ -44,6 +45,7 @@ const ActivitySection = () => {
 				<div className="lg:order-last">
 					<Image
 						className="w-full"
+						style={{ height: 'auto' }}
 						src={coding}
 						width="400"
 						height="400"

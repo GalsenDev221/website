@@ -2,8 +2,7 @@ import * as path from 'node:path';
 import { $ } from 'execa';
 import fsExtra from 'fs-extra';
 import { parse } from 'node-html-parser';
-import pkg from 'glob';
-const { glob } = pkg;
+import { globSync } from 'glob';
 
 const cwd = process.cwd();
 const inputDir = path.join(cwd, 'other', 'svg-icons');
@@ -14,11 +13,9 @@ const outputDir = path.join(cwd, 'public', 'icons');
 await fsExtra.ensureDir(typeDir);
 await fsExtra.ensureDir(outputDir);
 
-const files = glob
-	.sync('**/*.svg', {
-		cwd: inputDir,
-	})
-	.sort((a, b) => a.localeCompare(b));
+const files = globSync('**/*.svg', { cwd: inputDir }).sort((a, b) =>
+	a.localeCompare(b)
+);
 
 const shouldVerboseLog = process.argv.includes('--log=verbose');
 const logVerbose = shouldVerboseLog ? console.log : () => {};

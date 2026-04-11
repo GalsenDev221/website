@@ -1,15 +1,15 @@
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
-import hf25 from '/public/gallery/hacktoberfest2025.jpg';
-import uam25 from '/public/gallery/uam2025.jpg';
-import icagi from '/public/gallery/icagi2024.jpg';
-import hof24 from '/public/gallery/hacktoberfest2024.jpg';
-import hf23 from '/public/gallery/hacktoberfest2023.jpg';
-import ciga from '/public/gallery/ciga2023.jpg';
-import hf22 from '/public/gallery/hacktoberfest2022.jpg';
-import hf21 from '/public/gallery/hacktoberfest2021.jpg';
-import xtdk21 from '/public/gallery/xaralatourdk2021.jpg';
+import hf25 from '../../../public/gallery/hacktoberfest2025.jpg';
+import uam25 from '../../../public/gallery/uam2025.jpg';
+import icagi from '../../../public/gallery/icagi2024.jpg';
+import hof24 from '../../../public/gallery/hacktoberfest2024.jpg';
+import hf23 from '../../../public/gallery/hacktoberfest2023.jpg';
+import ciga from '../../../public/gallery/ciga2023.jpg';
+import hf22 from '../../../public/gallery/hacktoberfest2022.jpg';
+import hf21 from '../../../public/gallery/hacktoberfest2021.jpg';
+import xtdk21 from '../../../public/gallery/xaralatourdk2021.jpg';
 
 import useTranslation from 'next-translate/useTranslation';
 import { Icon } from '../ui/icon';
@@ -109,10 +109,12 @@ const EventGalleryCard = ({
 			<Image
 				alt={t(`eventsGallery.${eventId}.title`)}
 				src={image}
+				fill
+				sizes="(max-width: 768px) 100vw, 50vw"
 				loading="eager"
 				placeholder="blur"
 				priority={true}
-				className="absolute inset-0 h-full w-full object-cover transition group-hover:grayscale-[80%]"
+				className="object-cover transition group-hover:grayscale-[80%]"
 			/>
 			<div className="absolute botto-0 inset-0 bg-gradient-to-t from-gray-900/90 to-gray-900/5 flex items-end">
 				<div className="p-4 sm:p-6">

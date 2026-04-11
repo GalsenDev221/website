@@ -15,4 +15,4 @@ const nextConfig = {
 	},
 };
 
-module.exports = nextTranslate(nextConfig);
+module.exports = nextTranslate(nextConfig, { turbopack: true });

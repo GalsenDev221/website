@@ -39,7 +39,7 @@ export default function EventDetailPage() {
 			<div className="px-4 mt-16 mx-auto max-w-lg md:max-w-3xl lg:max-w-screen-xl sm:px-6 lg:px-8">
 				<section>
 					<Link href="/events" className="text-white font-bold py-4 rounded">
-						<Icon name="circle-arrow-left" className="w-7 h-7 text-gray-900" />
+						<Icon name="back-undo" className="w-7 h-7 text-gray-900" />
 					</Link>
 					<hgroup className="space-y-2 py-3">
 						<span className="rounded-full bg-blue-100 px-2.5 py-0.5 text-xs text-blue-600">

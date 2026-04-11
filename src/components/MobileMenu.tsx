@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from 'react';
+import { Fragment, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Dialog, Transition } from '@headlessui/react';
@@ -20,7 +20,11 @@ interface MobileMenuProps {
 const MobileMenu = ({ links }: MobileMenuProps) => {
 	const [isOpen, setIsOpen] = useState(false);
 	const { pathname } = useRouter();
-	useEffect(() => setIsOpen(false), [pathname]);
+	const [prevPathname, setPrevPathname] = useState(pathname);
+	if (prevPathname !== pathname) {
+		setIsOpen(false);
+		setPrevPathname(pathname);
+	}
 
 	return (
 		<>
