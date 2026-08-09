@@ -53,6 +53,12 @@ const Footer = () => {
 						</li>
 						<li>
 							<SocialLink
+								name="tiktok"
+								src="https://www.tiktok.com/@galsendev221"
+							/>
+						</li>
+						<li>
+							<SocialLink
 								name="x"
 								src="https://x.com/galsendev"
 								className="p-1"
