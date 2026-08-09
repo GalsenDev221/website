@@ -22,9 +22,9 @@ const PartnersSection = () => {
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1728050595/galsendev/partners/datacamp_donates.png"
 					/>
 					<Partner
-						name="Socium"
-						url="https://socium.link"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1738203568/galsendev/partners/socium.png"
+						name="Bictorys"
+						url="https://bictorys.com"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1786313631/galsendev/partners/bictorys.png"
 					/>
 					<Partner
 						name="Propel"
@@ -50,19 +50,9 @@ const PartnersSection = () => {
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/xarala.png"
 					/>
 					<Partner
-						name="Galsen AI"
-						url="https://galsen.ai"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/galsen_ai.png"
-					/>
-					<Partner
 						name="Possacode"
 						url="https://possacode.netlify.app"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/possacode.png"
-					/>
-					<Partner
-						name="Daara IT"
-						url="https://linkedin.com/company/daara-it"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/daara_it.png"
 					/>
 				</div>
 			</div>
