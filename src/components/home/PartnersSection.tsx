@@ -40,6 +40,11 @@ const PartnersSection = () => {
 				</h2>{' '}
 				<div className="mt-8 flex flex-col gap-2 lg:flex-row lg:gap-6 lg:w-full lg:justify-end">
 					<Partner
+						name="Laravel Sénégal"
+						url="https://laravel.sn"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1786314553/galsendev/partners/laravel-senegal.png"
+					/>
+					<Partner
 						name="Bitcoin Sénégal"
 						url="https://x.com/bitcoin_sen"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1749254453/galsendev/partners/bitcoin_senegal.png"
