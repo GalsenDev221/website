@@ -37,13 +37,6 @@ const PartnersSection = () => {
 						hovered={hovered}
 						setHovered={setHovered}
 					/>
-					<Partner
-						name="Propel"
-						url="https://propel.community"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/propel.png"
-						hovered={hovered}
-						setHovered={setHovered}
-					/>
 				</div>
 			</div>
 			<div className="flex flex-col items-center lg:items-end">
@@ -53,9 +46,9 @@ const PartnersSection = () => {
 				</h2>{' '}
 				<div className="mt-8 flex flex-col gap-2 lg:flex-row lg:gap-6 lg:w-full lg:justify-end">
 					<Partner
-						name="Laravel Sénégal"
-						url="https://laravel.sn"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1786315459/galsendev/partners/laravel_senegal.png"
+						name="Propel"
+						url="https://propel.community"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/propel.png"
 						hovered={hovered}
 						setHovered={setHovered}
 					/>
@@ -70,13 +63,6 @@ const PartnersSection = () => {
 						name="Xarala"
 						url="https://xarala.co"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/xarala.png"
-						hovered={hovered}
-						setHovered={setHovered}
-					/>
-					<Partner
-						name="Possacode"
-						url="https://possacode.netlify.app"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/possacode.png"
 						hovered={hovered}
 						setHovered={setHovered}
 					/>
