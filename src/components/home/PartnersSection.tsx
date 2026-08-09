@@ -1,8 +1,13 @@
+'use client';
+
 import Image from 'next/image';
+import { useState } from 'react';
 import useTranslation from 'next-translate/useTranslation';
 
 const PartnersSection = () => {
-	const { t, lang } = useTranslation('home');
+	const { t } = useTranslation('home');
+	const [hovered, setHovered] = useState<string | null>(null);
+
 	return (
 		<section className="space-y-8 lg:space-y-12">
 			<div className="flex flex-col items-center lg:items-start">
@@ -15,21 +20,29 @@ const PartnersSection = () => {
 						name="JetBrains"
 						url="https://jetbrains.com"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1750994017/galsendev/partners/jetbrains.png"
+						hovered={hovered}
+						setHovered={setHovered}
 					/>
 					<Partner
 						name="DataCamp Donates"
 						url="https://datacamp.com/donates"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1728050595/galsendev/partners/datacamp_donates.png"
+						hovered={hovered}
+						setHovered={setHovered}
 					/>
 					<Partner
 						name="Bictorys"
 						url="https://bictorys.com"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1786313631/galsendev/partners/bictorys.png"
+						hovered={hovered}
+						setHovered={setHovered}
 					/>
 					<Partner
 						name="Propel"
 						url="https://propel.community"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/propel.png"
+						hovered={hovered}
+						setHovered={setHovered}
 					/>
 				</div>
 			</div>
@@ -43,21 +56,29 @@ const PartnersSection = () => {
 						name="Laravel Sénégal"
 						url="https://laravel.sn"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1786315459/galsendev/partners/laravel_senegal.png"
+						hovered={hovered}
+						setHovered={setHovered}
 					/>
 					<Partner
 						name="Bitcoin Sénégal"
 						url="https://x.com/bitcoin_sen"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1749254453/galsendev/partners/bitcoin_senegal.png"
+						hovered={hovered}
+						setHovered={setHovered}
 					/>
 					<Partner
 						name="Xarala"
 						url="https://xarala.co"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/xarala.png"
+						hovered={hovered}
+						setHovered={setHovered}
 					/>
 					<Partner
 						name="Possacode"
 						url="https://possacode.netlify.app"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1697856591/galsendev/partners/possacode.png"
+						hovered={hovered}
+						setHovered={setHovered}
 					/>
 				</div>
 			</div>
@@ -69,14 +90,22 @@ interface PartnerProps {
 	url: string;
 	img: string;
 	name: string;
+	hovered: string | null;
+	setHovered: (name: string | null) => void;
 }
 
-const Partner = ({ url: link, img, name }: PartnerProps) => (
+const Partner = ({ url: link, img, name, hovered, setHovered }: PartnerProps) => (
 	<a
 		href={link}
 		rel="noreferrer"
 		target="_blank"
-		className="bg-gray-100 w-72 h-32 flex items-center justify-center"
+		className="bg-gray-100 w-72 h-32 flex items-center justify-center transition-all duration-300"
+		onMouseEnter={() => setHovered(name)}
+		onMouseLeave={() => setHovered(null)}
+		style={{
+			filter: hovered && hovered !== name ? 'grayscale(1)' : 'none',
+			opacity: hovered && hovered !== name ? 0.35 : 1,
+		}}
 	>
 		<Image
 			width={160}
