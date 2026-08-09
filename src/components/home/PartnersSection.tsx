@@ -43,7 +43,6 @@ const PartnersSection = () => {
 						name="Laravel Sénégal"
 						url="https://laravel.sn"
 						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1786314553/galsendev/partners/laravel-senegal.png"
-						imgClass="w-24"
 					/>
 					<Partner
 						name="Bitcoin Sénégal"
@@ -70,10 +69,9 @@ interface PartnerProps {
 	url: string;
 	img: string;
 	name: string;
-	imgClass?: string;
 }
 
-const Partner = ({ url: link, img, name, imgClass = 'w-40' }: PartnerProps) => (
+const Partner = ({ url: link, img, name }: PartnerProps) => (
 	<a
 		href={link}
 		rel="noreferrer"
@@ -85,7 +83,7 @@ const Partner = ({ url: link, img, name, imgClass = 'w-40' }: PartnerProps) => (
 			height={160}
 			alt={`Logo of ${name}`}
 			src={img}
-			className={imgClass}
+			className="w-40"
 			style={{ height: 'auto' }}
 		/>
 	</a>
