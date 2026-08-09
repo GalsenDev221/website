@@ -42,7 +42,7 @@ const PartnersSection = () => {
 					<Partner
 						name="Laravel Sénégal"
 						url="https://laravel.sn"
-						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1786314553/galsendev/partners/laravel-senegal.png"
+						img="https://res.cloudinary.com/degyjrpjj/image/upload/v1786315459/galsendev/partners/laravel_senegal.png"
 					/>
 					<Partner
 						name="Bitcoin Sénégal"
