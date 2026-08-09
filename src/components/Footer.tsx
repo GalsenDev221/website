@@ -55,6 +55,7 @@ const Footer = () => {
 							<SocialLink
 								name="tiktok"
 								src="https://www.tiktok.com/@galsendev221"
+								className="h-5 w-5"
 							/>
 						</li>
 						<li>
