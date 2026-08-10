@@ -2,7 +2,7 @@ import { Event } from './type';
 
 export const events: Event[] = [
 	{
-		name: 'Weekend du Code #5',
+		name: 'Weekend Code #5',
 		description:
 			'A hands-on session on deploying a modern application with a complete DevOps pipeline, from development to production.',
 		date: '05/16/2026',
