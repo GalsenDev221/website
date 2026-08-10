@@ -5,10 +5,25 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"weekend-code-5": {
+				"title": "Weekend du Code #5",
+				"desc": "Une session pratique sur le déploiement d'une application moderne avec une chaîne DevOps complète, du développement à la production.",
+				"full": "La communauté GalsenDEV a accueilli la team DemystOps pour une session pratique, riche en partage, démonstrations et retours d'expérience. Sujet : « De zéro à la production : déployer une application moderne avec une chaîne DevOps complète ». Un talk technique autour de la mise en place d'une chaîne DevOps moderne, du développement jusqu'au déploiement en production. Deux speakers au programme : Salif Abdoul SOW (DevOps Engineer / SRE) et Serigne Fallou SECK (DevOps Engineer / SRE & Chaos Engineering)."
+			},
+			"galsendev-meetup-11": {
+				"title": "GalsenDEV Meetup #11",
+				"desc": "Un talk sur la modernisation d'applications Java de Servlet vers des microservices Quarkus avec MTA et l'assistance des LLM (Claude & Gemini).",
+				"full": "La communauté s'est réunie ce samedi 25 avril à 16h pour une session exceptionnelle autour de la modernisation d'applications Java. Sujet : Code Modernisation (Java Servlet to Quarkus Microservice) avec MTA et assistance LLM (Claude & Gemini). Notre speaker Omar Gaye, Consultant Software & Cloud basé à Atlanta, accompagne des organisations sur des sujets de backend Java, microservices, Kubernetes (OpenShift) et modernisation applicative, en intégrant également les outils d'IA dans les workflows de développement. Au programme : migration d'une application Java legacy vers une architecture moderne, introduction à Quarkus et aux microservices, utilisation de Red Hat Migration Toolkit for Applications (MTA), et apport des LLM (Claude & Gemini) dans la transformation du code."
+			},
 			"live-koor-2026": {
 				"title": "Live Koor 2026",
 				"desc": "Plongée dans l'univers de l'Agentic Coding avec Daouda BA, où votre terminal devient votre co-développeur.",
 				"full": "Daouda BA, FullStack Developer, Open Source Enthusiast et Lead de Galsen DEV, nous a plongés dans l'univers de l'Agentic Coding, une nouvelle manière de développer où les outils et les agents intelligents deviennent de véritables co-développeurs dans votre terminal. Au programme : une introduction et un contexte autour de l'Agentic Coding, une exploration des outils et des nouvelles pratiques de développement, ainsi qu'une démo live avec la création d'un mini-projet concret en direct. Que vous soyez développeur curieux ou passionné par les nouvelles façons de coder, cette session a permis de découvrir comment votre terminal peut devenir un véritable partenaire de développement."
+			},
+			"galsendev-meetup-10": {
+				"title": "GalsenDEV Meetup #10",
+				"desc": "Un talk sur l'architecture Flutter Feature First et les défis de la digitalisation du basketball sénégalais avec Galsen Basket Pro.",
+				"full": "Nous avons eu le plaisir d'accueillir Oumar FALL, Lead Mobile Developer de Galsen Basket Pro, un passionné de la balle orange qui allie technologie, innovation et sport sénégalais. Thème du jour : « Architecture Flutter Feature First & Défis de la digitalisation du basketball sénégalais : le cas Galsen Basket Pro ». Un talk unique qui mêle tech et impact, avec un retour d'expérience concret sur la conception d'une application mobile Flutter à grande échelle et les défis liés à la digitalisation du sport au Sénégal."
 			},
 			"hacktoberfest-2025": {
 				"title": "Hacktoberfest 2025",

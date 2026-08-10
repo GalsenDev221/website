@@ -2,10 +2,34 @@ import { Event } from './type';
 
 export const events: Event[] = [
 	{
+		name: 'Weekend Code #5',
+		description:
+			'A hands-on session on deploying a modern application with a complete DevOps pipeline, from development to production.',
+		date: '05/16/2026',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'GalsenDEV Meetup #11',
+		description:
+			'A talk on Java application modernization from Servlet to Quarkus microservices using MTA and AI assistance (Claude & Gemini).',
+		date: '04/25/2026',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
 		name: 'Live Koor 2026',
 		description:
 			'A session on Agentic Coding with Daouda BA, where the terminal becomes your co-developer.',
 		date: '03/14/2026',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
+		name: 'GalsenDEV Meetup #10',
+		description:
+			'A talk on Flutter Feature First architecture and the challenges of digitalizing Senegalese basketball with Galsen Basket Pro.',
+		date: '11/29/2025',
 		type: 'previous',
 		full: 'Full description here.',
 	},
