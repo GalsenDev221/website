@@ -10,6 +10,11 @@
 				"desc": "Plongée dans l'univers de l'Agentic Coding avec Daouda BA, où votre terminal devient votre co-développeur.",
 				"full": "Daouda BA, FullStack Developer, Open Source Enthusiast et Lead de Galsen DEV, nous a plongés dans l'univers de l'Agentic Coding, une nouvelle manière de développer où les outils et les agents intelligents deviennent de véritables co-développeurs dans votre terminal. Au programme : une introduction et un contexte autour de l'Agentic Coding, une exploration des outils et des nouvelles pratiques de développement, ainsi qu'une démo live avec la création d'un mini-projet concret en direct. Que vous soyez développeur curieux ou passionné par les nouvelles façons de coder, cette session a permis de découvrir comment votre terminal peut devenir un véritable partenaire de développement."
 			},
+			"galsendev-meetup-10": {
+				"title": "GalsenDEV Meetup #10",
+				"desc": "Un talk sur l'architecture Flutter Feature First et les défis de la digitalisation du basketball sénégalais avec Galsen Basket Pro.",
+				"full": "Nous avons eu le plaisir d'accueillir Oumar FALL, Lead Mobile Developer de Galsen Basket Pro, un passionné de la balle orange qui allie technologie, innovation et sport sénégalais. Thème du jour : « Architecture Flutter Feature First & Défis de la digitalisation du basketball sénégalais : le cas Galsen Basket Pro ». Un talk unique qui mêle tech et impact, avec un retour d'expérience concret sur la conception d'une application mobile Flutter à grande échelle et les défis liés à la digitalisation du sport au Sénégal."
+			},
 			"hacktoberfest-2025": {
 				"title": "Hacktoberfest 2025",
 				"desc": "La 5ᵉ édition du Hacktoberfest organisée par la communauté Galsen DEV.",

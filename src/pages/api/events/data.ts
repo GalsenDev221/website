@@ -10,6 +10,14 @@ export const events: Event[] = [
 		full: 'Full description here.',
 	},
 	{
+		name: 'GalsenDEV Meetup #10',
+		description:
+			'A talk on Flutter Feature First architecture and the challenges of digitalizing Senegalese basketball with Galsen Basket Pro.',
+		date: '11/29/2025',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
 		name: 'Hacktoberfest 2025',
 		description:
 			'The 5th edition of Hacktoberfest organized by the Galsen DEV community',
