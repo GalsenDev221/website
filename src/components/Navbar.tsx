@@ -31,6 +31,11 @@ const Navbar = () => {
 			path: 'https://links.galsen.dev',
 			target: '_blank',
 		},
+		{
+			name: 'State of Dev ↗',
+			path: 'https://stateof.galsen.dev',
+			target: '_blank',
+		},
 	];
 
 	return (
