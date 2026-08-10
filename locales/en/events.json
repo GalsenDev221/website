@@ -5,6 +5,11 @@
 		"upcoming": "Upcoming event",
 		"previous": "Previous event",
 		"events": {
+			"galsendev-meetup-11": {
+				"title": "GalsenDEV Meetup #11",
+				"desc": "A talk on Java application modernization from Servlet to Quarkus microservices using MTA and AI assistance (Claude & Gemini).",
+				"full": "The community gathered on Saturday, April 25 at 4 PM for an exceptional session on Java application modernization. Topic: Code Modernization (Java Servlet to Quarkus Microservice) with MTA and LLM assistance (Claude & Gemini). Our speaker Omar Gaye, a Software & Cloud Consultant based in Atlanta, helps organizations with Java backend, microservices, Kubernetes (OpenShift), and application modernization, while also integrating AI tools into development workflows. The session covered: migrating a legacy Java application to a modern architecture, an introduction to Quarkus and microservices, the use of Red Hat Migration Toolkit for Applications (MTA), and the role of LLMs (Claude & Gemini) in code transformation."
+			},
 			"live-koor-2026": {
 				"title": "Live Koor 2026",
 				"desc": "A dive into the world of Agentic Coding with Daouda BA, where your terminal becomes your co-developer.",
