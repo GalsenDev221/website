@@ -5,6 +5,11 @@
 		"upcoming": "Évènement à venir",
 		"previous": "Événement passé",
 		"events": {
+			"weekend-du-code-5": {
+				"title": "Weekend du Code #5",
+				"desc": "Une session pratique sur le déploiement d'une application moderne avec une chaîne DevOps complète, du développement à la production.",
+				"full": "La communauté GalsenDEV a accueilli la team DemystOps pour une session pratique, riche en partage, démonstrations et retours d'expérience. Sujet : « De zéro à la production : déployer une application moderne avec une chaîne DevOps complète ». Un talk technique autour de la mise en place d'une chaîne DevOps moderne, du développement jusqu'au déploiement en production. Deux speakers au programme : Salif Abdoul SOW, DevOps Engineer / SRE, et Serigne Fallou SECK, DevOps Engineer / SRE & Chaos Engineering."
+			},
 			"galsendev-meetup-11": {
 				"title": "GalsenDEV Meetup #11",
 				"desc": "Un talk sur la modernisation d'applications Java de Servlet vers des microservices Quarkus avec MTA et l'assistance des LLM (Claude & Gemini).",

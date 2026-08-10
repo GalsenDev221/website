@@ -5,6 +5,11 @@
 		"upcoming": "Upcoming event",
 		"previous": "Previous event",
 		"events": {
+			"weekend-du-code-5": {
+				"title": "Weekend du Code #5",
+				"desc": "A hands-on session on deploying a modern application with a complete DevOps pipeline, from development to production.",
+				"full": "The GalsenDEV community welcomed the DemystOps team for a practical session full of sharing, live demos, and real-world experience. Topic: 'From Zero to Production: Deploying a Modern Application with a Complete DevOps Pipeline.' A technical talk covering the setup of a modern DevOps pipeline, from development all the way to production deployment. Two speakers: Salif Abdoul SOW, DevOps Engineer / SRE, and Serigne Fallou SECK, DevOps Engineer / SRE & Chaos Engineering."
+			},
 			"galsendev-meetup-11": {
 				"title": "GalsenDEV Meetup #11",
 				"desc": "A talk on Java application modernization from Servlet to Quarkus microservices using MTA and AI assistance (Claude & Gemini).",

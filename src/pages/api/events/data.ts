@@ -2,6 +2,14 @@ import { Event } from './type';
 
 export const events: Event[] = [
 	{
+		name: 'Weekend du Code #5',
+		description:
+			'A hands-on session on deploying a modern application with a complete DevOps pipeline, from development to production.',
+		date: '05/16/2026',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
 		name: 'GalsenDEV Meetup #11',
 		description:
 			'A talk on Java application modernization from Servlet to Quarkus microservices using MTA and AI assistance (Claude & Gemini).',
