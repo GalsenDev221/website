@@ -51,6 +51,11 @@ export default function Events() {
 							<h2 className="text-2xl font-bold text-gray-700 text-center lg:text-3xl lg:text-left">
 								{t('eventsPage.upcoming')}
 							</h2>
+							{upcomingEvents.length === 0 && (
+								<p className="mt-4 text-gray-500 text-center lg:text-left">
+									{t('eventsPage.noUpcoming')}
+								</p>
+							)}
 							{upcomingEvents.map((event) => (
 								<EventCard
 									key={event.name}
