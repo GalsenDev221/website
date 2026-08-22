@@ -3,6 +3,7 @@
 		"title": "Events",
 		"titleDesc": "The list of all past and upcoming community events.",
 		"upcoming": "Upcoming event",
+		"noUpcoming": "No upcoming events at the moment.",
 		"previous": "Previous event",
 		"events": {
 			"weekend-code-5": {

@@ -3,6 +3,7 @@
 		"title": "Événements",
 		"titleDesc": "La liste de tous les événements passés et à venir de la communauté.",
 		"upcoming": "Évènement à venir",
+		"noUpcoming": "Aucun événement à venir pour le moment.",
 		"previous": "Événement passé",
 		"events": {
 			"weekend-code-5": {
