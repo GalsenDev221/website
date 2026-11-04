@@ -6,6 +6,11 @@
 		"noUpcoming": "Aucun événement à venir pour le moment.",
 		"previous": "Événement passé",
 		"events": {
+			"hacktoberfest-2026": {
+				"title": "Hacktoberfest 2026",
+				"desc": "La 6ᵉ édition du Hacktoberfest organisée par la communauté Galsen DEV, autour de l’open source et de l’intelligence artificielle.",
+				"full": "Le 24 octobre 2026, la communauté Galsen DEV a célébré la 6ᵉ édition du Hacktoberfest à l’Impact Hub Dakar, sur le thème open source × intelligence artificielle. Au programme : les talks de Médoune Siby Georges Baldé (« Du clavier au chef d’orchestre : comment notre façon de coder bascule avec l’IA »), Kepson Diaz (« Créer un harness pour agent IA avec Laravel ») et Meïssa B.C. Mbaye (« Introduction to Kubernetes and Cloud Native »), puis la finale de l’Open Source × AI Hackathon. Sur 18 projets soumis, 5 finalistes ont présenté leur solution devant le jury ; le podium revient à DAM - Tech (Zero Trust), TandemCode et XarañLab (Yëgle). Une journée qui a réuni une centaine de participants et a été suivie en direct sur YouTube, avec le soutien de MLH, Bictorys et Njamala, ainsi que de JetBrains, DataCamp Donates, Xarala, Laravel Sénégal, Cloud Native Dakar et DEXCHANGE."
+			},
 			"weekend-code-5": {
 				"title": "Weekend du Code #5",
 				"desc": "Une session pratique sur le déploiement d'une application moderne avec une chaîne DevOps complète, du développement à la production.",
