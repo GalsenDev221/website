@@ -3,6 +3,11 @@
 		"firstHeading": "Our photo gallery",
 		"secondHeading": "Find highlights from our latest events with the Galsen DEV community.",
 		"see": "See the pictures",
+		"event-10": {
+			"title": "Hacktoberfest 2026",
+			"desc": "The 6th edition of Hacktoberfest organized by the Galsen DEV community, around open source and artificial intelligence.",
+			"date": "October 24, 2026"
+		},
 		"event-9": {
 			"title": "Hacktoberfest 2025",
 			"desc": "The 5th edition of Hacktoberfest organized by the Galsen DEV community.",
