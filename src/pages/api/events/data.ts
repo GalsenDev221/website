@@ -2,6 +2,14 @@ import { Event } from './type';
 
 export const events: Event[] = [
 	{
+		name: 'Hacktoberfest 2026',
+		description:
+			'The 6th edition of Hacktoberfest organized by the Galsen DEV community',
+		date: '10/24/2026',
+		type: 'previous',
+		full: 'Full description here.',
+	},
+	{
 		name: 'Weekend Code #5',
 		description:
 			'A hands-on session on deploying a modern application with a complete DevOps pipeline, from development to production.',
